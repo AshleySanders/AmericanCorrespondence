@@ -1,0 +1,969 @@
+Id,Label,timeset,indegree,outdegree,Degree,weighted indegree,weighted outdegree,Weighted Degree,modularity_class,Eccentricity,closnesscentrality,harmonicclosnesscentrality,betweenesscentrality
+Henry Laurens,,,9,110,119,12,355,367,7,7,0.356336,0.475905,35533.5547
+Samuel Huntington,,,14,59,73,49,199,248,7,8,0.289944,0.380342,26800.41781
+Richard Henry Lee,,,17,35,52,45,98,143,2,8,0.298319,0.376432,26608.16654
+Robert Morris,,,17,19,36,38,27,65,1,7,0.315907,0.377901,21732.93027
+John Hancock,,,7,72,79,11,213,224,7,7,0.316258,0.400897,20246.81558
+James Wilson,,,5,4,9,5,6,11,1,7,0.275194,0.294236,16322.53167
+Thomas McKean,,,3,37,40,4,73,77,7,7,0.302772,0.367266,15255.46263
+Charles Thomson,,,6,82,88,8,190,198,1,5,0.381208,0.45669,14262.63084
+Benjamin Franklin,,,17,10,27,42,12,54,2,8,0.234227,0.267912,13555.17627
+Samuel Adams,,,9,31,40,60,104,164,2,7,0.30037,0.36263,13201.19926
+William Irvine,,,7,4,11,9,4,13,2,8,0.21696,0.229672,11849.3272
+Philip Schuyler,,,17,12,29,62,29,91,10,8,0.266917,0.309941,11473.2517
+John Sullivan,,,16,11,27,29,48,77,7,9,0.233265,0.275575,11289.73865
+John Montgomery,,,1,1,2,2,1,3,1,6,0.276534,0.299824,11229.32615
+Elbridge Gerry,,,11,20,31,46,63,109,6,8,0.296451,0.355657,10174.73221
+Joseph Reed,,,21,3,24,40,4,44,7,9,0.178898,0.188415,10141.0041
+Thomas Jefferson,,,25,7,32,105,10,115,25,9,0.230988,0.268194,9706.299591
+Daniel of St. Thomas Jenifer,,,7,8,15,8,18,26,4,9,0.192152,0.216604,7882.733952
+John Jay,,,13,27,40,27,50,77,10,7,0.262235,0.307084,7464.926446
+Nathaniel Peabody,,,7,8,15,8,35,43,3,8,0.265669,0.312464,7334.477513
+John Adams,,,10,37,47,38,171,209,2,8,0.261872,0.326538,7262.222216
+James Madison,,,13,21,34,51,138,189,25,6,0.263207,0.30088,6729.458004
+Thomas Burke,,,5,16,21,13,57,70,15,7,0.286869,0.336263,5753.475036
+James Duane,,,3,33,36,5,111,116,10,8,0.290984,0.361521,5307.408914
+Thomas Johnson jr.,,,18,3,21,40,3,43,4,10,0.161409,0.176079,5071.873238
+Nathan Dane,,,5,17,22,7,26,33,6,8,0.248904,0.29169,4503.521808
+Oliver Wolcott,,,7,14,21,13,47,60,6,8,0.241805,0.287609,4418.648719
+Josiah Bartlett,,,9,7,16,61,41,102,3,9,0.205202,0.22777,3554.511111
+John Langdon,,,14,2,16,70,2,72,3,10,0.189333,0.210029,3501.239977
+James Lovell,,,2,30,32,2,192,194,2,8,0.325129,0.398522,3445.383607
+Edmund Randolph,,,9,7,16,75,9,84,25,8,0.218798,0.240271,3214.895881
+William Whipple,,,6,5,11,31,70,101,3,9,0.239359,0.274402,3140.024603
+Robert R. Livingston,,,13,5,18,30,11,41,10,8,0.225218,0.252574,2982.386905
+Committee at Headquarters,,,2,27,29,11,58,69,7,8,0.274927,0.330489,2741.951911
+Rufus King,,,4,12,16,9,46,55,6,7,0.27177,0.311469,2677.331837
+Samuel Alleyne Otis,,,1,5,6,2,11,13,6,7,0.220926,0.24702,2598.621968
+Benjamin Harrison,,,5,3,8,38,5,43,25,8,0.247064,0.276545,2468.646486
+Gouverneur Morris,,,2,11,13,2,31,33,7,7,0.291881,0.33776,2427.80699
+Committee in Philadelphia,,,1,5,6,3,11,14,7,8,0.254366,0.283729,2347.913095
+John Maws,,,4,10,14,7,40,47,9,8,0.241087,0.283208,2328.630159
+New York Delegates,,,1,19,20,1,64,65,10,2,0.952381,0.975,2241.410317
+Nathaniel Gorham,,,4,5,9,5,6,11,0,9,0.199789,0.222465,2033.935264
+Samuel Johnston,,,8,3,11,37,12,49,15,8,0.223886,0.247064,1998.722655
+odorick Bland,,,3,4,7,3,8,11,25,7,0.255856,0.281263,1869.209619
+James Monroe,,,5,9,14,11,26,37,25,7,0.281049,0.317425,1863.986183
+Benjamin Rush,,,4,5,9,5,16,21,0,8,0.242114,0.271452,1844.145238
+Eliphalet Dyer,,,1,10,11,1,41,42,6,8,0.229125,0.260283,1795.495238
+Arthur Lee,,,8,3,11,31,5,36,2,8,0.231553,0.258145,1727.640476
+Henry Lee,,,1,4,5,1,16,17,7,7,0.252332,0.282889,1633.227956
+Oliver Ellsworth,,,5,5,10,9,14,23,6,10,0.153141,0.164576,1579.599206
+North Carolina Delegates,,,1,9,10,2,30,32,15,8,0.265421,0.312905,1503.361111
+Charles Pettit,,,2,6,8,2,10,12,2,8,0.235685,0.254156,1189.283772
+Roger Sherman,,,1,15,16,1,43,44,6,8,0.262477,0.305963,1161.577381
+William Churchill Houston,,,4,5,9,5,11,16,7,8,0.243359,0.276098,1154.740258
+Samuel Osgood,,,1,8,9,1,10,11,2,7,0.283151,0.323575,1066.520888
+John Lowell,,,4,1,5,5,2,7,2,8,0.231082,0.255651,1035.230952
+John Penn,,,1,9,10,1,18,19,15,7,0.26272,0.292149,963.295921
+Alexander Hamilton,,,2,1,3,2,1,3,6,9,0.22894,0.254327,895.741667
+Silas Deane,,,4,7,11,8,34,42,1,2,0.888889,0.9375,878.35754
+William Samuel Johnson,,,2,6,8,8,8,16,6,8,0.241827,0.279122,822.228571
+Samuel Holten,,,3,6,9,16,95,111,0,9,0.211782,0.238927,712.6
+Edward Rutledge,,,1,6,7,1,10,11,10,8,0.226115,0.255215,706.685714
+William Williams,,,4,6,10,5,23,28,6,9,0.195592,0.221584,692.57619
+Nathaniel Folsom,,,2,3,5,4,16,20,3,9,0.210526,0.234496,625.22381
+George Walton,,,1,3,4,1,3,4,7,8,0.233169,0.260283,605.643921
+William Ellery,,,1,11,12,1,44,45,9,8,0.234051,0.265447,574
+William Duer,,,1,8,9,1,9,10,1,8,0.256872,0.290374,570
+William Floyd,,,1,4,5,1,20,21,10,9,0.226063,0.257266,567.5
+Arthur Middleton,,,2,2,4,2,2,4,1,9,0.185077,0.200952,535.685714
+William Grayson,,,2,9,11,2,20,22,25,6,0.277208,0.308099,535.202799
+Samuel Chase,,,2,8,10,5,31,36,4,8,0.259954,0.297336,498.98816
+William Bingham,,,5,3,8,12,3,15,1,1,1,1,456.35
+Caesar Rodney,,,6,3,9,17,17,34,7,2,0.615385,0.6875,439.588095
+Robert Treat Paine,,,1,3,4,1,3,4,2,1,1,1,427.45
+Thomas Rodney,,,5,4,9,18,19,37,0,3,0.571429,0.708333,420.190476
+George Read,,,7,2,9,12,8,20,1,1,1,1,410
+Tench Coxe,,,1,3,4,1,5,6,25,7,0.229866,0.248516,409.066667
+John Dickinson,,,1,5,6,1,9,10,7,9,0.191117,0.211498,396
+James Searle,,,1,1,2,1,1,2,2,9,0.230085,0.261718,385.769841
+George Ross,,,2,2,4,2,2,4,1,8,0.216401,0.226936,383.318128
+Board of Treasury,,,3,2,5,6,2,8,1,10,0.189967,0.211024,329.444048
+Francis Dana,,,2,2,4,4,3,7,7,9,0.229125,0.255501,329.019505
+Francis Lightfoot Lee,,,1,6,7,4,16,20,2,9,0.235294,0.271254,318.217346
+Hugh Williamson,,,1,6,7,1,23,24,15,7,0.223653,0.246597,315.599206
+Continental Congress,,,1,2,3,1,2,3,7,1,1,1,300.833333
+William Livingston,,,13,2,15,37,4,41,7,1,1,1,243.210714
+Joseph Jones,,,1,7,8,11,25,36,25,7,0.223886,0.247678,230.166667
+Committee of Secret Correspondence,,,1,6,7,1,13,14,1,9,0.191698,0.214713,226.308333
+George Thatcher,,,2,2,4,5,2,7,6,9,0.207678,0.228833,222.887302
+George Washington,,,63,1,64,387,1,388,7,1,1,1,217
+Meriwer Smith,,,1,3,4,1,4,5,25,10,0.188767,0.209488,214.585354
+John Rutledge,,,6,3,9,17,3,20,7,1,1,1,213.607143
+Cornelius Harnett,,,1,4,5,1,27,28,15,8,0.223446,0.247034,212.5
+Benjamin Hawkins,,,1,3,4,1,7,8,15,10,0.188893,0.209928,205.085354
+John Laurens,,,9,1,10,34,1,35,7,1,1,1,203
+Jeremiah Wadsworth,,,14,1,15,23,1,24,6,1,1,1,202
+Thomas Johnson,,,2,1,3,2,1,3,1,1,1,1,200
+George Clinton,,,16,1,17,113,4,117,10,1,1,1,199.5
+Medical Committee,,,1,2,3,1,2,3,9,2,0.75,0.833333,199
+William Henry Drayton,,,1,4,5,2,4,6,7,8,0.263451,0.305716,198
+John Brown,,,1,3,4,1,5,6,25,7,0.221184,0.241021,198
+Charles Pinckney,,,1,2,3,3,2,5,1,6,0.276399,0.300469,198
+Jacob Read,,,1,2,3,1,4,5,1,6,0.276399,0.300469,198
+Artemas Ward,,,1,1,2,2,1,3,7,1,1,1,198
+odore Sedgwick,,,1,2,3,1,2,3,6,9,0.199508,0.219531,198
+Nicholas Gilman,,,1,3,4,1,9,10,7,9,0.210351,0.228857,177.687554
+Pierse Long,,,1,2,3,1,8,9,3,10,0.189713,0.210689,154.45873
+Edmund Pendleton,,,3,1,4,29,1,30,25,1,1,1,127.801515
+Cyrus Griffin,,,1,9,10,1,24,25,25,7,0.247279,0.276635,104.646898
+Matw Tilghman,,,2,1,3,3,1,4,7,1,1,1,27.859524
+John Collins,,,5,2,7,9,6,15,9,1,1,1,22.392857
+William Blount,,,2,5,7,2,25,27,15,1,1,1,16.5
+Thomas Bee,,,3,2,5,9,2,11,9,2,0.75,0.833333,14.5
+James Manning,,,1,4,5,1,9,10,9,2,0.75,0.833333,11
+John Hanson,,,1,8,9,1,14,15,1,2,0.9,0.944444,8
+William Carmichael,,,2,4,6,2,4,6,1,1,1,1,8
+Nathan Miller,,,2,1,3,4,1,5,9,3,0.461538,0.527778,8
+Ralph Izard,,,1,3,4,2,3,5,1,9,0.19368,0.210677,5.9
+William Paca,,,1,6,7,1,6,7,4,11,0.14002,0.155117,5.333333
+Abraham Yates jr.,,,2,2,4,3,2,5,10,1,1,1,4
+Joseph Hewes,,,1,5,6,3,25,28,15,9,0.18393,0.200774,3.5
+Andrew Adams,,,2,4,6,2,7,9,6,9,0.195055,0.218561,2.583333
+Titus Hosmer,,,1,1,2,1,2,3,6,1,1,1,2
+Allen Jones,,,1,1,2,1,1,2,15,1,1,1,2
+Matw Thornton,,,2,1,3,4,1,5,3,1,1,1,1.5
+Arthur St. Clair,,,1,5,6,2,5,7,1,6,0.276938,0.303404,1.166667
+John Bayard,,,1,1,2,1,1,2,1,1,1,1,1
+Board of Admiralty,,,1,1,2,1,1,2,7,1,1,1,1
+Edward Telfair,,,1,1,2,1,1,2,30,1,1,1,1
+Diary,,,8,0,8,432,0,432,0,0,0,0,0
+John Fell,,,0,2,2,0,154,154,0,2,0.666667,0.75,0
+Jonathan Trumbull,,,18,0,18,128,0,128,6,0,0,0,0
+Meshech Weare,,,17,0,17,120,0,120,3,0,0,0,0
+James Warren,,,11,0,11,115,0,115,2,0,0,0,0
+Richard Caswell,,,20,0,20,102,0,102,15,0,0,0,0
+Horatio Gates,,,31,0,31,101,0,101,2,0,0,0,0
+Richard Smith,,,0,2,2,0,99,99,0,1,1,1,0
+Virginia Delegates,,,0,13,13,0,88,88,25,8,0.214179,0.244656,0
+William Greene,,,11,0,11,87,0,87,9,0,0,0,0
+Joseph Trumbull,,,14,0,14,79,0,79,6,0,0,0,0
+Several States,,,8,0,8,68,0,68,1,0,0,0,0
+Samuel Ward,,,0,4,4,0,62,62,0,1,1,1,0
+Mrs. Adams,,,2,0,2,52,0,52,2,0,0,0,0
+Maryland Delegates,,,0,14,14,0,52,52,4,11,0.141456,0.166254,0
+Nathanael Greene,,,18,0,18,48,0,48,9,0,0,0,0
+Thomas Sim Lee,,,11,0,11,43,0,43,4,0,0,0,0
+Samuel Livermore,,,0,4,4,0,38,38,3,10,0.190715,0.215522,0
+Rhode Island Delegates,,,0,4,4,0,37,37,9,2,0.833333,0.9,0
+Connecticut Delegates,,,0,7,7,0,36,36,6,9,0.22628,0.266126,0
+Maryland Council of Safety,,,11,0,11,36,0,36,4,0,0,0,0
+Edward Carrington,,,0,8,8,0,34,34,25,6,0.256769,0.278676,0
+Notes of Debates,,,5,0,5,33,0,33,1,0,0,0,0
+Board of War,,,0,13,13,0,31,31,7,9,0.227813,0.273088,0
+Nicholas Cooke,,,9,0,9,30,0,30,9,0,0,0,0
+Patrick Henry,,,9,0,9,30,0,30,2,0,0,0,0
+Ezekiel Cornell,,,0,5,5,0,30,30,9,2,0.857143,0.916667,0
+Massachusetts Delegates,,,0,12,12,0,28,28,0,8,0.251982,0.29857,0
+Jeremiah Powell,,,6,0,6,28,0,28,0,0,0,0,0
+A Committee of Congress,,,0,16,16,0,26,26,7,7,0.252097,0.285093,0
+Mrs. Deane,,,1,0,1,25,0,25,1,0,0,0,0
+Daniel Roberdeau,,,0,11,11,0,25,25,19,8,0.228196,0.264541,0
+Francis Lewis,,,0,13,13,0,24,24,10,8,0.258137,0.295995,0
+Committee of Conference,,,0,7,7,0,24,24,23,11,0.140571,0.158196,0
+John Armstrong,,,0,6,6,0,23,23,2,8,0.208242,0.226528,0
+Thomas Wharton jr.,,,6,0,6,22,0,22,19,0,0,0,0
+Mrs. Wolcott,,,1,0,1,21,0,21,6,0,0,0,0
+Marquis de Lafayette,,,5,0,5,21,0,21,7,0,0,0,0
+Rawlins Lowndes,,,3,0,3,21,0,21,7,0,0,0,0
+Elias Boudinot,,,0,10,10,0,21,21,28,9,0.191108,0.215869,0
+James Iredell,,,4,0,4,20,0,20,15,0,0,0,0
+John Wirspoon,,,0,15,15,0,20,20,7,7,0.290715,0.335673,0
+Committee of Foreign Affairs,,,0,11,11,0,20,20,1,8,0.232446,0.268597,0
+New Hampshire Delegates,,,0,7,7,0,19,19,3,11,0.160529,0.17951,0
+Henry 03chant,,,0,7,7,0,19,19,9,10,0.190794,0.217301,0
+Jonathan Trumbull jr.,,,11,0,11,18,0,18,6,0,0,0,0
+William Heath,,,6,0,6,18,0,18,7,0,0,0,0
+New York Convention,,,7,0,7,18,0,18,10,0,0,0,0
+Abraham Clark,,,0,10,10,0,18,18,28,1,1,1,0
+Jesse Root,,,0,5,5,0,18,18,6,10,0.170768,0.188402,0
+unknown,,,13,0,13,17,0,17,9,0,0,0,0
+Ezra L'Hommedieu,,,0,3,3,0,17,17,10,10,0.184969,0.203368,0
+South Carolina Delegates,,,0,9,9,0,16,16,9,9,0.196294,0.224929,0
+James Bowdoin,,,7,0,7,16,0,16,0,0,0,0,0
+Benjamin Lincoln,,,12,0,12,16,0,16,7,0,0,0,0
+Thomas Nelson,,,3,0,3,16,0,16,25,0,0,0,0
+Pennsylvania Delegates,,,0,9,9,0,15,15,2,8,0.215789,0.238927,0
+Abstract of Debates,,,2,0,2,15,0,15,15,0,0,0,0
+Statement,,,9,0,9,14,0,14,1,0,0,0,0
+William Hooper,,,0,10,10,0,14,14,15,8,0.252086,0.286782,0
+Jonathan Bayard Smith,,,0,6,6,0,14,14,19,9,0.153289,0.165465,0
+Minutes,,,1,0,1,14,0,14,23,0,0,0,0
+John Taylor Gilman,,,0,3,3,0,14,14,3,10,0.170812,0.184937,0
+Notes of Proceedings,,,2,0,2,13,0,13,7,0,0,0,0
+Thomas Johnsonjr.,,,4,0,4,13,0,13,4,0,0,0,0
+William Sharpe,,,0,7,7,0,13,13,15,8,0.261447,0.300986,0
+James Mitchell Varnum,,,0,4,4,0,13,13,9,2,0.833333,0.9,0
+Paine Wingate,,,0,6,6,0,13,13,3,10,0.190476,0.215845,0
+Lord Stirling,,,5,0,5,12,0,12,7,0,0,0,0
+Certain States,,,6,0,6,12,0,12,1,0,0,0,0
+Daniel Carroll,,,0,5,5,0,12,12,4,10,0.16287,0.18222,0
+Massachusetts Assembly,,,4,0,4,11,0,11,7,0,0,0,0
+Secret Committee,,,0,9,9,0,11,11,1,8,0.24276,0.277095,0
+John Lewis Gervais,,,1,0,1,11,0,11,7,0,0,0,0
+Timothy Pickering,,,6,0,6,11,0,11,25,0,0,0,0
+William Smallwood,,,5,0,5,11,0,11,4,0,0,0,0
+George Qinton,,,7,0,7,11,0,11,10,0,0,0,0
+Stephen Mix Mitchell,,,0,4,4,0,11,11,6,9,0.195814,0.217495,0
+James White,,,0,8,8,0,11,11,15,6,0.286926,0.317826,0
+Beverley Randolph,,,7,0,7,11,0,11,25,0,0,0,0
+Jonathan Trumbull sr.,,,4,0,4,10,0,10,6,0,0,0,0
+Henry Knox,,,7,0,7,10,0,10,2,0,0,0,0
+Landon Carter,,,3,0,3,10,0,10,2,0,0,0,0
+Charles Lee,,,3,0,3,10,0,10,2,0,0,0,0
+George Weedon,,,6,0,6,10,0,10,2,0,0,0,0
+Report,,,7,0,7,10,0,10,23,0,0,0,0
+David Howell,,,0,7,7,0,10,10,9,9,0.191244,0.212706,0
+Joseph Galloway,,,0,4,4,0,9,9,1,1,1,1,0
+New York Committee of Safety,,,3,0,3,9,0,9,10,0,0,0,0
+Samuel Lyman,,,3,0,3,9,0,9,6,0,0,0,0
+Elias Dayton,,,4,0,4,9,0,9,28,0,0,0,0
+Commissioners at Paris,,,4,0,4,9,0,9,1,0,0,0,0
+John Henry jr.,,,0,4,4,0,9,9,4,1,1,1,0
+Notes,,,1,0,1,9,0,9,7,0,0,0,0
+John Hall,,,3,0,3,9,0,9,4,0,0,0,0
+Thomas FitzSimons,,,6,0,6,9,0,9,25,0,0,0,0
+John Gray Blount,,,2,0,2,9,0,9,15,0,0,0,0
+New York Provincial Congress,,,5,0,5,8,0,8,7,0,0,0,0
+Abraham Ten Broeck,,,4,0,4,8,0,8,10,0,0,0,0
+George Bryan,,,4,0,4,8,0,8,19,0,0,0,0
+Richard Howly,,,1,3,4,1,7,8,2,2,0.8,0.875,0
+Chevalier de la Luzerne,,,4,0,4,8,0,8,7,0,0,0,0
+John Morin Scott,,,0,3,3,0,8,8,10,2,0.714286,0.8,0
+Alexander 03tin,,,2,0,2,8,0,8,15,0,0,0,0
+Mrs. Read,,,1,0,1,7,0,7,1,0,0,0,0
+Joseph Palmer,,,4,0,4,7,0,7,2,0,0,0,0
+Massachusetts Council,,,2,0,2,7,0,7,7,0,0,0,0
+John Page,,,4,0,4,7,0,7,25,0,0,0,0
+Committee of Congress,,,0,5,5,0,7,7,7,2,0.857143,0.916667,0
+Memorandum,,,3,0,3,7,0,7,7,0,0,0,0
+Lewis Pintard,,,1,0,1,7,0,7,28,0,0,0,0
+John Taylor Oilman,,,0,2,2,0,7,7,3,10,0.170564,0.183505,0
+Samuel Hardy,,,1,0,1,7,0,7,1,0,0,0,0
+William Short,,,5,0,5,7,0,7,25,0,0,0,0
+Timothy Bloodworth,,,0,2,2,0,7,7,15,1,1,1,0
+Thomas Cushing,,,0,4,4,0,6,6,2,9,0.229746,0.258113,0
+Provincial Congress,,,1,0,1,6,0,6,10,0,0,0,0
+John McKesson,,,3,0,3,6,0,6,10,0,0,0,0
+Henry Ward,,,1,0,1,6,0,6,0,0,0,0,0
+North Carolina Council of Safety,,,2,0,2,6,0,6,15,0,0,0,0
+Commissioners in Paris,,,4,0,4,6,0,6,1,0,0,0,0
+Maryland Assembly,,,2,0,2,6,0,6,7,0,0,0,0
+Samuel Cooper,,,1,0,1,6,0,6,2,0,0,0,0
+New York Council of Safety,,,2,0,2,6,0,6,10,0,0,0,0
+to Thomas Johnson jr.,,,1,0,1,6,0,6,4,0,0,0,0
+Baron Steuben,,,1,0,1,6,0,6,7,0,0,0,0
+William 08ustus Atlee,,,3,0,3,6,0,6,7,0,0,0,0
+John Walker,,,0,2,2,0,6,6,2,10,0.188099,0.208173,0
+State of Pennsylvania,,,3,0,3,6,0,6,7,0,0,0,0
+Benjamin Bankson,,,1,0,1,6,0,6,1,0,0,0,0
+William Lee,,,2,0,2,5,0,5,2,0,0,0,0
+Committee of Safety,,,2,0,2,5,0,5,10,0,0,0,0
+Samuel Tucker,,,4,0,4,5,0,5,0,0,0,0,0
+Samuel Purviance,,,4,0,4,5,0,5,15,0,0,0,0
+Thomas Nelson jr.,,,0,5,5,0,5,5,25,8,0.247499,0.27849,0
+Matw Griswold,,,3,0,3,5,0,5,6,0,0,0,0
+John Wendell,,,2,0,2,5,0,5,6,0,0,0,0
+03ine Committee,,,0,5,5,0,5,5,0,9,0.19958,0.218309,0
+Georgia Delegates,,,0,4,4,0,5,5,30,8,0.241656,0.274182,0
+Timothy Matlack,,,4,0,4,5,0,5,19,0,0,0,0
+North Carolina Assembly,,,3,0,3,5,0,5,15,0,0,0,0
+Motion,,,4,0,4,5,0,5,7,0,0,0,0
+Nathaniel Scudder,,,0,3,3,0,5,5,2,9,0.231896,0.267048,0
+Mrs. Duane,,,1,0,1,5,0,5,10,0,0,0,0
+William Fleming,,,0,1,1,0,5,5,25,10,0.187913,0.206855,0
+Abner Nash,,,2,0,2,5,0,5,15,0,0,0,0
+Mrs. Abigail Adams,,,1,0,1,5,0,5,2,0,0,0,0
+Joseph Warren,,,3,0,3,4,0,4,2,0,0,0,0
+Statement to a Committee of House of Commons,,,1,0,1,4,0,4,1,0,0,0,0
+William Woodford,,,2,0,2,4,0,4,15,0,0,0,0
+One of Virginia Delegates,,,0,1,1,0,4,4,9,1,1,1,0
+David Wooster,,,2,0,2,4,0,4,7,0,0,0,0
+Minute,,,2,0,2,4,0,4,7,0,0,0,0
+Jabez Huntington,,,4,0,4,4,0,4,6,0,0,0,0
+William Maxwell,,,4,0,4,4,0,4,2,0,0,0,0
+Samuel Purviance jr.,,,2,0,2,4,0,4,2,0,0,0,0
+James Caldwell,,,2,0,2,4,0,4,28,0,0,0,0
+George Wythe,,,3,1,4,3,1,4,25,10,0.187955,0.206926,0
+Benjamin Rumsey,,,0,2,2,0,4,4,4,10,0.161556,0.17577,0
+Mrs. Hancock,,,1,0,1,4,0,4,7,0,0,0,0
+Lachlan Mcintosh,,,2,0,2,4,0,4,7,0,0,0,0
+James Lowell,,,0,4,4,0,4,4,6,9,0.195682,0.22004,0
+Charles Carroll of Carrollton,,,0,3,3,0,4,4,4,9,0.191712,0.211244,0
+Pennsylvania Council,,,4,0,4,4,0,4,7,0,0,0,0
+William Wilkinson,,,1,0,1,4,0,4,15,0,0,0,0
+Thomas Mifflin,,,3,0,3,4,0,4,25,0,0,0,0
+Pierre Van Cortlandt,,,3,0,3,4,0,4,10,0,0,0,0
+Ephraim Blaine,,,4,0,4,4,0,4,7,0,0,0,0
+Commercial Committee,,,0,4,4,0,4,4,1,8,0.241117,0.269492,0
+James Forbes,,,0,3,3,0,4,4,4,11,0.139324,0.150641,0
+John Houstoun,,,1,0,1,4,0,4,7,0,0,0,0
+John Henry,,,0,2,2,0,4,4,4,11,0.139392,0.149804,0
+Minutes of Proceedings,,,2,0,2,4,0,4,1,0,0,0,0
+Whitmill Hill,,,0,2,2,0,4,4,15,8,0.223312,0.245136,0
+Woodbury Langdon,,,1,2,3,1,3,4,3,9,0.210059,0.232295,0
+State of New Hampshire,,,3,0,3,4,0,4,7,0,0,0,0
+Committee of Foreign Afifairs,,,0,3,3,0,4,4,2,8,0.236886,0.270525,0
+Comte de Rochambeau,,,3,0,3,4,0,4,7,0,0,0,0
+George Ointon,,,4,0,4,4,0,4,10,0,0,0,0
+Welcome Arnold,,,2,0,2,4,0,4,9,0,0,0,0
+John Kean,,,0,1,1,0,4,4,10,8,0.208044,0.226446,0
+Roger Alden,,,0,3,3,0,4,4,6,8,0.228008,0.252334,0
+Governor of North Carolina,,,1,0,1,4,0,4,1,0,0,0,0
+Governor of Georgia,,,1,0,1,4,0,4,1,0,0,0,0
+Reverend John Ettwein,,,1,0,1,4,0,4,1,0,0,0,0
+John Armstrong jr.,,,0,4,4,0,4,4,2,9,0.190858,0.210431,0
+Henry Lee jr.,,,0,3,3,0,4,4,25,9,0.180292,0.19369,0
+James Randolph Reid,,,0,4,4,0,4,4,2,9,0.191511,0.205018,0
+Proposed Resolve,,,3,0,3,3,0,3,10,0,0,0,0
+Joseph Hawley,,,2,0,2,3,0,3,2,0,0,0,0
+Proposed Resolution,,,3,0,3,3,0,3,6,0,0,0,0
+Thomas Lynch,,,0,2,2,0,3,3,7,9,0.211132,0.231866,0
+New Hampshire Committee of Safety,,,1,0,1,3,0,3,3,0,0,0,0
+Robert Alexander,,,0,1,1,0,3,3,4,1,1,1,0
+Note,,,3,0,3,3,0,3,6,0,0,0,0
+New Hampshire Assembly,,,1,0,1,3,0,3,7,0,0,0,0
+Walter Livingston,,,2,0,2,3,0,3,1,0,0,0,0
+John Winthrop,,,2,0,2,3,0,3,2,0,0,0,0
+Maryland Convention,,,1,0,1,3,0,3,7,0,0,0,0
+New Jersey Convention,,,1,0,1,3,0,3,7,0,0,0,0
+Philip Livingston,,,0,2,2,0,3,3,10,2,0.666667,0.75,0
+Speech,,,2,0,2,3,0,3,7,0,0,0,0
+Lewis Morris,,,0,3,3,0,3,3,10,8,0.209141,0.230211,0
+Anthony Wayne,,,2,0,2,3,0,3,0,0,0,0,0
+Robert Purviance,,,3,0,3,3,0,3,1,0,0,0,0
+Governor of Maryland,,,3,0,3,3,0,3,4,0,0,0,0
+George Frost,,,0,1,1,0,3,3,3,10,0.170512,0.182626,0
+Joseph Clay,,,3,0,3,3,0,3,15,0,0,0,0
+Rhode Island Assembly,,,1,0,1,3,0,3,9,0,0,0,0
+Edward Hand,,,3,0,3,3,0,3,19,0,0,0,0
+Jethro Sumner,,,2,0,2,3,0,3,15,0,0,0,0
+Evert Bancker,,,3,0,3,3,0,3,10,0,0,0,0
+Baron de Kalb,,,1,0,1,3,0,3,7,0,0,0,0
+George Ginton,,,3,0,3,3,0,3,10,0,0,0,0
+Abraham Qark,,,0,3,3,0,3,3,6,2,0.666667,0.75,0
+Mrs. McKean,,,1,0,1,3,0,3,7,0,0,0,0
+Samuel Phillips Savage,,,1,0,1,3,0,3,2,0,0,0,0
+Proposed Resolves,,,3,0,3,3,0,3,7,0,0,0,0
+Examination of William Carmichael,,,0,1,1,0,3,3,23,1,1,1,0
+John Avery,,,3,0,3,3,0,3,0,0,0,0,0
+William Shippen jr.,,,2,0,2,3,0,3,2,0,0,0,0
+State of Virginia,,,2,0,2,3,0,3,7,0,0,0,0
+State of Delaware,,,3,0,3,3,0,3,7,0,0,0,0
+Willie Jones,,,0,1,1,0,3,3,15,1,1,1,0
+Abraham Gark,,,0,3,3,0,3,3,28,7,0.209234,0.226983,0
+Thomas Collins,,,3,0,3,3,0,3,0,0,0,0,0
+Congress,,,2,0,2,3,0,3,7,0,0,0,0
+John Stevens,,,2,0,2,3,0,3,28,0,0,0,0
+Proceedings,,,1,0,1,3,0,3,7,0,0,0,0
+Phillips White,,,0,2,2,0,3,3,3,10,0.170564,0.183505,0
+David Ramsay,,,0,2,2,0,3,3,0,9,0.195465,0.211709,0
+John Nicholson,,,3,0,3,3,0,3,1,0,0,0,0
+Jonathan Jackson,,,1,0,1,3,0,3,6,0,0,0,0
+Governor of South Carolina,,,1,0,1,3,0,3,1,0,0,0,0
+James Mitchel Varnum,,,0,3,3,0,3,3,2,2,0.714286,0.8,0
+Thomas Pinckney,,,1,0,1,3,0,3,9,0,0,0,0
+Peter Muhlenberg,,,2,0,2,3,0,3,2,0,0,0,0
+Abraham Baldwin,,,0,3,3,0,3,3,15,10,0.188367,0.209562,0
+Samuel Lane,,,1,0,1,3,0,3,3,0,0,0,0
+William Franklin,,,1,0,1,2,0,2,1,0,0,0,0
+Charles Chauncy,,,1,0,1,2,0,2,2,0,0,0,0
+Statement relative to his plan of Union,,,1,0,1,2,0,2,1,0,0,0,0
+William Tudor,,,1,0,1,2,0,2,2,0,0,0,0
+a Committee of Congress,,,2,0,2,2,0,2,3,0,0,0,0
+Proposed Resolutions,,,2,0,2,2,0,2,10,0,0,0,0
+Massachusetts Provincial Congress,,,1,0,1,2,0,2,7,0,0,0,0
+Josiah Quincy,,,2,0,2,2,0,2,2,0,0,0,0
+New Jersey Delegates,,,0,2,2,0,2,2,0,2,0.75,0.833333,0
+James Otis,,,2,0,2,2,0,2,2,0,0,0,0
+Andrew Allen,,,0,2,2,0,2,2,10,9,0.211268,0.232044,0
+New Hampshire Convention,,,1,0,1,2,0,2,7,0,0,0,0
+Thomas Person,,,1,0,1,2,0,2,15,0,0,0,0
+Alexander McDougall,,,1,1,2,1,1,2,10,2,0.666667,0.75,0
+Carter Braxton,,,0,1,1,0,2,2,2,1,1,1,0
+Israel Putnam,,,2,0,2,2,0,2,7,0,0,0,0
+Thomas Stone,,,0,2,2,0,2,2,4,10,0.16151,0.175477,0
+Esek Hopkins,,,1,0,1,2,0,2,7,0,0,0,0
+Officer Commanding in Philadelphia,,,1,0,1,2,0,2,7,0,0,0,0
+President of Massachusetts Council,,,2,0,2,2,0,2,0,0,0,0,0
+William Palfrey,,,2,0,2,2,0,2,7,0,0,0,0
+Archibald Bulloch,,,2,0,2,2,0,2,7,0,0,0,0
+John Bradford,,,2,0,2,2,0,2,7,0,0,0,0
+John Haslet,,,2,0,2,2,0,2,7,0,0,0,0
+Jasper Yeates,,,2,0,2,2,0,2,1,0,0,0,0
+Lord Howe,,,2,0,2,2,0,2,2,0,0,0,0
+Thomas Gushing,,,2,0,2,2,0,2,0,0,0,0,0
+Certificate,,,2,0,2,2,0,2,7,0,0,0,0
+Charles Carroll,,,0,2,2,0,2,2,4,10,0.16151,0.175477,0
+William Shippen,,,1,1,2,1,1,2,2,9,0.229866,0.261298,0
+John Hart,,,2,0,2,2,0,2,28,0,0,0,0
+Council of Maryland,,,2,0,2,2,0,2,4,0,0,0,0
+Jolin Hancock,,,0,1,1,0,2,2,7,2,0.666667,0.75,0
+Benedict Arnold,,,2,0,2,2,0,2,7,0,0,0,0
+Robert Howe,,,1,0,1,2,0,2,7,0,0,0,0
+John Harvie,,,0,1,1,0,2,2,25,10,0.187913,0.206855,0
+Jean de Kermovan,,,1,0,1,2,0,2,7,0,0,0,0
+Chevalier de Laneuville,,,1,0,1,2,0,2,7,0,0,0,0
+William Vernon,,,1,0,1,2,0,2,9,0,0,0,0
+William Moultrie,,,2,0,2,2,0,2,9,0,0,0,0
+British Commissioners,,,2,0,2,2,0,2,7,0,0,0,0
+Mrs. Boudinot,,,1,0,1,2,0,2,28,0,0,0,0
+Henry Marchant,,,0,2,2,0,2,2,9,1,1,1,0
+John Carter,,,2,0,2,2,0,2,9,0,0,0,0
+Mrs. Reed,,,1,0,1,2,0,2,7,0,0,0,0
+George Plater,,,1,1,2,1,1,2,4,11,0.139188,0.148297,0
+Committee of Arrangement,,,0,2,2,0,2,2,7,2,0.75,0.833333,0
+Conrad Alexandre Gerard,,,1,0,1,2,0,2,10,0,0,0,0
+Caleb Camp,,,2,0,2,2,0,2,6,0,0,0,0
+George Mason,,,1,0,1,2,0,2,2,0,0,0,0
+Proposed Report,,,2,0,2,2,0,2,7,0,0,0,0
+John Lawrence,,,1,0,1,2,0,2,7,0,0,0,0
+James Madison sr.,,,2,0,2,2,0,2,25,0,0,0,0
+John Alaws,,,0,2,2,0,2,2,10,9,0.184202,0.199314,0
+Eastern States,,,2,0,2,2,0,2,7,0,0,0,0
+States from New Hampshire to Virginia,,,1,0,1,2,0,2,7,0,0,0,0
+John Davis,,,1,0,1,2,0,2,2,0,0,0,0
+State of Maryland,,,2,0,2,2,0,2,7,0,0,0,0
+Moore Furman,,,2,0,2,2,0,2,7,0,0,0,0
+Nathaniel Greene,,,2,0,2,2,0,2,9,0,0,0,0
+Josiah Hornblower,,,2,0,2,2,0,2,28,0,0,0,0
+Benjamin Huntington,,,0,2,2,0,2,2,6,11,0.133068,0.14089,0
+Richard Peters,,,1,1,2,1,1,2,1,2,0.666667,0.75,0
+Thomas JeflFerson,,,1,0,1,2,0,2,25,0,0,0,0
+Caleb Davis,,,2,0,2,2,0,2,6,0,0,0,0
+Nicholas Van Dyke,,,0,1,1,0,2,2,0,4,0.391304,0.462963,0
+Richard Potts,,,0,2,2,0,2,2,4,1,1,1,0
+John Jones,,,1,0,1,2,0,2,30,0,0,0,0
+State of New Jersey,,,1,0,1,2,0,2,7,0,0,0,0
+Virginia State Auditors,,,2,0,2,2,0,2,25,0,0,0,0
+Comte de Grasse,,,1,0,1,2,0,2,7,0,0,0,0
+Elisha Boudinot,,,2,0,2,2,0,2,29,0,0,0,0
+John Mehelm,,,1,0,1,2,0,2,28,0,0,0,0
+Eximund Pendleton,,,1,0,1,2,0,2,25,0,0,0,0
+James Jackson,,,2,0,2,2,0,2,30,0,0,0,0
+Andrew Huntington,,,2,0,2,2,0,2,6,0,0,0,0
+Abraham Oark,,,0,1,1,0,2,2,28,1,1,1,0
+Moses Brown,,,2,0,2,2,0,2,9,0,0,0,0
+Jonathan Arnold,,,0,1,1,0,2,2,9,1,1,1,0
+Thomas Dwight,,,1,0,1,2,0,2,6,0,0,0,0
+Oliver Wolcott jr.,,,1,0,1,2,0,2,6,0,0,0,0
+Thomas Ivers,,,2,0,2,2,0,2,0,0,0,0,0
+Hezekiah Smith,,,1,0,1,2,0,2,9,0,0,0,0
+Samuel Jones,,,1,0,1,2,0,2,9,0,0,0,0
+Lambert Cadwalader,,,0,2,2,0,2,2,25,8,0.219992,0.237416,0
+Address before Massachusetts House of Representatives,,,2,0,2,2,0,2,6,0,0,0,0
+William Pierce,,,0,2,2,0,2,2,25,1,1,1,0
+Nathaniel Mitchell,,,0,2,2,0,2,2,0,1,1,1,0
+ophilus Parsons,,,2,0,2,2,0,2,0,0,0,0,0
+Samuel William Johnson,,,1,0,1,2,0,2,6,0,0,0,0
+Alexander Contee Hanson,,,1,0,1,2,0,2,1,0,0,0,0
+Richard Lee,,,1,0,1,2,0,2,2,0,0,0,0
+Pierpont Edwards,,,0,1,1,0,2,2,6,2,0.666667,0.75,0
+George Nicholas,,,1,0,1,2,0,2,25,0,0,0,0
+George Maws,,,1,0,1,2,0,2,1,0,0,0,0
+John Swann,,,0,1,1,0,2,2,15,1,1,1,0
+Peleg Arnold,,,0,2,2,0,2,2,9,2,0.666667,0.75,0
+John Pickering,,,1,0,1,2,0,2,3,0,0,0,0
+John Dawson,,,0,2,2,0,2,2,25,7,0.208884,0.225584,0
+Address before Committee on state Rights of Colonies,,,1,0,1,1,0,1,10,0,0,0,0
+Committee of Correspondence,,,1,0,1,1,0,1,2,0,0,0,0
+Propositions before Committee on Rights,,,1,0,1,1,0,1,10,0,0,0,0
+Resolution proposed in Committee on Rights,,,1,0,1,1,0,1,7,0,0,0,0
+Joseph Wanton,,,1,0,1,1,0,1,0,0,0,0,0
+Mrs. Cushing,,,1,0,1,1,0,1,2,0,0,0,0
+General Gage,,,1,0,1,1,0,1,2,0,0,0,0
+Notes of I debates,,,1,0,1,1,0,1,10,0,0,0,0
+Chairman and Freeholders of Dutchess County,,,1,0,1,1,0,1,10,0,0,0,0
+Report to Provincial Congress,,,1,0,1,1,0,1,9,0,0,0,0
+Edward Biddle,,,1,0,1,1,0,1,2,0,0,0,0
+Committee for City and County of Albany,,,1,0,1,1,0,1,10,0,0,0,0
+New Hampshire Provincial Committee,,,1,0,1,1,0,1,3,0,0,0,0
+Notes on State of Colonies,,,1,0,1,1,0,1,10,0,0,0,0
+Lancaster Committee of Correspondence,,,1,0,1,1,0,1,1,0,0,0,0
+John Morton,,,0,1,1,0,1,1,5,1,1,1,0
+Thomas Powell,,,1,0,1,1,0,1,5,0,0,0,0
+Moses Gill,,,1,0,1,1,0,1,2,0,0,0,0
+Committee of Correspondence of Cumberland County,,,1,0,1,1,0,1,2,0,0,0,0
+John 08ustine Washington,,,1,0,1,1,0,1,7,0,0,0,0
+193- John Adams,,,0,1,1,0,1,1,2,1,1,1,0
+Secret Committee at Charleston,,,1,0,1,1,0,1,9,0,0,0,0
+Committee of Philadelphia,,,0,1,1,0,1,1,7,1,1,1,0
+Joseph Trumhull,,,1,0,1,1,0,1,6,0,0,0,0
+Joseph Priestley,,,1,0,1,1,0,1,2,0,0,0,0
+Lancaster County Committee,,,1,0,1,1,0,1,2,0,0,0,0
+Committee of Baltimore,,,1,0,1,1,0,1,4,0,0,0,0
+Gurdon Saltonstall,,,1,0,1,1,0,1,1,0,0,0,0
+Robert Montgomery,,,1,0,1,1,0,1,10,0,0,0,0
+Note on Franklin's Articles of Confederation,,,1,0,1,1,0,1,1,0,0,0,0
+William Judd,,,1,0,1,1,0,1,6,0,0,0,0
+Zebulon Butler and Ors,,,1,0,1,1,0,1,6,0,0,0,0
+Member of Congress,,,0,1,1,0,1,1,8,1,1,1,0
+a Gentleman in London,,,1,0,1,1,0,1,8,0,0,0,0
+Thomas Mumford,,,1,0,1,1,0,1,1,0,0,0,0
+335- John Adams,,,0,1,1,0,1,1,2,1,1,1,0
+New Jersey Provincial Convention,,,1,0,1,1,0,1,7,0,0,0,0
+President of New York Congress,,,1,0,1,1,0,1,7,0,0,0,0
+Mercy Warren,,,1,0,1,1,0,1,2,0,0,0,0
+Richard Montgomery,,,1,0,1,1,0,1,7,0,0,0,0
+Airs. Read,,,1,0,1,1,0,1,1,0,0,0,0
+New Hampshire Convention or Committee of Safety,,,1,0,1,1,0,1,3,0,0,0,0
+Chairman of Pennsylvania Committee of Safety,,,1,0,1,1,0,1,10,0,0,0,0
+Zebulon Butler,,,1,0,1,1,0,1,6,0,0,0,0
+Report on Memorial for General Montgomery,,,1,0,1,1,0,1,7,0,0,0,0
+Ezekiel Williams,,,1,0,1,1,0,1,6,0,0,0,0
+President of Pennsylvania Committee of Safety,,,1,0,1,1,0,1,1,0,0,0,0
+533- William Whipple,,,0,1,1,0,1,1,3,1,1,1,0
+A. George Read,,,0,1,1,0,1,1,7,3,0.409091,0.462963,0
+Colonel Shea,,,1,0,1,1,0,1,7,0,0,0,0
+Colonel Magaw,,,1,0,1,1,0,1,7,0,0,0,0
+Colonel Irvine,,,1,0,1,1,0,1,7,0,0,0,0
+Colonel Dayton,,,1,0,1,1,0,1,7,0,0,0,0
+Duncan Campbell,,,1,0,1,1,0,1,7,0,0,0,0
+a Continental Officer,,,1,0,1,1,0,1,7,0,0,0,0
+Baltimore Committee,,,1,0,1,1,0,1,7,0,0,0,0
+Joseph Frye,,,1,0,1,1,0,1,7,0,0,0,0
+John Scollay,,,1,0,1,1,0,1,2,0,0,0,0
+Stephen Hopkins,,,0,1,1,0,1,1,9,1,1,1,0
+William Tokeley,,,1,0,1,1,0,1,15,0,0,0,0
+Mrs. Susannah Connolly,,,1,0,1,1,0,1,7,0,0,0,0
+John Thomas,,,1,0,1,1,0,1,7,0,0,0,0
+Benjamin Hichborn,,,1,0,1,1,0,1,2,0,0,0,0
+Nathaniel Woodhull,,,1,0,1,1,0,1,10,0,0,0,0
+William Cushing,,,1,0,1,1,0,1,2,0,0,0,0
+Charles Preston,,,1,0,1,1,0,1,7,0,0,0,0
+Pennsylvania Committee of Safety,,,1,0,1,1,0,1,7,0,0,0,0
+Nathaniel Wcodhull,,,1,0,1,1,0,1,10,0,0,0,0
+Zabdiel Adams,,,1,0,1,1,0,1,2,0,0,0,0
+Benjamin Kent,,,1,0,1,1,0,1,2,0,0,0,0
+Henry Wisner,,,0,1,1,0,1,1,7,1,1,1,0
+Alexander James Dallas,,,1,0,1,1,0,1,7,0,0,0,0
+Caesar A. Rodney,,,1,0,1,1,0,1,7,0,0,0,0
+Samuel Adams Wells,,,1,0,1,1,0,1,25,0,0,0,0
+William Plumer,,,1,0,1,1,0,1,2,0,0,0,0
+William Cooper,,,1,0,1,1,0,1,7,0,0,0,0
+Richard Flenry Lee,,,1,0,1,1,0,1,25,0,0,0,0
+President of New Hampshire,,,1,0,1,1,0,1,3,0,0,0,0
+John Alsop,,,0,1,1,0,1,1,10,1,1,1,0
+Ezra Stiles,,,1,0,1,1,0,1,9,0,0,0,0
+Commissioners for Indian Affairs,,,1,0,1,1,0,1,1,0,0,0,0
+Francis Eppes,,,1,0,1,1,0,1,25,0,0,0,0
+GeorRC Washington,,,1,0,1,1,0,1,7,0,0,0,0
+Ahraham Clark,,,0,1,1,0,1,1,28,1,1,1,0
+Josiah Rartlett,,,0,1,1,0,1,1,3,11,0.159428,0.171605,0
+Maryland Convention or Committee of Safety,,,1,0,1,1,0,1,7,0,0,0,0
+Mrs. Gates,,,1,0,1,1,0,1,10,0,0,0,0
+Samuel Holden Parsons,,,1,0,1,1,0,1,2,0,0,0,0
+Artemus Ward,,,1,0,1,1,0,1,7,0,0,0,0
+Philip Mazzei,,,1,0,1,1,0,1,2,0,0,0,0
+Thomas Heyward jr.,,,0,1,1,0,1,1,11,1,1,1,0
+John Morgan,,,1,0,1,1,0,1,11,0,0,0,0
+William Pitkin,,,1,0,1,1,0,1,7,0,0,0,0
+Peter Grubb,,,1,0,1,1,0,1,2,0,0,0,0
+S. P. Eve,,,1,0,1,1,0,1,2,0,0,0,0
+New Jersey Assembly,,,1,0,1,1,0,1,7,0,0,0,0
+New York ndffratos,,,0,1,1,0,1,1,10,1,1,1,0
+Joseph Tnimhull,,,1,0,1,1,0,1,6,0,0,0,0
+John Hlancock,,,0,1,1,0,1,1,12,1,1,1,0
+Convention of Maryland,,,1,0,1,1,0,1,12,0,0,0,0
+John Lanpdoti,,,1,0,1,1,0,1,3,0,0,0,0
+Klhrid Kcderry,,,0,1,1,0,1,1,6,1,1,1,0
+Edward Rutledne,,,0,1,1,0,1,1,10,9,0.184083,0.198142,0
+Josiah Hartlctt,,,0,1,1,0,1,1,3,11,0.159428,0.171605,0
+Ministar of War,,,0,1,1,0,1,1,9,1,1,1,0
+Henjamin Rush,,,0,1,1,0,1,1,13,1,1,1,0
+Thomas Morris,,,1,0,1,1,0,1,13,0,0,0,0
+President of North Carolina Convention,,,1,0,1,1,0,1,15,0,0,0,0
+North Carolina Provincial Congress,,,1,0,1,1,0,1,15,0,0,0,0
+Commissioners from Maryland,,,1,0,1,1,0,1,7,0,0,0,0
+North Carolina Convention,,,1,0,1,1,0,1,7,0,0,0,0
+Virginia Assembly,,,1,0,1,1,0,1,7,0,0,0,0
+Pennsylvania Council of Safety,,,1,0,1,1,0,1,7,0,0,0,0
+Timothy Edwards,,,1,0,1,1,0,1,6,0,0,0,0
+James Nicholson,,,1,0,1,1,0,1,4,0,0,0,0
+WiUiam Hooper,,,0,1,1,0,1,1,1,8,0.240389,0.265865,0
+Elbridgc Gerry,,,0,1,1,0,1,1,14,1,1,1,0
+Joseph Hawkey,,,1,0,1,1,0,1,14,0,0,0,0
+Joseph I lewes,,,1,0,1,1,0,1,15,0,0,0,0
+Samnd Adams,,,0,1,1,0,1,1,2,1,1,1,0
+Joseph TrnmbuU,,,1,0,1,1,0,1,6,0,0,0,0
+Richard Dallam,,,1,0,1,1,0,1,7,0,0,0,0
+Andrew Lewis,,,1,0,1,1,0,1,7,0,0,0,0
+Mann PaRe jr.,,,0,1,1,0,1,1,2,1,1,1,0
+William McGilivry,,,0,1,1,0,1,1,9,1,1,1,0
+Jonathan Clark,,,0,1,1,0,1,1,16,1,1,1,0
+Silas Dayton,,,1,0,1,1,0,1,16,0,0,0,0
+01us Caldwell,,,1,0,1,1,0,1,28,0,0,0,0
+Thomas Rurke,,,0,1,1,0,1,1,15,1,1,1,0
+402.Francis Lewis,,,0,1,1,0,1,1,10,1,1,1,0
+Thomas Wirke,,,0,1,1,0,1,1,15,1,1,1,0
+Nathanacl Greene,,,1,0,1,1,0,1,2,0,0,0,0
+William Ellcry,,,0,1,1,0,1,1,9,1,1,1,0
+Miss Mercy Scollay,,,1,0,1,1,0,1,2,0,0,0,0
+Daniel Robcrdcau,,,0,1,1,0,1,1,1,2,0.666667,0.75,0
+John Trumbull,,,1,0,1,1,0,1,2,0,0,0,0
+William EUery,,,0,1,1,0,1,1,9,1,1,1,0
+James Sykes,,,0,1,1,0,1,1,1,2,0.6,0.666667,0
+Speaker of House of Representatives,,,1,0,1,1,0,1,0,0,0,0,0
+Qiarles Thomson,,,0,1,1,0,1,1,7,2,0.666667,0.75,0
+Mann Page jr.,,,0,1,1,0,1,1,2,1,1,1,0
+Joshua Huntington,,,1,0,1,1,0,1,6,0,0,0,0
+Richard Varick,,,1,0,1,1,0,1,10,0,0,0,0
+Thirteen States,,,1,0,1,1,0,1,7,0,0,0,0
+Robert R. LiviiiKstoii,,,1,0,1,1,0,1,1,0,0,0,0
+Hoard of War,,,0,1,1,0,1,1,2,1,1,1,0
+Oliver Tollock,,,1,0,1,1,0,1,1,0,0,0,0
+Robert R. Livinpston,,,1,0,1,1,0,1,10,0,0,0,0
+William Ducr,,,0,1,1,0,1,1,10,9,0.210975,0.230694,0
+John Adaius,,,0,1,1,0,1,1,2,1,1,1,0
+John McKinley,,,1,0,1,1,0,1,7,0,0,0,0
+Robert R. LivinRston,,,1,0,1,1,0,1,10,0,0,0,0
+Governor of Rhode Island,,,1,0,1,1,0,1,9,0,0,0,0
+Company of Rhode Island,,,1,0,1,1,0,1,9,0,0,0,0
+Richard Henrj' Lee,,,1,0,1,1,0,1,2,0,0,0,0
+Paul Revere,,,1,0,1,1,0,1,2,0,0,0,0
+Nathaniel Folson,,,0,1,1,0,1,1,3,10,0.170512,0.182626,0
+New York Assembly,,,1,0,1,1,0,1,7,0,0,0,0
+William Thomson,,,1,0,1,1,0,1,7,0,0,0,0
+Heads of Inquiry as to State of Army,,,1,0,1,1,0,1,7,0,0,0,0
+Committee of Intelligence,,,0,1,1,0,1,1,7,2,0.666667,0.75,0
+Israel riitiiani,,,1,0,1,1,0,1,7,0,0,0,0
+Committee of CoiiRress,,,0,1,1,0,1,1,17,1,1,1,0
+Joseph Trumhbull,,,1,0,1,1,0,1,17,0,0,0,0
+Joseph Triimhull,,,1,0,1,1,0,1,6,0,0,0,0
+Kliphalet Dyer,,,0,1,1,0,1,1,6,1,1,1,0
+Vicomte dv Mauroy,,,1,0,1,1,0,1,6,0,0,0,0
+George Galphin,,,1,0,1,1,0,1,7,0,0,0,0
+654. I^Ibridge Gerry,,,0,1,1,0,1,1,7,2,0.666667,0.75,0
+John Nixon,,,1,0,1,1,0,1,7,0,0,0,0
+Hall,,,1,0,1,1,0,1,2,0,0,0,0
+Sellers,,,1,0,1,1,0,1,2,0,0,0,0
+Mrs Adams,,,1,0,1,1,0,1,2,0,0,0,0
+Notes on Articles of Confederation,,,1,0,1,1,0,1,15,0,0,0,0
+Re03ks concerning Confederation,,,1,0,1,1,0,1,15,0,0,0,0
+Jolm Lewis ncrvais,,,1,0,1,1,0,1,7,0,0,0,0
+Jonathan Ehner,,,0,1,1,0,1,1,2,1,1,1,0
+Daniel Robcrdeau,,,0,1,1,0,1,1,19,1,1,1,0
+Cornelius I lamett,,,0,1,1,0,1,1,18,1,1,1,0
+Thomas Hurke,,,1,0,1,1,0,1,18,0,0,0,0
+Commercial Conmiittec,,,0,1,1,0,1,1,19,1,1,1,0
+E[bridge Gerry,,,0,1,1,0,1,1,1,8,0.240389,0.265865,0
+Thomas W^harton jr.,,,1,0,1,1,0,1,2,0,0,0,0
+Navy Board,,,1,0,1,1,0,1,7,0,0,0,0
+Speech on Convention with Burgoyne,,,1,0,1,1,0,1,7,0,0,0,0
+Notes on Burgoyne's Letter to Gates,,,1,0,1,1,0,1,7,0,0,0,0
+Isaac Motte,,,1,0,1,1,0,1,7,0,0,0,0
+George Brj'an,,,1,0,1,1,0,1,19,0,0,0,0
+John 'Wirspoon,,,0,1,1,0,1,1,0,9,0.195197,0.210304,0
+Miriutes,,,1,0,1,1,0,1,23,0,0,0,0
+James McLene,,,1,0,1,1,0,1,19,0,0,0,0
+Thomas Wliarton jr.,,,1,0,1,1,0,1,7,0,0,0,0
+to Nichola* Thomas,,,1,0,1,1,0,1,4,0,0,0,0
+Henrj' Laurens,,,0,1,1,0,1,1,7,2,0.666667,0.75,0
+John Burgoyne,,,1,0,1,1,0,1,7,0,0,0,0
+Robert Alorris,,,1,0,1,1,0,1,15,0,0,0,0
+Henry- Laurens,,,0,1,1,0,1,1,7,1,1,1,0
+James Young,,,1,0,1,1,0,1,19,0,0,0,0
+Thomas Warton jr.,,,1,0,1,1,0,1,19,0,0,0,0
+to Nicholas Thomas,,,1,0,1,1,0,1,4,0,0,0,0
+Egbert Benson,,,1,0,1,1,0,1,7,0,0,0,0
+George Clymer,,,1,0,1,1,0,1,7,0,0,0,0
+Roderique Hortales and Company,,,1,0,1,1,0,1,7,0,0,0,0
+George Morgan,,,1,0,1,1,0,1,7,0,0,0,0
+Engagement of Members,,,0,1,1,0,1,1,20,1,1,1,0
+Meet Punctually etc.,,,1,0,1,1,0,1,20,0,0,0,0
+John Banister,,,0,1,1,0,1,1,7,2,0.666667,0.75,0
+Notes on Measure for Half-Pay,,,1,0,1,1,0,1,7,0,0,0,0
+William Aylett,,,1,0,1,1,0,1,7,0,0,0,0
+Louis Fleury,,,1,0,1,1,0,1,7,0,0,0,0
+Jacob Christopher Zahn,,,1,0,1,1,0,1,7,0,0,0,0
+Proposal for Treaty with Great Britain,,,0,1,1,0,1,1,9,1,1,1,0
+Francis Bailey,,,1,0,1,1,0,1,7,0,0,0,0
+James Mease,,,1,0,1,1,0,1,7,0,0,0,0
+Pierre Etienne Duponceau,,,1,0,1,1,0,1,7,0,0,0,0
+Committee of Commerce,,,0,1,1,0,1,1,1,1,1,1,0
+David Espy and Ors,,,1,0,1,1,0,1,7,0,0,0,0
+Jesse Brown,,,1,0,1,1,0,1,1,0,0,0,0
+John Stark,,,1,0,1,1,0,1,7,0,0,0,0
+IMarquis de Lafayette,,,1,0,1,1,0,1,7,0,0,0,0
+John Wentworth jr.,,,0,1,1,0,1,1,21,1,1,1,0
+to John Langdon,,,1,0,1,1,0,1,21,0,0,0,0
+George Johnstone,,,1,0,1,1,0,1,7,0,0,0,0
+Assembly of Maryland,,,1,0,1,1,0,1,4,0,0,0,0
+Jonathan Elmer,,,0,1,1,0,1,1,22,1,1,1,0
+Ebenezer Elmer,,,1,0,1,1,0,1,22,0,0,0,0
+Jean Baptiste Lazarus veneau de Francy,,,1,0,1,1,0,1,7,0,0,0,0
+Reminiscences,,,1,0,1,1,0,1,28,0,0,0,0
+Peter Thacher,,,1,0,1,1,0,1,2,0,0,0,0
+James Graham,,,1,0,1,1,0,1,7,0,0,0,0
+John Beatty,,,1,0,1,1,0,1,7,0,0,0,0
+Comte d'Estaing,,,1,0,1,1,0,1,7,0,0,0,0
+oderick Bland,,,1,0,1,1,0,1,7,0,0,0,0
+John Cadwalader,,,1,0,1,1,0,1,7,0,0,0,0
+William Smith,,,1,0,1,1,0,1,7,0,0,0,0
+Diego Joseph Navarro,,,1,0,1,1,0,1,7,0,0,0,0
+Elisha Paine,,,1,0,1,1,0,1,6,0,0,0,0
+Resolution,,,1,0,1,1,0,1,7,0,0,0,0
+Sir James Jay,,,1,0,1,1,0,1,2,0,0,0,0
+William Malcom,,,1,0,1,1,0,1,7,0,0,0,0
+Stephen Drayton,,,1,0,1,1,0,1,7,0,0,0,0
+Francis Huger,,,1,0,1,1,0,1,7,0,0,0,0
+Part of a Speech in Congress upon Confederation,,,1,0,1,1,0,1,7,0,0,0,0
+Notes on his Letter of Resignation,,,1,0,1,1,0,1,7,0,0,0,0
+John Parke (Philopatros Philales),,,1,0,1,1,0,1,7,0,0,0,0
+Memoranda,,,1,0,1,1,0,1,7,0,0,0,0
+Edward Langworthy,,,0,1,1,0,1,1,1,9,0.204659,0.220996,0
+.Statement,,,1,0,1,1,0,1,1,0,0,0,0
+Mor12ai Gist,,,1,0,1,1,0,1,1,0,0,0,0
+Stephen Ward,,,1,0,1,1,0,1,10,0,0,0,0
+Committee on Commissary and Quartermaster's Departments,,,0,1,1,0,1,1,4,11,0.139188,0.148297,0
+John Gibson,,,1,0,1,1,0,1,7,0,0,0,0
+Christopher Ellery,,,1,0,1,1,0,1,9,0,0,0,0
+Gerard,,,1,0,1,1,0,1,7,0,0,0,0
+John Henryjr.,,,0,1,1,0,1,1,24,1,1,1,0
+to Thomas Johnsonjr.,,,1,0,1,1,0,1,24,0,0,0,0
+Thomas Harwood,,,1,0,1,1,0,1,1,0,0,0,0
+Memorandum of Conference with Gerard,,,1,0,1,1,0,1,7,0,0,0,0
+Gustave d'Ugglaa,,,1,0,1,1,0,1,10,0,0,0,0
+William Green,,,1,0,1,1,0,1,9,0,0,0,0
+Benjamin Austin,,,1,0,1,1,0,1,2,0,0,0,0
+Baron de Knobelauch,,,1,0,1,1,0,1,2,0,0,0,0
+Benjamin Harrison ( ?),,,1,0,1,1,0,1,15,0,0,0,0
+Proposed Motion,,,1,0,1,1,0,1,7,0,0,0,0
+Proposed Amendment,,,1,0,1,1,0,1,7,0,0,0,0
+South Carohna Delegates,,,1,0,1,1,0,1,15,0,0,0,0
+Samuel Llolten,,,0,1,1,0,1,1,0,1,1,1,0
+William Shippenjr.,,,1,0,1,1,0,1,2,0,0,0,0
+Thomas Burke. Account of Interview with Gerard,,,0,1,1,0,1,1,23,1,1,1,0
+William Henry Draj^ton,,,0,1,1,0,1,1,19,1,1,1,0
+Frederick Frelinghuysen,,,0,1,1,0,1,1,6,1,1,1,0
+Joseph Spencer,,,0,1,1,0,1,1,6,11,0.133006,0.139718,0
+Re03ks on Meriwer Smith's Motion,,,1,0,1,1,0,1,7,0,0,0,0
+James Ix)ven,,,0,1,1,0,1,1,0,1,1,1,0
+Benjamin Trumbull,,,1,0,1,1,0,1,6,0,0,0,0
+Minutes of Debates,,,1,0,1,1,0,1,7,0,0,0,0
+Qiarles Carroll of Carrollton,,,0,1,1,0,1,1,1,2,0.555556,0.6,0
+Benj amin Franklin,,,1,0,1,1,0,1,10,0,0,0,0
+Robert Christie,,,1,0,1,1,0,1,4,0,0,0,0
+William Phillips,,,1,0,1,1,0,1,1,0,0,0,0
+03^-land Delegates,,,0,1,1,0,1,1,4,11,0.139188,0.148297,0
+Colonel Cox,,,1,0,1,1,0,1,10,0,0,0,0
+Colonel Pettit,,,1,0,1,1,0,1,10,0,0,0,0
+Roger iSherman,,,0,1,1,0,1,1,6,1,1,1,0
+Navy Board of Eastern Department,,,1,0,1,1,0,1,1,0,0,0,0
+Oliver Pollock,,,1,0,1,1,0,1,1,0,0,0,0
+Ebenezer Thompson,,,1,0,1,1,0,1,3,0,0,0,0
+Propositions for Treaty of Peace,,,1,0,1,1,0,1,7,0,0,0,0
+Draft of Instructions,,,1,0,1,1,0,1,7,0,0,0,0
+George W^ashington,,,1,0,1,1,0,1,10,0,0,0,0
+Stephen Sayre,,,1,0,1,1,0,1,10,0,0,0,0
+Gouverneur Alorris,,,0,1,1,0,1,1,10,9,0.184083,0.198142,0
+William Glascock,,,1,0,1,1,0,1,10,0,0,0,0
+Communication to Public,,,1,0,1,1,0,1,6,0,0,0,0
+Notes for Re03ks,,,1,0,1,1,0,1,7,0,0,0,0
+James Alercer,,,0,1,1,0,1,1,25,9,0.198396,0.213787,0
+Henry Lijurens,,,0,1,1,0,1,1,2,9,0.207816,0.234296,0
+Jeremiah Powrell,,,1,0,1,1,0,1,0,0,0,0,0
+Thomas Waring,,,1,0,1,1,0,1,7,0,0,0,0
+William Hunt,,,1,0,1,1,0,1,6,0,0,0,0
+Qement Nash,,,1,0,1,1,0,1,7,0,0,0,0
+Philip Schujder,,,0,1,1,0,1,1,7,2,0.666667,0.75,0
+James Madison jr.,,,0,1,1,0,1,1,25,1,1,1,0
+Commissioners of Navy Board of Eastern Department,,,1,0,1,1,0,1,7,0,0,0,0
+Alassachusetts Delegates,,,0,1,1,0,1,1,0,1,1,1,0
+08ustin Alottin de La Balme,,,1,0,1,1,0,1,2,0,0,0,0
+Commissary-General of Issues,,,1,0,1,1,0,1,7,0,0,0,0
+Quartermaster-General,,,1,0,1,1,0,1,7,0,0,0,0
+Comm.ittee at Headquarters,,,0,1,1,0,1,1,9,1,1,1,0
+James Aladison,,,0,1,1,0,1,1,25,10,0.187913,0.206855,0
+Richard Bache,,,1,0,1,1,0,1,0,0,0,0,0
+Marquis de Bouille,,,1,0,1,1,0,1,7,0,0,0,0
+James Henry,,,0,1,1,0,1,1,7,2,0.666667,0.75,0
+States from New Hampshire,,,1,0,1,1,0,1,7,0,0,0,0
+Maryland,,,1,0,1,1,0,1,7,0,0,0,0
+Josia Beall,,,1,0,1,1,0,1,7,0,0,0,0
+Benjamin Harwood,,,1,0,1,1,0,1,7,0,0,0,0
+Charles W. F. Dumas,,,1,0,1,1,0,1,2,0,0,0,0
+Commitlee at Headquarters,,,0,1,1,0,1,1,7,9,0.225079,0.259125,0
+a Committee of Citizens of Philadelphia,,,1,0,1,1,0,1,7,0,0,0,0
+States from New Hampshire to Maryland,,,1,0,1,1,0,1,7,0,0,0,0
+Azariah Dunham,,,1,0,1,1,0,1,7,0,0,0,0
+Rev. James Cogswell,,,1,0,1,1,0,1,7,0,0,0,0
+Jonathan Potts,,,1,0,1,1,0,1,9,0,0,0,0
+Timothy Danielson,,,1,0,1,1,0,1,0,0,0,0,0
+John Matws,,,0,1,1,0,1,1,9,3,0.5,0.583333,0
+Alexander McDougal,,,1,0,1,1,0,1,7,0,0,0,0
+Beniamin Franklin,,,1,0,1,1,0,1,2,0,0,0,0
+Committee Report,,,1,0,1,1,0,1,7,0,0,0,0
+President of Pennsylvania,,,1,0,1,1,0,1,7,0,0,0,0
+Council of Pennsylvania,,,1,0,1,1,0,1,7,0,0,0,0
+Samuel Huntintgon,,,0,1,1,0,1,1,6,1,1,1,0
+George Howell,,,1,0,1,1,0,1,7,0,0,0,0
+a Committee of Massachusetts Assembly,,,1,0,1,1,0,1,6,0,0,0,0
+Delegates of North Carolina,,,0,1,1,0,1,1,15,1,1,1,0
+John ^laws,,,0,1,1,0,1,1,3,9,0.210196,0.231887,0
+Natlianiel Peabody,,,1,0,1,1,0,1,2,0,0,0,0
+Maryland Council,,,1,0,1,1,0,1,4,0,0,0,0
+Jared Ingersoll,,,0,1,1,0,1,1,7,10,0.151976,0.157937,0
+Captain Bell,,,1,0,1,1,0,1,2,0,0,0,0
+Captain Josiah,,,1,0,1,1,0,1,2,0,0,0,0
+Matw Locke,,,1,0,1,1,0,1,15,0,0,0,0
+Officers of New Hampshire Line,,,1,0,1,1,0,1,7,0,0,0,0
+Alexander Scammell,,,1,0,1,1,0,1,7,0,0,0,0
+Proceedings and Observations of Committee of Finance,,,0,1,1,0,1,1,23,1,1,1,0
+James Jkladison,,,0,1,1,0,1,1,26,1,1,1,0
+Ambrose Madison,,,1,0,1,1,0,1,26,0,0,0,0
+Samuel Hoi ten,,,1,0,1,1,0,1,2,0,0,0,0
+James IMadison,,,0,1,1,0,1,1,9,1,1,1,0
+Tapping Reeve,,,1,0,1,1,0,1,6,0,0,0,0
+A'leshech Weare,,,1,0,1,1,0,1,7,0,0,0,0
+Samuel John Atlee,,,0,1,1,0,1,1,7,10,0.151976,0.157937,0
+Mrs. Rodney,,,1,0,1,1,0,1,0,0,0,0,0
+Samuel Huntinpton,,,0,1,1,0,1,1,7,2,0.666667,0.75,0
+Draft of Manifesto respecting Henry Laurens,,,1,0,1,1,0,1,10,0,0,0,0
+03inus Willett,,,1,0,1,1,0,1,10,0,0,0,0
+Special Council of Eastern Shore of Maryland,,,1,0,1,1,0,1,7,0,0,0,0
+John Beckley,,,1,0,1,1,0,1,25,0,0,0,0
+Thomas Jeflferson,,,1,0,1,1,0,1,7,0,0,0,0
+William Bruff,,,1,0,1,1,0,1,4,0,0,0,0
+Samuel Himtington,,,0,1,1,0,1,1,2,9,0.190047,0.206268,0
+President of Congress (Thomas McKean),,,0,1,1,0,1,1,1,1,1,1,0
+Henry Gardner,,,1,0,1,1,0,1,2,0,0,0,0
+Christian 02iger,,,1,0,1,1,0,1,15,0,0,0,0
+George Webb,,,1,0,1,1,0,1,25,0,0,0,0
+John Taliaferro,,,1,0,1,1,0,1,25,0,0,0,0
+Samuel Hughes,,,1,0,1,1,0,1,4,0,0,0,0
+Peter Wilson,,,1,0,1,1,0,1,28,0,0,0,0
+Memorial to Congress,,,1,0,1,1,0,1,10,0,0,0,0
+Udny Hay,,,1,0,1,1,0,1,10,0,0,0,0
+James EHiane,,,0,1,1,0,1,1,10,9,0.184083,0.198142,0
+Daniel Mowry,,,0,1,1,0,1,1,27,1,1,1,0
+Daniel Manton,,,1,0,1,1,0,1,27,0,0,0,0
+Thomas Bradford,,,1,0,1,1,0,1,7,0,0,0,0
+Agents for Vermont,,,1,0,1,1,0,1,7,0,0,0,0
+Mrs. Elizabeth Dana,,,1,0,1,1,0,1,2,0,0,0,0
+David Gelston,,,1,0,1,1,0,1,10,0,0,0,0
+Nathan Brownson,,,1,0,1,1,0,1,7,0,0,0,0
+John Cochran,,,1,0,1,1,0,1,7,0,0,0,0
+EUias Boudinot,,,0,1,1,0,1,1,29,1,1,1,0
+Abrahant Gark,,,0,1,1,0,1,1,28,1,1,1,0
+Richard Law,,,0,1,1,0,1,1,6,1,1,1,0
+President of Congress (John Hanson),,,0,1,1,0,1,1,7,2,0.666667,0.75,0
+George Partridge,,,0,1,1,0,1,1,6,9,0.228974,0.25432,0
+Nicholas Eveleigh,,,0,1,1,0,1,1,9,9,0.19453,0.214516,0
+Charles Cotesworth Pinckney,,,1,0,1,1,0,1,1,0,0,0,0
+El jas Boudinot,,,0,1,1,0,1,1,29,1,1,1,0
+South Caroh'na Delegates,,,0,1,1,0,1,1,9,9,0.19453,0.214516,0
+William Moore,,,1,0,1,1,0,1,1,0,0,0,0
+Observations,,,1,0,1,1,0,1,25,0,0,0,0
+John Tyler,,,1,0,1,1,0,1,25,0,0,0,0
+William Few,,,0,1,1,0,1,1,30,1,1,1,0
+James Dt01e,,,0,1,1,0,1,1,10,9,0.210975,0.230694,0
+Turbutt Wright,,,0,1,1,0,1,1,4,1,1,1,0
+James MadiscKi,,,0,1,1,0,1,1,25,9,0.179779,0.190865,0
+Benjamin Hiarrison,,,1,0,1,1,0,1,25,0,0,0,0
+William Barton,,,1,0,1,1,0,1,1,0,0,0,0
+Meschech Weare,,,1,0,1,1,0,1,3,0,0,0,0
+Speech on Finances,,,1,0,1,1,0,1,7,0,0,0,0
+David Hbwell,,,0,1,1,0,1,1,9,1,1,1,0
+Speech on Loan-Office Certificates,,,1,0,1,1,0,1,7,0,0,0,0
+Edmimd Randolph,,,1,0,1,1,0,1,25,0,0,0,0
+ICzekiel Cornell,,,1,0,1,1,0,1,10,0,0,0,0
+Mrs. Izard,,,1,0,1,1,0,1,1,0,0,0,0
+Thomas Smith,,,0,1,1,0,1,1,7,1,1,1,0
+John Taylor Ciilman,,,0,1,1,0,1,1,3,1,1,1,0
+Estevan Miro,,,1,0,1,1,0,1,1,0,0,0,0
+Samuel Wharton,,,0,1,1,0,1,1,1,2,0.6,0.666667,0
+President of Congress (Elias Boudinot),,,0,1,1,0,1,1,7,2,0.666667,0.75,0
+Thomas Chittenden,,,1,0,1,1,0,1,28,0,0,0,0
+Jonathan .Arnold,,,0,1,1,0,1,1,9,1,1,1,0
+Edmutid Randolph,,,1,0,1,1,0,1,25,0,0,0,0
+James Madi.son,,,0,1,1,0,1,1,25,9,0.179779,0.190865,0
+Thomas Carder Hazard,,,1,0,1,1,0,1,9,0,0,0,0
+Edward Pullen,,,1,0,1,1,0,1,6,0,0,0,0
+Samuel Phillips,,,1,0,1,1,0,1,6,0,0,0,0
+Chairman of Congress (David Ramsay),,,0,1,1,0,1,1,1,1,1,1,0
+John Choate,,,1,0,1,1,0,1,6,0,0,0,0
+Jacoh Wtlet,,,1,0,1,1,0,1,6,0,0,0,0
+Justin Ely,,,1,0,1,1,0,1,6,0,0,0,0
+State of Rhode Island,,,1,0,1,1,0,1,1,0,0,0,0
+State of North Carolina,,,1,0,1,1,0,1,1,0,0,0,0
+William Hindman,,,0,1,1,0,1,1,9,1,1,1,0
+Speech before New Jersey Assembly,,,1,0,1,1,0,1,1,0,0,0,0
+William Small wood,,,1,0,1,1,0,1,4,0,0,0,0
+Azariah Horton,,,1,0,1,1,0,1,1,0,0,0,0
+Richard Claiborne,,,1,0,1,1,0,1,1,0,0,0,0
+Commissioners for Indian Affairs of Middle Department,,,1,0,1,1,0,1,1,0,0,0,0
+Commissioners for Indian Affairs of Norrn Department,,,1,0,1,1,0,1,1,0,0,0,0
+Judges of Court of Appeals,,,1,0,1,1,0,1,1,0,0,0,0
+William Gumming,,,0,1,1,0,1,1,15,1,1,1,0
+Richard Jackson,,,1,0,1,1,0,1,6,0,0,0,0
+Charles Biddle,,,1,0,1,1,0,1,2,0,0,0,0
+William Cumming,,,0,1,1,0,1,1,15,1,1,1,0
+Caleb Strong,,,1,0,1,1,0,1,6,0,0,0,0
+Comfort Sands,,,1,0,1,1,0,1,1,0,0,0,0
+Speech in Congress,,,1,0,1,1,0,1,6,0,0,0,0
+Inhabitants of Kaskaskias,,,1,0,1,1,0,1,1,0,0,0,0
+Judges appointed in Case of South Carolina vs. Georgia,,,1,0,1,1,0,1,1,0,0,0,0
+President of Congress (Nathaniel Gorham),,,1,0,1,1,0,1,15,0,0,0,0
+Richard Butler,,,1,0,1,1,0,1,1,0,0,0,0
+Henry St. George Tucker,,,1,0,1,1,0,1,7,0,0,0,0
+Samuel Meredith,,,0,1,1,0,1,1,25,1,1,1,0
+David Ross,,,0,1,1,0,1,1,4,1,1,1,0
+William Washington,,,1,0,1,1,0,1,25,0,0,0,0
+Gunning Bedford sr.,,,1,0,1,1,0,1,0,0,0,0,0
+Committee of Pay-Table,,,1,0,1,1,0,1,6,0,0,0,0
+Benjamin Bourne,,,1,0,1,1,0,1,2,0,0,0,0
+James Mott,,,1,0,1,1,0,1,28,0,0,0,0
+Thomas Polk,,,0,1,1,0,1,1,15,1,1,1,0
+President of Congress (Arthur St. Clair),,,1,0,1,1,0,1,2,0,0,0,0
+Thomas Blount,,,1,0,1,1,0,1,15,0,0,0,0
+Robert Burton,,,0,1,1,0,1,1,31,1,1,1,0
+Richard Caswrll,,,1,0,1,1,0,1,31,0,0,0,0
+John Cray Blount,,,1,0,1,1,0,1,15,0,0,0,0
+Benjamin Walker,,,1,0,1,1,0,1,1,0,0,0,0
+Stephen Higginson,,,1,0,1,1,0,1,6,0,0,0,0
+to William Irvine,,,1,0,1,1,0,1,2,0,0,0,0
+Thomas Lee Shippen,,,1,0,1,1,0,1,2,0,0,0,0
+Pierce Butler,,,0,1,1,0,1,1,32,1,1,1,0
+Weedon Butler,,,1,0,1,1,0,1,32,0,0,0,0
+John Baptiste Ashe,,,0,1,1,0,1,1,15,1,1,1,0
+Jeremiah van Rensselaer,,,1,0,1,1,0,1,10,0,0,0,0
+Henry Acthandt,,,1,0,1,1,0,1,10,0,0,0,0
+William Harrison,,,0,1,1,0,1,1,4,1,1,1,0
+Jonathan Sturges,,,0,1,1,0,1,1,7,9,0.225079,0.259125,0
+Proposed Amendments to Constitution,,,1,0,1,1,0,1,2,0,0,0,0
+Nathaniel Ramsey,,,0,1,1,0,1,1,4,1,1,1,0
+George Mitchell,,,1,0,1,1,0,1,25,0,0,0,0
+James Hogg,,,1,0,1,1,0,1,15,0,0,0,0
+Dyre Kearny,,,0,1,1,0,1,1,1,6,0.276348,0.299649,0
+North Carolina General Assembly,,,1,0,1,1,0,1,15,0,0,0,0
+Joseph Piatt Cooke,,,0,1,1,0,1,1,6,2,0.666667,0.75,0
+Richard Winn,,,1,0,1,1,0,1,1,0,0,0,0
+James McHenry,,,1,0,1,1,0,1,1,0,0,0,0
+William Heth,,,1,0,1,1,0,1,25,0,0,0,0
+President of Congress (Cyrus Griffin),,,0,1,1,0,1,1,15,9,0.183194,0.195767,0
+to Horatio Gates,,,1,0,1,1,0,1,2,0,0,0,0
+Samuel I-ane,,,1,0,1,1,0,1,3,0,0,0,0
+Ebenezer Hazard,,,1,0,1,1,0,1,15,0,0,0,0
+Archibald Stuart,,,1,0,1,1,0,1,25,0,0,0,0
+Samuel McDowell,,,1,0,1,1,0,1,1,0,0,0,0
+George Handley,,,1,0,1,1,0,1,1,0,0,0,0
+Thomas Sinnickson,,,1,0,1,1,0,1,28,0,0,0,0
+William Alexander,,,1,0,1,1,0,1,2,0,0,0,0
+Thomas Willing,,,1,0,1,1,0,1,1,0,0,0,0
+Postmaster at Philadelphia,,,1,0,1,1,0,1,1,0,0,0,0
+Benjamin Contee,,,0,1,1,0,1,1,33,1,1,1,0
+Christopher Richmond,,,1,0,1,1,0,1,33,0,0,0,0
+to Peter Muhlenberg,,,1,0,1,1,0,1,2,0,0,0,0
+Peter T. Curtenius,,,1,0,1,1,0,1,10,0,0,0,0
+Samuel Alleync Otis,,,0,1,1,0,1,1,6,2,0.666667,0.75,0
+John Eager Howard,,,1,0,1,1,0,1,1,0,0,0,0
+Winthrop Sargent,,,1,0,1,1,0,1,1,0,0,0,0
+President of United States (George Washington ),,,1,0,1,1,0,1,1,0,0,0,0
+Sundry Printers,,,1,0,1,1,0,1,1,0,0,0,0
+John Vining,,,1,0,1,1,0,1,1,0,0,0,0
+Richard Dobbs Spaight,,,1,0,1,1,0,1,1,0,0,0,0
+Monsieur Aycard,,,1,0,1,1,0,1,1,0,0,0,0
+Proposed Entry in Journals,,,1,0,1,1,0,1,1,0,0,0,0
+Jonathan Blanchard,,,0,1,1,0,1,1,6,9,0.228974,0.25432,0

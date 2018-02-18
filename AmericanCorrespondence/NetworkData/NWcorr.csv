@@ -1,0 +1,507 @@
+id,source,target,timestamp,label
+1,John Dickinson,Josiah Harmar,1784-08-14,Josiah Harmar
+2,Josiah Harmar,John Dickinson,1784-08-16,John Dickinson
+3,John Dickinson,Robert Morris,1784-08-19,Robert Morris
+4,Robert Morris,John Dickinson,1784-08-19,John Dickinson
+5,Josiah Harmar,John Dickinson,1784-08-25,John Dickinson
+6,Josiah Harmar,John Dickinson,1784-08-28,John Dickinson
+7,Richard Butler and Arthur Lee,John Dickinson,1784-09-11,John Dickinson
+8,Josiah Harmar,John Dickinson,1784-09-25,John Dickinson
+9,John McDowell ,John Dickinson,1784-09-30,John Dickinson
+10,Josiah Harmar,John Dickinson,1784-10-01,John Dickinson
+11,Josiah Harmar,John Dickinson,1784-12-05,John Dickinson
+12,Josiah Harmar,John Dickinson,1785-01-15,John Dickinson
+13,Josiah Harmar,John Dickinson,1785-02-08,John Dickinson
+14,Josiah Harmar,John Dickinson,1785-04-02,John Dickinson
+15,Charles Thomson,John Dickinson,1785-04-12,John Dickinson
+16,Josiah Harmar,John Dickinson,1785-05-01,John Dickinson
+17,Josiah Harmar,Richard Henry Lee,1785-05-01,Richard Henry Lee
+18,John Emerson,Inhabitants of the west side of the Ohio River,1785-03-12,Inhabitants of the west side of the Ohio River
+19,John Armstrong Jr.,Josiah Harmar,1785-05-10,Josiah Harmar
+20,Charles Thomson,John Dickinson,1785-05-12,John Dickinson
+21,Henry Knox,John Dickinson,1785-05-19,John Dickinson
+22,John Dickinson,Henry Knox,1785-05-21,Henry Knox
+23,Josiah Harmar,John Dickinson,1785-05-24,John Dickinson
+24,Josiah Harmar,Henry Knox,1785-06-01,Henry Knox
+25,Josiah Harmar,John Dickinson,1785-06-01,John Dickinson
+26,Josiah Harmar,Francis Johnston,1785-06-21,Francis Johnston
+27,Josiah Harmar,Thomas Mifflin,1785-06-25,Thomas Mifflin
+28,"John Armstrong, Jr.",Henry Knox,1785-06-30,Henry Knox
+29,Josiah Harmar,John Dickinson,1785-07-01,John Dickinson
+30,Josiah Harmar,Henry Knox,1785-07-16,Henry Knox
+31,Josiah Harmar,"John Armstrong, Jr. ",1785-07-17,"John Armstrong, Jr. "
+32,Josiah Harmar,John Dickinson,1785-08-01,John Dickinson
+33,Henry Knox,John Dickinson,1785-08-09,John Dickinson
+34,John Dickinson,Henry Knox,1785-08-13,Henry Knox
+35,Josiah Harmar,John Dickinson,1785-09-01,John Dickinson
+36,John Dickinson,Pennsylvania Delegates to U.S. Congress,1785-09-07,Pennsylvania Delegates to U.S. Congress
+37,John Doughty,Henry Knox,1785-10-21,Henry Knox
+38,Josiah Harmar,Henry Knox,1785-10-22,Henry Knox
+39,Josiah Harmar,Henry Knox,1786-07-03,Henry Knox
+40,Josiah Harmar,Henry Knox,1786-07-12,Henry Knox
+41,Josiah Harmar,Henry Knox,1786-08-10,Henry Knox
+42,Philip Liebert,Josiah Harmar,1786-07-20,Josiah Harmar
+43,Josiah Harmar,Henry Knox,1786-10-10,Henry Knox
+44,Josiah Harmar,Henry Knox,1786-11-15,Henry Knox
+45,Josiah Harmar,Henry Knox,1787-05-14,Henry Knox
+46,Josiah Harmar,Henry Knox,1787-06-07,Henry Knox
+47,Josiah Harmar,Henry Knox,1787-06-15,Henry Knox
+48,Josiah Harmar,Henry Knox,1787-07-07,Henry Knox
+49,Josiah Harmar,Henry Knox,1787-08-07,Henry Knox
+50,Josiah Harmar,Henry Knox,1787-11-24,Henry Knox
+51,Josiah Harmar,Arthur St. Clair,1787-11-25,Arthur St. Clair
+52,Charles Thomson,Arthur St. Clair,1787-01-01,Arthur St. Clair
+53,Josiah Harmar,Henry Knox,1787-12-09,Henry Knox
+54,Josiah Harmar,Henry Knox,1788-01-10,Henry Knox
+55,Arthur St. Clair,Henry Knox,1788-01-27,Henry Knox
+56,Josiah Harmar,Henry Knox,1788-03-09,Henry Knox
+57,Arthur St. Clair,Henry Knox,1788-03-14,Henry Knox
+58,Arthur St. Clair,Board of Treasury,1788-03-31,Board of Treasury
+59,Josiah Harmar,Henry Knox,1788-04-26,Henry Knox
+60,Josiah Harmar,Henry Knox,1788-06-15,Henry Knox
+61,Arthur St. Clair,Henry Knox,1788-06-23,Henry Knox
+62,General Butler,Arthur St. Clair,1788-07-01,Arthur St. Clair
+63,Henry Knox,Arthur St. Clair,1788-07-03,Arthur St. Clair
+64,Arthur St. Clair,Henry Knox,1788-07-05,Henry Knox
+65,Arthur St. Clair,Henry Knox,1788-07-13,Henry Knox
+66,General Butler,Arthur St. Clair,1788-07-14,Arthur St. Clair
+67,Arthur St. Clair,General Butler,1788-07-15,General Butler
+68,Arthur St. Clair,Henry Knox,1788-07-16,Henry Knox
+69,Arthur St. Clair,James Gardoqui,1788-07-16,James Gardoqui
+70,General Butler,Arthur St. Clair,1788-07-18,Arthur St. Clair
+71,James Gardoqui,Arthur St. Clair,1788-07-08,Arthur St. Clair
+72,Arthur St. Clair,Judge Parsons and Judge Varnum,1788-07-18,Judge Parsons and Judge Varnum
+73,Arthur St. Clair,Henry Knox,1788-07-22,Henry Knox
+74,Josiah Harmar,Henry Knox,1788-07-23,Henry Knox
+75,Arthur St. Clair,Judge Parsons and Judge Varnum,1788-07-29,Judge Parsons and Judge Varnum
+76,Arthur St. Clair,Judge Parsons and Judge Varnum,1788-07-30,Judge Parsons and Judge Varnum
+77,Judge Parsons and Judge Varnum,Arthur St. Clair,1788-07-31,Arthur St. Clair
+78,Arthur St. Clair,Judge Parsons and Judge Varnum,1788-08-01,Judge Parsons and Judge Varnum
+79,Arthur St. Clair,Judge Parsons and Judge Varnum,1788-08-07,Judge Parsons and Judge Varnum
+80,Arthur St. Clair,General Butler,1788-08-07,General Butler
+81,Arthur St. Clair,Henry Knox,1788-08-17,Henry Knox
+82,William Knox,Arthur St. Clair,1788-08-18,Arthur St. Clair
+83,Arthur St. Clair,Governor of Virginia,1788-09-01,Governor of Virginia
+84,Arthur St. Clair,Henry Knox,1788-09-02,Henry Knox
+85,Josiah Harmar,Henry Knox,1788-09-04,Henry Knox
+86,Arthur St. Clair,Henry Knox,1788-09-14,Henry Knox
+87,Arthur St. Clair,Samuel H. Parsons,1788-09-14,Samuel H. Parsons
+88,Josiah Harmar,Major Hamtramck,1788-10-13,Major Hamtramck
+89,Arthur St. Clair,Henry Knox,1788-10-26,Henry Knox
+90,Arthur St. Clair,Henry Knox,1788-11-04,Henry Knox
+91,Arthur St. Clair,Judge Varnum,1788-11-04,Judge Varnum
+92,Arthur St. Clair,Charles Thomson,1788-11-06,Charles Thomson
+93,Arthur St. Clair,Ebenezer Zane,1788-11-13,Ebenezer Zane
+94,Arthur St. Clair,Major Wyllys,1788-11-28,Major Wyllys
+95,Arthur St. Clair,Henry Knox,1788-12-03,Henry Knox
+96,Henry Knox,Arthur St. Clair,1788-12-08,Arthur St. Clair
+97,Arthur St. Clair,John Jay,1788-12-13,John Jay
+98,Isaac B. Dunn,Arthur St. Clair,1788-12-31,Arthur St. Clair
+99,Arthur St. Clair,Henry Knox,1788-12-13,Henry Knox
+100,Henry Knox,Arthur St. Clair,1789-01-05,Arthur St. Clair
+101,Arthur St. Clair,Henry Knox,1789-01-18,Henry Knox
+102,Arthur St. Clair,George Washington,1789-05-02,George Washington
+103,R. K. Meade,Arthur St. Clair,1789-05-04,Arthur St. Clair
+104,George Washington,Governor of Virginia,1789-05-16,Governor of Virginia
+105,Arthur St. Clair,Henry Knox,1789-06-14,Henry Knox
+106,Arthur St. Clair,Board of Treasury,1789-01-01,Board of Treasury
+107,Bartholomew Tardiveau,Arthur St. Clair,1789-06-30,Arthur St. Clair
+108,James Wilson,Arthur St. Clair,1789-07-13,Arthur St. Clair
+109,Judge Parsons,Arthur St. Clair,1789-08-23,Arthur St. Clair
+110,Arthur St. Clair,George Washington,1789-09-14,George Washington
+111,George Washington,Arthur St. Clair,1789-10-06,Arthur St. Clair
+112,Paul Jones,Arthur St. Clair,1789-12-20,Arthur St. Clair
+113,Josiah Harmar,Henry Knox,1790-01-14,Henry Knox
+114,Arthur St. Clair,Major Hamtramck,1790-01-23,Major Hamtramck
+115,Arthur St. Clair,Henry Knox,1790-01-26,Henry Knox
+116,Josiah Harmar,Arthur St. Clair,1790-02-20,Arthur St. Clair
+117,John Doughty,Major Wyllys,1790-03-25,Major Wyllys
+118,Major Hamtramck,Arthur St. Clair,1790-04-19,Arthur St. Clair
+119,Arthur St. Clair,Henry Knox,1790-05-01,Henry Knox
+120,Arthur St. Clair,Jean Baptiste du Coigne,1790-05-08,Jean Baptiste du Coigne
+121,William St. Clair,Arthur St. Clair,1790-05-16,Arthur St. Clair
+122,Arthur St. Clair,Josiah Harmar,1790-05-30,Josiah Harmar
+123,Arthur St. Clair,Henry Knox,1790-05-27,Henry Knox
+124,Henry Knox,Arthur St. Clair,1790-06-07,Arthur St. Clair
+125,P. Gibault,Arthur St. Clair,1790-06-09,Arthur St. Clair
+126,Henry Knox,Arthur St. Clair,1790-07-20,Arthur St. Clair
+127,Arthur St. Clair,General Butler,1790-08-16,General Butler
+128,Chevalier Duportail,Arthur St. Clair,1790-01-01,Arthur St. Clair
+129,Colonel Gouvion,Arthur St. Clair,1790-08-21,Arthur St. Clair
+130,Joel Barlow,Arthur St. Clair,1790-02-28,Arthur St. Clair
+131,Joel Barlow,Arthur St. Clair,1790-04-17,Arthur St. Clair
+132,Arthur St. Clair,Henry Knox,1790-08-23,Henry Knox
+133,Henry Knox,Arthur St. Clair,1790-08-23,Arthur St. Clair
+134,Arthur St. Clair,Attorney-General,1790-01-01,Attorney-General
+135,Arthur St. Clair,George Washington,1790-06-11,George Washington
+136,Henry Knox,Arthur St. Clair,1790-09-14,Arthur St. Clair
+137,Arthur St. Clair,Henry Knox,1790-09-19,Henry Knox
+138,Arthur St. Clair,Major Murray,1790-09-19,Major Murray
+139,Judges Symmes and Turner,Arthur St. Clair,1790-10-06,Arthur St. Clair
+140,Arthur St. Clair,Henry Knox,1790-10-29,Henry Knox
+141,Arthur St. Clair,Judges,1790-10-27,Judges
+142,Arthur St. Clair,Henry Knox,1790-11-06,Henry Knox
+143,Arthur St. Clair,French Inhabitants,1790-11-21,French Inhabitants
+144,Thomas Fitzsimmons,Arthur St. Clair,1790-12-31,Arthur St. Clair
+145,Arthur St. Clair,Henry Knox,1790-11-26,Henry Knox
+146,Major Hamtramck,Arthur St. Clair,1790-12-02,Arthur St. Clair
+147,George Washington,Arthur St. Clair,1791-01-02,Arthur St. Clair
+148,Captain de Luziere,Arthur St. Clair,1791-02-20,Arthur St. Clair
+149,Lieutenant Denny,Josiah Harmar,1791-03-09,Josiah Harmar
+150,Isaac Craig,Henry Knox,1791-03-06,Henry Knox
+151,Henry Knox,Arthur St. Clair,1791-03-23,Arthur St. Clair
+152,George Washington,Colonel Darke,1791-04-04,Colonel Darke
+153,Arthur St. Clair,Henry Knox,1791-04-19,Henry Knox
+154,Colonel Sargent,Civil Magistrates and Military Officers at Gallipolis,1791-05-09,Civil Magistrates and Military Officers at Gallipolis
+155,Arthur St. Clair,Brigadier-General Scott,1791-05-18,Brigadier-General Scott
+156,Arthur St. Clair,Israel Ludlow,1791-05-19,Israel Ludlow
+157,Arthur St. Clair,Alexander Hamilton,1791-05-25,Alexander Hamilton
+158,Arthur St. Clair,Henry Knox,1791-05-26,Henry Knox
+159,Henry Knox,General Butler,1791-06-09,General Butler
+160,Arthur St. Clair,Judge Turner,1791-06-19,Judge Turner
+161,Arthur St. Clair,Committee of Kentucky,1791-06-24,Committee of Kentucky
+162,Major Ferguson,Arthur St. Clair,1791-06-25,Arthur St. Clair
+163,Arthur St. Clair,Colonel Sproat,1791-07-06,Colonel Sproat
+164,Henry Knox,General Butler,1791-07-12,General Butler
+165,Arthur St. Clair,John Brown,1791-07-18,John Brown
+166,Arthur St. Clair,Brigadier-General Scott,1791-07-19,Brigadier-General Scott
+167,Arthur St. Clair,James Wilkinson,1791-07-31,James Wilkinson
+168,Arthur St. Clair,Israel Ludlow,1791-08-06,Israel Ludlow
+169,Henry Knox,General Butler,1791-08-11,General Butler
+170,Arthur St. Clair,John Campbell,1791-08-21,John Campbell
+171,Arthur St. Clair,County Lieutenants,1791-08-23,County Lieutenants
+172,Henry Knox,Arthur St. Clair,1791-08-25,Arthur St. Clair
+173,Henry Knox,General Butler,1791-08-25,General Butler
+174,Arthur St. Clair,Henry Knox,1791-08-23,Henry Knox
+175,James Wilkinson,Arthur St. Clair,1791-08-24,Arthur St. Clair
+176,Arthur St. Clair,Major Hamtramck,1791-08-30,Major Hamtramck
+177,Henry Knox,George Washington,1791-09-16,George Washington
+178,Arthur St. Clair,Henry Knox,1791-09-18,Henry Knox
+179,Henry Knox,George Washington,1791-09-24,George Washington
+180,Henry Knox,Arthur St. Clair,1791-09-29,Arthur St. Clair
+181,Henry Knox,George Washington,1791-10-01,George Washington
+182,General Butler,Arthur St. Clair,1791-10-03,Arthur St. Clair
+183,Arthur St. Clair,Henry Knox,1791-10-06,Henry Knox
+184,Arthur St. Clair,Israel Ludlow,1791-10-08,Israel Ludlow
+185,Henry Knox,Arthur St. Clair,1791-10-13,Arthur St. Clair
+186,Arthur St. Clair,Samuel Hodgdon,1791-10-21,Samuel Hodgdon
+187,Arthur St. Clair,Henry Knox,1791-11-01,Henry Knox
+188,Arthur St. Clair,Henry Knox,1791-11-09,Henry Knox
+189,Arthur St. Clair,John Brown,1791-11-12,John Brown
+190,Arthur St. Clair,John Armstrong,1791-11-20,John Armstrong
+191,Arthur St. Clair,Henry Knox,1791-11-24,Henry Knox
+192,Arthur St. Clair,Ensign Tillinghast,1791-11-27,Ensign Tillinghast
+193,Arthur St. Clair,John Armstrong,1791-12-07,John Armstrong
+194,Henry Knox,Arthur St. Clair,1791-12-23,Arthur St. Clair
+195,John Armstrong ,George Washington,1791-12-23,George Washington
+196,Arthur St. Clair,Henry Knox,1792-01-22,Henry Knox
+197,Arthur St. Clair,Thomas Fitzsimmons,1792-01-23,Thomas Fitzsimmons
+198,Arthur St. Clair,George Washington,1792-02-24,George Washington
+199,Edmund M. Butler,Arthur St. Clair,1792-01-01,Arthur St. Clair
+200,Arthur St. Clair,Edmund M. Butler,1792-03-03,Edmund M. Butler
+201,Tobias Lear,Arthur St. Clair,1792-01-01,Arthur St. Clair
+202,Arthur St. Clair,George Washington,1792-03-26,George Washington
+203,George Washington,Arthur St. Clair,1792-03-28,Arthur St. Clair
+204,Arthur St. Clair,George Washington,1792-03-31,George Washington
+205,George Washington,Arthur St. Clair,1792-04-04,Arthur St. Clair
+206,Arthur St. Clair,George Washington,1792-04-07,George Washington
+207,Winthrop Sargent,Judge Symmes,1792-05-10,Judge Symmes
+208,Rufus Putnam,Henry Knox,1792-07-08,Henry Knox
+209,James Wilkinson,Arthur St. Clair,1792-11-07,Arthur St. Clair
+210,Arthur St. Clair,Judge Turner,1793-04-05,Judge Turner
+211,Arthur St. Clair,Edmund Randolph,1793-05-09,Edmund Randolph
+212,William St. Clair,Arthur St. Clair,1793-06-02,Arthur St. Clair
+213,Arthur St. Clair,Alexander Hamilton,1793-08-09,Alexander Hamilton
+214,Arthur St. Clair,Luke Decker,1793-10-11,Luke Decker
+215,Thomas Jefferson,Governor Shelby,1793-11-06,Governor Shelby
+216,Arthur St. Clair,Governor Shelby,1793-11-07,Governor Shelby
+217,Arthur St. Clair,Henry Knox,1793-12-31,Henry Knox
+218,Judge Turner,Arthur St. Clair,1794-06-14,Arthur St. Clair
+219,Arthur St. Clair,Secretary of State,1794-01-01,Secretary of State
+220,Winthrop Sargent,Captain Pierce,1794-09-08,Captain Pierce
+221,Winthrop Sargent,Judge McMillan,1794-09-08,Judge McMillan
+222,Winthrop Sargent,Secretary of State,1794-11-20,Secretary of State
+223,Arthur St. Clair,Judge Turner,1794-12-14,Judge Turner
+224,Arthur St. Clair,Thomas Jefferson,1794-12-14,Thomas Jefferson
+225,Arthur St. Clair,Joshua Coit,1794-12-22,Joshua Coit
+226,Arthur St. Clair,Winthrop Sargent,1794-12-22,Winthrop Sargent
+227,Arthur St. Clair,Henry Knox,1795-01-01,Henry Knox
+228,Timothy Pickering ,Arthur St. Clair,1795-03-25,Arthur St. Clair
+229,Judge Symmes ,Arthur St. Clair,1795-03-26,Arthur St. Clair
+230,Arthur St. Clair,Colonel Sproat,1795-04-21,Colonel Sproat
+231,Arthur St. Clair,Winthrop Sargent,1795-04-28,Winthrop Sargent
+232,Arthur St. Clair,Timothy Pickering,1795-04-28,Timothy Pickering
+233,Arthur St. Clair,Judge Turner,1795-04-28,Judge Turner
+234,Arthur St. Clair,Judge Symmes,1795-04-28,Judge Symmes
+235,Arthur St. Clair,Judge Turner,1795-05-02,Judge Turner
+236,Arthur St. Clair,Edmund Randolph,1795-05-04,Edmund Randolph
+237,Arthur St. Clair,Judge Turner,1795-05-25,Judge Turner
+238,Arthur St. Clair,Judge Addison,1795-05-27,Judge Addison
+239,Arthur St. Clair,Judges of Hamilton County,1795-06-01,Judges of Hamilton County
+240,Arthur St. Clair,William St. Clair,1795-06-03,William St. Clair
+241,Anthony Wayne,Arthur St. Clair,1795-06-05,Arthur St. Clair
+242,Arthur St. Clair,Anthony Wayne,1795-06-11,Anthony Wayne
+243,William Bradford ,Secretary of the Treasury,1795-06-19,Secretary of the Treasury
+244,Arthur St. Clair,Oliver Wolcott,1795-01-01,Oliver Wolcott
+245,Arthur St. Clair,Oliver Wolcott,1795-07-24,Oliver Wolcott
+246,Oliver Wolcott,Arthur St. Clair,1795-06-20,Arthur St. Clair
+247,Arthur St. Clair,Governor Shelby,1795-06-20,Governor Shelby
+248,Arthur St. Clair,Anthony Wayne,1795-06-30,Anthony Wayne
+249,Anthony Wayne,Arthur St. Clair,1795-08-19,Arthur St. Clair
+250,Arthur St. Clair,Edmund Randolph,1795-08-24,Edmund Randolph
+251,Governor Gayoso,Arthur St. Clair,1795-09-26,Arthur St. Clair
+252,Arthur St. Clair,George Washington,1795-01-01,George Washington
+253,Arthur St. Clair,Anthony Wayne,1795-12-05,Anthony Wayne
+254,George Rogers Clark,Jonathan Clark,1771-04-14,Jonathan Clark
+255,John B. Roy,Jonathan Clark,1772-11-22,Jonathan Clark
+256,George Rogers Clark,Jonathan Clark,1773-01-09,Jonathan Clark
+257,George Rogers Clark,Jonathan Clark,1774-12-18,Jonathan Clark
+258,George Rogers Clark,Samuel Brown,1798-06-17,Samuel Brown
+259,George Rogers Clark,Jonathan Clark,1775-04-01,Jonathan Clark
+260,George Rogers Clark,Jonathan Clark,1775-07-06,Jonathan Clark
+261,George Rogers Clark,Jonathan Clark,1776-02-26,Jonathan Clark
+262,Inhabitants of Kentucky,Convention of Virginia,1776-06-15,Convention of Virginia
+263,John Clark,Jonathan Clark,1776-08-12,Jonathan Clark
+264,J. G. Jones and George Rogers Clark,House of Delegates,1776-10-31,House of Delegates
+265,George Rogers Clark,Patrick Henry,1777-01-01,Patrick Henry
+266,Order of Council of Virginia,George Rogers Clark,1778-01-02,George Rogers Clark
+267,Patrick Henry,George Rogers Clark,1778-01-02,George Rogers Clark
+268,Patrick Henry,George Rogers Clark,1778-01-02,George Rogers Clark
+269,Patrick Henry,Edward Hand,1778-01-02,Edward Hand
+270,Patrick Henry,George Rogers Clark,1778-01-15,George Rogers Clark
+271,Patrick Henry,George Rogers Clark,1778-01-24,George Rogers Clark
+272,William Bailey Smith,George Rogers Clark,1778-03-07,George Rogers Clark
+273,George Rogers Clark,William Harrod,1778-03-15,William Harrod
+274,Edward Hand,David Shepherd,1778-03-22,David Shepherd
+275,William Bailey Smith,George Rogers Clark,1778-03-29,George Rogers Clark
+276,George Rogers Clark,Edward Hand,1778-03-30,Edward Hand
+277,George Rogers Clark,William Harrod,1778-04-12,William Harrod
+278,George Rogers Clark,Edward Hand,1778-04-17,Edward Hand
+279,Edward Hand,George Rogers Clark,1778-04-22,George Rogers Clark
+280,John Campbell,George Rogers Clark,1778-06-08,George Rogers Clark
+281,Edward Abbott,Guy Carleton,1778-06-08,Guy Carleton
+282,"Gabriel Cerre """,George Rogers Clark,1778-07-11,George Rogers Clark
+283,George Rogers Clark,Inhabitants of Vincennes,1778-07-13,Inhabitants of Vincennes
+284,George Rogers Clark,Jean B. Laffont,1778-07-14,Jean B. Laffont
+285,George Rogers Clark,Oliver Pollock,1778-07-18,Oliver Pollock
+286,H. Perrault,George Rogers Clark,1778-07-23,George Rogers Clark
+287,Joseph Cesirre,George Rogers Clark,1778-07-23,George Rogers Clark
+288,George Rogers Clark,Certain Traders,1778-07-24,Certain Traders
+289,Joseph Bowman,John Hite,1778-07-30,John Hite
+290,Joseph Bowman,George Brinker,1778-07-30,George Brinker
+291,George Rogers Clark,Chief of the Winnebago,1778-08-22,Chief of the Winnebago
+292,James Willing,George Rogers Clark,1778-08-22,George Rogers Clark
+293,George Rogers Clark,Fox Indians,1778-08-28,Fox Indians
+294,James Willing,George Rogers Clark,1778-09-01,George Rogers Clark
+295,George Rogers Clark,Patrick Henry,1778-09-16,Patrick Henry
+296,John Bowman,George Rogers Clark,1778-10-14,George Rogers Clark
+297,Joseph Bowman,George Rogers Clark,1778-10-30,George Rogers Clark
+298,Patrick Henry,Virginia Delegates in Congress,1778-11-16,Virginia Delegates in Congress
+299,Benjamin Harrison,George Rogers Clark,1778-11-24,George Rogers Clark
+300,Patrick Henry,George Rogers Clark,1778-12-12,George Rogers Clark
+301,Patrick Henry,George Rogers Clark,1778-12-12,George Rogers Clark
+302,Executive Council of Virginia,George Rogers Clark,1778-12-12,George Rogers Clark
+303,Executive Council of Virginia,John Montgomery,1778-12-12,John Montgomery
+304,Patrick Henry,John Todd,1778-12-12,John Todd
+305,Patrick Henry,George Rogers Clark,1778-12-15,George Rogers Clark
+306,Patrick Henry,George Rogers Clark,1778-12-16,George Rogers Clark
+307,Leonard Helm,George Rogers Clark,1778-12-17,George Rogers Clark
+308,Henry Hamilton,People of Illinois,1778-12-29,People of Illinois
+309,George Rogers Clark,Patrick Henry,1779-02-03,Patrick Henry
+310,David Lyster,George Moorehead,1779-02-04,George Moorehead
+311,Alexander Macomb,Jehu Hay,1779-02-04,Jehu Hay
+312,Alexander Macomb,Henry Hamilton,1779-02-04,Henry Hamilton
+313,R. B. Lernoult,Henry Hamilton,1779-02-09,Henry Hamilton
+314,George Rogers Clark,John Rogers,1779-03-09,John Rogers
+315,George Rogers Clark,George Mason,1779-11-19,George Mason
+316,George Rogers Clark,Patrick Henry,1779-04-29,Patrick Henry
+317,George Rogers Clark,Benjamin Harrison,1779-03-10,Benjamin Harrison
+318,George Rogers Clark,William Myers,1779-03-13,William Myers
+319,George Rogers Clark,R. B. Lernoult,1779-03-16,R. B. Lernoult
+320,George Rogers Clark,Leonard Helm,1779-03-16,Leonard Helm
+321,R. B. Lernoult,Mason Bolton,1779-03-26,Mason Bolton
+322,James Patten,George Rogers Clark,1779-04-10,George Rogers Clark
+323,Robert George,George Rogers Clark,1779-04-19,George Rogers Clark
+324,Joseph Bowman,Chiefs of  Potawatomi,1779-04-20,Chiefs of  Potawatomi
+325,George Rogers Clark,Nanaloibi,1779-04-20,Nanaloibi
+326,John Rogers,Jonathan Clark,1779-05-06,Jonathan Clark
+327,Leonard Helm,George Rogers Clark,1779-05-09,George Rogers Clark
+328,Richard Brashers,George Rogers Clark,1779-05-09,George Rogers Clark
+329,George Rogers Clark,People of Kaskaskia,1779-05-12,People of Kaskaskia
+330,Patrick Henry,Benjamin Harrison,1779-05-19,Benjamin Harrison
+331,Leonard Helm,George Rogers Clark,1779-05-31,George Rogers Clark
+332,Joseph Bowman,George Rogers Clark,1779-06-03,George Rogers Clark
+333,Clark,Treasurer of Virginia,1779-06-06,Treasurer of Virginia
+334,George Rogers Clark,Oliver Pollock,1779-06-12,Oliver Pollock
+335,John Bowman,George Rogers Clark,1779-06-13,George Rogers Clark
+336,Joseph Bowman,Isaac Hite,1779-06-14,Isaac Hite
+337,George Rogers Clark,John Clark,1779-06-15,John Clark
+338,Geoffrey Linctot,George Rogers Clark,1779-06-16,George Rogers Clark
+339,George Rogers Clark,Militia,1779-06-19,Militia
+340,William Shannon,J. P. Le Gras,1779-06-24,J. P. Le Gras
+341,John Rogers,Jonathan Clark,1779-07-07,Jonathan Clark
+342,Thomas Jefferson,Guy Carleton,1779-07-22,Guy Carleton
+343,Daniel Brodhead,George Rogers Clark,1779-08-02,George Rogers Clark
+344,John Todd,Thomas Jefferson,1779-08-18,Thomas Jefferson
+345,John Page,John Todd,1779-08-20,John Todd
+346,Thomas Quirk,Geoffrey Linctot,1779-08-20,Geoffrey Linctot
+347,Thomas Quirk,George Rogers Clark,1779-08-22,George Rogers Clark
+348,John Beckley,George Rogers Clark,1779-09-04,George Rogers Clark
+349,James Shelby,George Rogers Clark,1779-09-08,George Rogers Clark
+350,George Rogers Clark,Thomas Jefferson,1779-09-23,Thomas Jefferson
+351,George Rogers Clark,Daniel Brodhead,1779-09-24,Daniel Brodhead
+352,Robert George,Daniel Brodhead,1779-09-25,Daniel Brodhead
+353,George Rogers Clark,Silas Martin,1779-09-30,Silas Martin
+354,John Todd,George Rogers Clark,1779-10-03,George Rogers Clark
+355,James Shelby,George Rogers Clark,1779-10-10,George Rogers Clark
+356,Robert Todd,George Rogers Clark,1779-10-16,George Rogers Clark
+357,Benjamin Logan,George Rogers Clark,1779-10-17,George Rogers Clark
+358,John Rogers,George Rogers Clark,1779-10-17,George Rogers Clark
+359,Levi Todd,George Rogers Clark,1779-10-18,George Rogers Clark
+360,George Rogers Clark,John Donne,1779-10-20,John Donne
+361,George Rogers Clark,Jean Girault,1779-01-01,Jean Girault
+362,George Rogers Clark,William 05o,1780-01-08,William 05o
+363,George Rogers Clark,Jonathan Clark,1780-01-16,Jonathan Clark
+364,George Meriwether,George Rogers Clark,1780-01-24,George Rogers Clark
+365,Thomas Jefferson,Joseph Martin,1780-01-24,Joseph Martin
+366,Thomas Jefferson,George Rogers Clark,1780-01-29,George Rogers Clark
+367,Thomas Jefferson,Thomas Walker,1780-01-29,Thomas Walker
+368,Grant of Land,George Rogers Clark,1780-01-29,George Rogers Clark
+369,Registration of Land Grant,George Rogers Clark,1780-01-29,George Rogers Clark
+370,Pierre Prevost,George Rogers Clark,1780-02-20,George Rogers Clark
+371,Inhabitants of Boonesborough,George Rogers Clark,1780-03-10,George Rogers Clark
+372,Petition of Inhabitants of Boonesborough,George Rogers Clark,1780-03-10,George Rogers Clark
+373,Petition of Inhabitants of Bryan's Station,George Rogers Clark,1780-03-13,George Rogers Clark
+374,Thomas Jefferson,William Preston,1780-03-21,William Preston
+375,George Rogers Clark,John Todd,1780-03-31,John Todd
+376,George Rogers Clark,William Fleming,1780-04-04,William Fleming
+377,Daniel Brodhead,George Rogers Clark,1780-04-04,George Rogers Clark
+378,Charles Mynn Thruston,George Rogers Clark,1780-04-07,George Rogers Clark
+379,Petition of French Magistrates,George Rogers Clark,1780-04-11,George Rogers Clark
+380,Land Grants,Soldiers,1780-04-11,Soldiers
+381,William Shannon,Evan Baker,1780-04-12,Evan Baker
+382,Thomas Jefferson,George Rogers Clark,1780-04-19,George Rogers Clark
+383,Thomas Jefferson,George Rogers Clark,1780-04-19,George Rogers Clark
+384,George Rogers Clark,John Dodge,1780-04-20,John Dodge
+385,Battist,George Rogers Clark,1780-04-29,George Rogers Clark
+386,George Rogers Clark,Oliver Pollock,1780-05-11,Oliver Pollock
+387,Daniel Brodhead,George Rogers Clark,1780-05-20,George Rogers Clark
+388,Pierre Dorion,George Rogers Clark,1780-05-31,George Rogers Clark
+389,John Todd,Thomas Jefferson,1780-06-02,Thomas Jefferson
+390,Trustees at Fort Jefferson,George Rogers Clark,1780-06-13,George Rogers Clark
+391,Thomas Jefferson,Speaker of the House of Delegates,1780-06-14,Speaker of the House of Delegates
+392,Proposed Land Grant,George Rogers Clark,1780-06-30,George Rogers Clark
+393,Inhabitants of Vincennes,the Governor of Virginia,1781-06-30,the Governor of Virginia
+394,Thomas Jefferson,William Preston,1780-07-03,William Preston
+395,J. M. P. Le Gras,George Rogers Clark,1780-08-01,George Rogers Clark
+396,John Dodge,Thomas Jefferson,1780-08-01,Thomas Jefferson
+397,Inhabitants of Vincennes,Luzerne,1780-08-22,Luzerne
+398,George Rogers Clark,John Clark,1780-08-23,John Clark
+399,Thomas Jefferson,George Rogers Clark,1780-09-08,George Rogers Clark
+400,John Montgomery,George Rogers Clark,1780-09-22,George Rogers Clark
+401,Thomas Jefferson,George Rogers Clark,1780-09-27,George Rogers Clark
+402,Thomas Jefferson,Joseph Crockett,1780-09-27,Joseph Crockett
+403,Thomas Jefferson,George Rogers Clark,1780-10-12,George Rogers Clark
+404,Richard McCarty,John Todd,1780-10-14,John Todd
+405,Robert George,George Rogers Clark,1780-10-28,George Rogers Clark
+406,Robert George,John Rogers,1780-10-27,John Rogers
+407,John Williams,George Rogers Clark,1780-10-28,George Rogers Clark
+408,Leonard Helm,George Slaughter,1780-10-29,George Slaughter
+409,John Todd,Thomas Jefferson,1780-11-30,Thomas Jefferson
+410,Richard Harrison,George Rogers Clark,1780-12-07,George Rogers Clark
+411,J. M. P. Le Gras,George Rogers Clark,1780-12-01,George Rogers Clark
+412,George Slaughter,Thomas Jefferson,1780-12-08,Thomas Jefferson
+413,William Shannon,Thomas Jefferson,1780-12-11,Thomas Jefferson
+414,John Gibson,George Rogers Clark,1780-12-17,George Rogers Clark
+415,John Dodge,Oliver Pollock,1780-12-23,Oliver Pollock
+416,Thomas Walker,George Rogers Clark,1780-12-25,George Rogers Clark
+417,Geoffrey Linctot,George Slaughter,1781-01-11,George Slaughter
+418,General Steuben,George Rogers Clark,1781-01-12,George Rogers Clark
+419,Thomas Jefferson,George Rogers Clark,1781-01-13,George Rogers Clark
+420,Geoffrey Linctot,George Slaughter,1781-01-13,George Slaughter
+421,J. M. P. Le Gras,George Slaughter,1781-01-13,George Slaughter
+422,George Slaughter,Thomas Jefferson,1781-01-14,Thomas Jefferson
+423,Daniel Brodhead,Thomas Jefferson,1781-01-17,Thomas Jefferson
+424,George Rogers Clark,Thomas Jefferson,1781-01-18,Thomas Jefferson
+425,Robert George,Oliver Pollock,1781-01-01,Oliver Pollock
+426,John Montgomery,Thomas Jefferson,1781-01-08,Thomas Jefferson
+427,Thomas Jefferson,George Rogers Clark,1781-01-20,George Rogers Clark
+428,George Rogers Clark,Thomas Jefferson,1781-01-21,Thomas Jefferson
+429,George Rogers Clark,Thomas Jefferson,1781-01-21,Thomas Jefferson
+430,Thomas Jefferson,George Rogers Clark,1781-01-22,George Rogers Clark
+431,Officers of Berkley County,Thomas Jefferson,1781-01-25,Thomas Jefferson
+432,Officers of Greenbrier County,Thomas Jefferson,1781-01-29,Thomas Jefferson
+433,John Todd,Thomas Jefferson,1781-02-01,Thomas Jefferson
+434,George Rogers Clark,Thomas Jefferson,1781-02-10,Thomas Jefferson
+435,Thomas Jefferson,George Rogers Clark,1781-02-13,George Rogers Clark
+436,Robert George,George Slaughter,1781-02-15,George Slaughter
+437,Thomas Jefferson,George Rogers Clark,1781-02-19,George Rogers Clark
+438,John Gibson,George Rogers Clark,1781-02-23,George Rogers Clark
+439,Daniel Brodhead,George Rogers Clark,1781-02-24,George Rogers Clark
+440,Daniel Brodhead,George Rogers Clark,03 1781,George Rogers Clark
+441,Joseph Crockett,Thomas Jefferson,1781-03-14,Thomas Jefferson
+442,Isaac Craig,George Rogers Clark,1781-03-18,George Rogers Clark
+443,Isaac Craig,George Rogers Clark,1781-03-18,George Rogers Clark
+444,Daniel Brodhead,George Rogers Clark,1781-03-19,George Rogers Clark
+445,John Gibson,George Rogers Clark,1781-03-21,George Rogers Clark
+446,George Rogers Clark,Isaac Craig,1781-03-23,Isaac Craig
+447,George Rogers Clark,Thomas Jefferson,1781-03-27,Thomas Jefferson
+448,Geoffrey Linctot,George Slaughter,1781-04-02,George Slaughter
+449,Geoffrey Linctot,Thomas Jefferson,1781-04-02,Thomas Jefferson
+450,John Todd,George Rogers Clark,1781-04-13,George Rogers Clark
+451,George Slaughter,Thomas Jefferson,1781-04-13,Thomas Jefferson
+452,George Slaughter,Thomas Jefferson,1781-04-14,Thomas Jefferson
+453,Garret Van Meter,Thomas Jefferson,1781-04-14,Thomas Jefferson
+454,John Todd,Thomas Jefferson,1781-04-15,Thomas Jefferson
+455,James Sullivan,George Rogers Clark,1781-04-15,George Rogers Clark
+456,John Floyd,Thomas Jefferson,1781-04-16,Thomas Jefferson
+457,John Floyd,George Rogers Clark,1781-04-16,George Rogers Clark
+458,George Rogers Clark,Jonathan Clark,1781-04-19,Jonathan Clark
+459,George Washington,the Board of War,1781-04-20,the Board of War
+460,Thomas Jefferson,George Rogers Clark,1781-04-20,George Rogers Clark
+461,Joseph Hunter,George Rogers Clark,1781-04-20,George Rogers Clark
+462,John Todd,George Rogers Clark,1781-04-21,George Rogers Clark
+463,John Floyd,Thomas Jefferson,1781-04-24,Thomas Jefferson
+464,John Floyd,George Rogers Clark,1781-04-26,George Rogers Clark
+465,John Rogers,Thomas Jefferson,1781-04-29,Thomas Jefferson
+466,Isaac Craig,George Rogers Clark,1781-05-03,George Rogers Clark
+467,John Gibson,George Rogers Clark,1781-05-06,George Rogers Clark
+468,Archibald Lochry,George Rogers Clark,1781-05-11,George Rogers Clark
+469,Joseph Reed,George Rogers Clark,1781-05-15,George Rogers Clark
+470,Richard Peters,George Rogers Clark,1781-05-17,George Rogers Clark
+471,George Rogers Clark,George Washington,1781-05-20,George Washington
+472,George Rogers Clark,George Washington,1781-05-21,George Washington
+473,William Shannon,George Rogers Clark,1781-05-21,George Rogers Clark
+474,James Sullivan,George Rogers Clark,1781-05-22,George Rogers Clark
+475,John Floyd,George Rogers Clark,1781-05-22,George Rogers Clark
+476,George Rogers Clark,Thomas Jefferson,1781-05-23,Thomas Jefferson
+477,George Rogers Clark,Thomas Jefferson,1781-06-10,Thomas Jefferson
+478,George Rogers Clark,William Fleming,1781-06-12,William Fleming
+479,George Rogers Clark,Inhabitants of Monongalia County,1781-06-18,Inhabitants of Monongalia County
+480,George Rogers Clark,Officers of Pennsylvania and Virginia,1781-06-23,Officers of Pennsylvania and Virginia
+481,John Gibson,George Rogers Clark,1781-06-26,George Rogers Clark
+482,John Gibson,George Rogers Clark,1781-07-11,George Rogers Clark
+483,John Gibson,George Rogers Clark,1781-07-11,George Rogers Clark
+484,John Gibson,George Rogers Clark,1781-07-12,George Rogers Clark
+485,John Gibson,George Rogers Clark,1781-07-14,George Rogers Clark
+486,Geoffrey Linctot,George Rogers Clark,1781-07-18,George Rogers Clark
+487,George Rogers Clark,Thomas Jefferson,1781-08-04,Thomas Jefferson
+488,George Rogers Clark,Joseph Reed,1781-08-04,Joseph Reed
+489,John Bailey,George Slaughter,1781-08-06,George Slaughter
+490,George Rogers Clark,Archibald Lochry,1781-08-09,Archibald Lochry
+491,George Rogers Clark,Major Cracraft,1781-08-10,Major Cracraft
+492,John Floyd,George Rogers Clark,1781-08-10,George Rogers Clark
+493,John Montgomery,Thomas Nelson,1781-08-10,Thomas Nelson
+494,John Montgomery,Thomas Nelson,1781-08-10,Thomas Nelson
+495,George Slaughter,Thomas Nelson,1781-08-17,Thomas Nelson
+496,William Croghan,Colonel Davics,1781-08-18,Colonel Davics
+497,John Gibson,George Rogers Clark,1781-08-20,George Rogers Clark
+498,John Gibson,George Washington,1781-08-25,George Washington
+499,Arthur Campbell,George Rogers Clark,1781-09-03,George Rogers Clark
+500,George Rogers Clark,Kentucky County Commissioners,1781-09-05,Kentucky County Commissioners
+501,John Todd,George Rogers Clark,1781-09-06,George Rogers Clark
+502,Thomas Nelson,Leighton Wood,1781-09-06,Leighton Wood
+503,Kentucky County-lieutenants,George Rogers Clark,1781-09-08,George Rogers Clark
+504,John Floyd,George Rogers Clark,1781-09-14,George Rogers Clark
+505,John Montgomery,George Rogers Clark,1781-09-20,George Rogers Clark
+506,George Rogers Clark,Thomas Nelson,1781-10-01,Thomas Nelson

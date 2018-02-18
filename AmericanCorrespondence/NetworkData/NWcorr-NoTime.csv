@@ -1,0 +1,507 @@
+id,source,target,label
+1,John Dickinson,Josiah Harmar,Josiah Harmar
+2,Josiah Harmar,John Dickinson,John Dickinson
+3,John Dickinson,Robert Morris,Robert Morris
+4,Robert Morris,John Dickinson,John Dickinson
+5,Josiah Harmar,John Dickinson,John Dickinson
+6,Josiah Harmar,John Dickinson,John Dickinson
+7,Richard Butler and Arthur Lee,John Dickinson,John Dickinson
+8,Josiah Harmar,John Dickinson,John Dickinson
+9,John McDowell ,John Dickinson,John Dickinson
+10,Josiah Harmar,John Dickinson,John Dickinson
+11,Josiah Harmar,John Dickinson,John Dickinson
+12,Josiah Harmar,John Dickinson,John Dickinson
+13,Josiah Harmar,John Dickinson,John Dickinson
+14,Josiah Harmar,John Dickinson,John Dickinson
+15,Charles Thomson,John Dickinson,John Dickinson
+16,Josiah Harmar,John Dickinson,John Dickinson
+17,Josiah Harmar,Richard Henry Lee,Richard Henry Lee
+18,John Emerson,Inhabitants of the west side of the Ohio River,Inhabitants of the west side of the Ohio River
+19,John Armstrong Jr.,Josiah Harmar,Josiah Harmar
+20,Charles Thomson,John Dickinson,John Dickinson
+21,Henry Knox,John Dickinson,John Dickinson
+22,John Dickinson,Henry Knox,Henry Knox
+23,Josiah Harmar,John Dickinson,John Dickinson
+24,Josiah Harmar,Henry Knox,Henry Knox
+25,Josiah Harmar,John Dickinson,John Dickinson
+26,Josiah Harmar,Francis Johnston,Francis Johnston
+27,Josiah Harmar,Thomas Mifflin,Thomas Mifflin
+28,"John Armstrong, Jr.",Henry Knox,Henry Knox
+29,Josiah Harmar,John Dickinson,John Dickinson
+30,Josiah Harmar,Henry Knox,Henry Knox
+31,Josiah Harmar,"John Armstrong, Jr. ","John Armstrong, Jr. "
+32,Josiah Harmar,John Dickinson,John Dickinson
+33,Henry Knox,John Dickinson,John Dickinson
+34,John Dickinson,Henry Knox,Henry Knox
+35,Josiah Harmar,John Dickinson,John Dickinson
+36,John Dickinson,Pennsylvania Delegates to U.S. Congress,Pennsylvania Delegates to U.S. Congress
+37,John Doughty,Henry Knox,Henry Knox
+38,Josiah Harmar,Henry Knox,Henry Knox
+39,Josiah Harmar,Henry Knox,Henry Knox
+40,Josiah Harmar,Henry Knox,Henry Knox
+41,Josiah Harmar,Henry Knox,Henry Knox
+42,Philip Liebert,Josiah Harmar,Josiah Harmar
+43,Josiah Harmar,Henry Knox,Henry Knox
+44,Josiah Harmar,Henry Knox,Henry Knox
+45,Josiah Harmar,Henry Knox,Henry Knox
+46,Josiah Harmar,Henry Knox,Henry Knox
+47,Josiah Harmar,Henry Knox,Henry Knox
+48,Josiah Harmar,Henry Knox,Henry Knox
+49,Josiah Harmar,Henry Knox,Henry Knox
+50,Josiah Harmar,Henry Knox,Henry Knox
+51,Josiah Harmar,Arthur St. Clair,Arthur St. Clair
+52,Charles Thomson,Arthur St. Clair,Arthur St. Clair
+53,Josiah Harmar,Henry Knox,Henry Knox
+54,Josiah Harmar,Henry Knox,Henry Knox
+55,Arthur St. Clair,Henry Knox,Henry Knox
+56,Josiah Harmar,Henry Knox,Henry Knox
+57,Arthur St. Clair,Henry Knox,Henry Knox
+58,Arthur St. Clair,Board of Treasury,Board of Treasury
+59,Josiah Harmar,Henry Knox,Henry Knox
+60,Josiah Harmar,Henry Knox,Henry Knox
+61,Arthur St. Clair,Henry Knox,Henry Knox
+62,General Butler,Arthur St. Clair,Arthur St. Clair
+63,Henry Knox,Arthur St. Clair,Arthur St. Clair
+64,Arthur St. Clair,Henry Knox,Henry Knox
+65,Arthur St. Clair,Henry Knox,Henry Knox
+66,General Butler,Arthur St. Clair,Arthur St. Clair
+67,Arthur St. Clair,General Butler,General Butler
+68,Arthur St. Clair,Henry Knox,Henry Knox
+69,Arthur St. Clair,James Gardoqui,James Gardoqui
+70,General Butler,Arthur St. Clair,Arthur St. Clair
+71,James Gardoqui,Arthur St. Clair,Arthur St. Clair
+72,Arthur St. Clair,Judge Parsons and Judge Varnum,Judge Parsons and Judge Varnum
+73,Arthur St. Clair,Henry Knox,Henry Knox
+74,Josiah Harmar,Henry Knox,Henry Knox
+75,Arthur St. Clair,Judge Parsons and Judge Varnum,Judge Parsons and Judge Varnum
+76,Arthur St. Clair,Judge Parsons and Judge Varnum,Judge Parsons and Judge Varnum
+77,Judge Parsons and Judge Varnum,Arthur St. Clair,Arthur St. Clair
+78,Arthur St. Clair,Judge Parsons and Judge Varnum,Judge Parsons and Judge Varnum
+79,Arthur St. Clair,Judge Parsons and Judge Varnum,Judge Parsons and Judge Varnum
+80,Arthur St. Clair,General Butler,General Butler
+81,Arthur St. Clair,Henry Knox,Henry Knox
+82,William Knox,Arthur St. Clair,Arthur St. Clair
+83,Arthur St. Clair,Governor of Virginia,Governor of Virginia
+84,Arthur St. Clair,Henry Knox,Henry Knox
+85,Josiah Harmar,Henry Knox,Henry Knox
+86,Arthur St. Clair,Henry Knox,Henry Knox
+87,Arthur St. Clair,Samuel H. Parsons,Samuel H. Parsons
+88,Josiah Harmar,Major Hamtramck,Major Hamtramck
+89,Arthur St. Clair,Henry Knox,Henry Knox
+90,Arthur St. Clair,Henry Knox,Henry Knox
+91,Arthur St. Clair,Judge Varnum,Judge Varnum
+92,Arthur St. Clair,Charles Thomson,Charles Thomson
+93,Arthur St. Clair,Ebenezer Zane,Ebenezer Zane
+94,Arthur St. Clair,Major Wyllys,Major Wyllys
+95,Arthur St. Clair,Henry Knox,Henry Knox
+96,Henry Knox,Arthur St. Clair,Arthur St. Clair
+97,Arthur St. Clair,John Jay,John Jay
+98,Isaac B. Dunn,Arthur St. Clair,Arthur St. Clair
+99,Arthur St. Clair,Henry Knox,Henry Knox
+100,Henry Knox,Arthur St. Clair,Arthur St. Clair
+101,Arthur St. Clair,Henry Knox,Henry Knox
+102,Arthur St. Clair,George Washington,George Washington
+103,R. K. Meade,Arthur St. Clair,Arthur St. Clair
+104,George Washington,Governor of Virginia,Governor of Virginia
+105,Arthur St. Clair,Henry Knox,Henry Knox
+106,Arthur St. Clair,Board of Treasury,Board of Treasury
+107,Bartholomew Tardiveau,Arthur St. Clair,Arthur St. Clair
+108,James Wilson,Arthur St. Clair,Arthur St. Clair
+109,Judge Parsons,Arthur St. Clair,Arthur St. Clair
+110,Arthur St. Clair,George Washington,George Washington
+111,George Washington,Arthur St. Clair,Arthur St. Clair
+112,Paul Jones,Arthur St. Clair,Arthur St. Clair
+113,Josiah Harmar,Henry Knox,Henry Knox
+114,Arthur St. Clair,Major Hamtramck,Major Hamtramck
+115,Arthur St. Clair,Henry Knox,Henry Knox
+116,Josiah Harmar,Arthur St. Clair,Arthur St. Clair
+117,John Doughty,Major Wyllys,Major Wyllys
+118,Major Hamtramck,Arthur St. Clair,Arthur St. Clair
+119,Arthur St. Clair,Henry Knox,Henry Knox
+120,Arthur St. Clair,Jean Baptiste du Coigne,Jean Baptiste du Coigne
+121,William St. Clair,Arthur St. Clair,Arthur St. Clair
+122,Arthur St. Clair,Josiah Harmar,Josiah Harmar
+123,Arthur St. Clair,Henry Knox,Henry Knox
+124,Henry Knox,Arthur St. Clair,Arthur St. Clair
+125,P. Gibault,Arthur St. Clair,Arthur St. Clair
+126,Henry Knox,Arthur St. Clair,Arthur St. Clair
+127,Arthur St. Clair,General Butler,General Butler
+128,Chevalier Duportail,Arthur St. Clair,Arthur St. Clair
+129,Colonel Gouvion,Arthur St. Clair,Arthur St. Clair
+130,Joel Barlow,Arthur St. Clair,Arthur St. Clair
+131,Joel Barlow,Arthur St. Clair,Arthur St. Clair
+132,Arthur St. Clair,Henry Knox,Henry Knox
+133,Henry Knox,Arthur St. Clair,Arthur St. Clair
+134,Arthur St. Clair,Attorney-General,Attorney-General
+135,Arthur St. Clair,George Washington,George Washington
+136,Henry Knox,Arthur St. Clair,Arthur St. Clair
+137,Arthur St. Clair,Henry Knox,Henry Knox
+138,Arthur St. Clair,Major Murray,Major Murray
+139,Judges Symmes and Turner,Arthur St. Clair,Arthur St. Clair
+140,Arthur St. Clair,Henry Knox,Henry Knox
+141,Arthur St. Clair,Judges,Judges
+142,Arthur St. Clair,Henry Knox,Henry Knox
+143,Arthur St. Clair,French Inhabitants,French Inhabitants
+144,Thomas Fitzsimmons,Arthur St. Clair,Arthur St. Clair
+145,Arthur St. Clair,Henry Knox,Henry Knox
+146,Major Hamtramck,Arthur St. Clair,Arthur St. Clair
+147,George Washington,Arthur St. Clair,Arthur St. Clair
+148,Captain de Luziere,Arthur St. Clair,Arthur St. Clair
+149,Lieutenant Denny,Josiah Harmar,Josiah Harmar
+150,Isaac Craig,Henry Knox,Henry Knox
+151,Henry Knox,Arthur St. Clair,Arthur St. Clair
+152,George Washington,Colonel Darke,Colonel Darke
+153,Arthur St. Clair,Henry Knox,Henry Knox
+154,Colonel Sargent,Civil Magistrates and Military Officers at Gallipolis,Civil Magistrates and Military Officers at Gallipolis
+155,Arthur St. Clair,Brigadier-General Scott,Brigadier-General Scott
+156,Arthur St. Clair,Israel Ludlow,Israel Ludlow
+157,Arthur St. Clair,Alexander Hamilton,Alexander Hamilton
+158,Arthur St. Clair,Henry Knox,Henry Knox
+159,Henry Knox,General Butler,General Butler
+160,Arthur St. Clair,Judge Turner,Judge Turner
+161,Arthur St. Clair,Committee of Kentucky,Committee of Kentucky
+162,Major Ferguson,Arthur St. Clair,Arthur St. Clair
+163,Arthur St. Clair,Colonel Sproat,Colonel Sproat
+164,Henry Knox,General Butler,General Butler
+165,Arthur St. Clair,John Brown,John Brown
+166,Arthur St. Clair,Brigadier-General Scott,Brigadier-General Scott
+167,Arthur St. Clair,James Wilkinson,James Wilkinson
+168,Arthur St. Clair,Israel Ludlow,Israel Ludlow
+169,Henry Knox,General Butler,General Butler
+170,Arthur St. Clair,John Campbell,John Campbell
+171,Arthur St. Clair,County Lieutenants,County Lieutenants
+172,Henry Knox,Arthur St. Clair,Arthur St. Clair
+173,Henry Knox,General Butler,General Butler
+174,Arthur St. Clair,Henry Knox,Henry Knox
+175,James Wilkinson,Arthur St. Clair,Arthur St. Clair
+176,Arthur St. Clair,Major Hamtramck,Major Hamtramck
+177,Henry Knox,George Washington,George Washington
+178,Arthur St. Clair,Henry Knox,Henry Knox
+179,Henry Knox,George Washington,George Washington
+180,Henry Knox,Arthur St. Clair,Arthur St. Clair
+181,Henry Knox,George Washington,George Washington
+182,General Butler,Arthur St. Clair,Arthur St. Clair
+183,Arthur St. Clair,Henry Knox,Henry Knox
+184,Arthur St. Clair,Israel Ludlow,Israel Ludlow
+185,Henry Knox,Arthur St. Clair,Arthur St. Clair
+186,Arthur St. Clair,Samuel Hodgdon,Samuel Hodgdon
+187,Arthur St. Clair,Henry Knox,Henry Knox
+188,Arthur St. Clair,Henry Knox,Henry Knox
+189,Arthur St. Clair,John Brown,John Brown
+190,Arthur St. Clair,John Armstrong,John Armstrong
+191,Arthur St. Clair,Henry Knox,Henry Knox
+192,Arthur St. Clair,Ensign Tillinghast,Ensign Tillinghast
+193,Arthur St. Clair,John Armstrong,John Armstrong
+194,Henry Knox,Arthur St. Clair,Arthur St. Clair
+195,John Armstrong ,George Washington,George Washington
+196,Arthur St. Clair,Henry Knox,Henry Knox
+197,Arthur St. Clair,Thomas Fitzsimmons,Thomas Fitzsimmons
+198,Arthur St. Clair,George Washington,George Washington
+199,Edmund M. Butler,Arthur St. Clair,Arthur St. Clair
+200,Arthur St. Clair,Edmund M. Butler,Edmund M. Butler
+201,Tobias Lear,Arthur St. Clair,Arthur St. Clair
+202,Arthur St. Clair,George Washington,George Washington
+203,George Washington,Arthur St. Clair,Arthur St. Clair
+204,Arthur St. Clair,George Washington,George Washington
+205,George Washington,Arthur St. Clair,Arthur St. Clair
+206,Arthur St. Clair,George Washington,George Washington
+207,Winthrop Sargent,Judge Symmes,Judge Symmes
+208,Rufus Putnam,Henry Knox,Henry Knox
+209,James Wilkinson,Arthur St. Clair,Arthur St. Clair
+210,Arthur St. Clair,Judge Turner,Judge Turner
+211,Arthur St. Clair,Edmund Randolph,Edmund Randolph
+212,William St. Clair,Arthur St. Clair,Arthur St. Clair
+213,Arthur St. Clair,Alexander Hamilton,Alexander Hamilton
+214,Arthur St. Clair,Luke Decker,Luke Decker
+215,Thomas Jefferson,Governor Shelby,Governor Shelby
+216,Arthur St. Clair,Governor Shelby,Governor Shelby
+217,Arthur St. Clair,Henry Knox,Henry Knox
+218,Judge Turner,Arthur St. Clair,Arthur St. Clair
+219,Arthur St. Clair,Secretary of State,Secretary of State
+220,Winthrop Sargent,Captain Pierce,Captain Pierce
+221,Winthrop Sargent,Judge McMillan,Judge McMillan
+222,Winthrop Sargent,Secretary of State,Secretary of State
+223,Arthur St. Clair,Judge Turner,Judge Turner
+224,Arthur St. Clair,Thomas Jefferson,Thomas Jefferson
+225,Arthur St. Clair,Joshua Coit,Joshua Coit
+226,Arthur St. Clair,Winthrop Sargent,Winthrop Sargent
+227,Arthur St. Clair,Henry Knox,Henry Knox
+228,Timothy Pickering ,Arthur St. Clair,Arthur St. Clair
+229,Judge Symmes ,Arthur St. Clair,Arthur St. Clair
+230,Arthur St. Clair,Colonel Sproat,Colonel Sproat
+231,Arthur St. Clair,Winthrop Sargent,Winthrop Sargent
+232,Arthur St. Clair,Timothy Pickering,Timothy Pickering
+233,Arthur St. Clair,Judge Turner,Judge Turner
+234,Arthur St. Clair,Judge Symmes,Judge Symmes
+235,Arthur St. Clair,Judge Turner,Judge Turner
+236,Arthur St. Clair,Edmund Randolph,Edmund Randolph
+237,Arthur St. Clair,Judge Turner,Judge Turner
+238,Arthur St. Clair,Judge Addison,Judge Addison
+239,Arthur St. Clair,Judges of Hamilton County,Judges of Hamilton County
+240,Arthur St. Clair,William St. Clair,William St. Clair
+241,Anthony Wayne,Arthur St. Clair,Arthur St. Clair
+242,Arthur St. Clair,Anthony Wayne,Anthony Wayne
+243,William Bradford ,Secretary of the Treasury,Secretary of the Treasury
+244,Arthur St. Clair,Oliver Wolcott,Oliver Wolcott
+245,Arthur St. Clair,Oliver Wolcott,Oliver Wolcott
+246,Oliver Wolcott,Arthur St. Clair,Arthur St. Clair
+247,Arthur St. Clair,Governor Shelby,Governor Shelby
+248,Arthur St. Clair,Anthony Wayne,Anthony Wayne
+249,Anthony Wayne,Arthur St. Clair,Arthur St. Clair
+250,Arthur St. Clair,Edmund Randolph,Edmund Randolph
+251,Governor Gayoso,Arthur St. Clair,Arthur St. Clair
+252,Arthur St. Clair,George Washington,George Washington
+253,Arthur St. Clair,Anthony Wayne,Anthony Wayne
+254,George Rogers Clark,Jonathan Clark,Jonathan Clark
+255,John B. Roy,Jonathan Clark,Jonathan Clark
+256,George Rogers Clark,Jonathan Clark,Jonathan Clark
+257,George Rogers Clark,Jonathan Clark,Jonathan Clark
+258,George Rogers Clark,Samuel Brown,Samuel Brown
+259,George Rogers Clark,Jonathan Clark,Jonathan Clark
+260,George Rogers Clark,Jonathan Clark,Jonathan Clark
+261,George Rogers Clark,Jonathan Clark,Jonathan Clark
+262,Inhabitants of Kentucky,Convention of Virginia,Convention of Virginia
+263,John Clark,Jonathan Clark,Jonathan Clark
+264,J. G. Jones and George Rogers Clark,House of Delegates,House of Delegates
+265,George Rogers Clark,Patrick Henry,Patrick Henry
+266,Order of Council of Virginia,George Rogers Clark,George Rogers Clark
+267,Patrick Henry,George Rogers Clark,George Rogers Clark
+268,Patrick Henry,George Rogers Clark,George Rogers Clark
+269,Patrick Henry,Edward Hand,Edward Hand
+270,Patrick Henry,George Rogers Clark,George Rogers Clark
+271,Patrick Henry,George Rogers Clark,George Rogers Clark
+272,William Bailey Smith,George Rogers Clark,George Rogers Clark
+273,George Rogers Clark,William Harrod,William Harrod
+274,Edward Hand,David Shepherd,David Shepherd
+275,William Bailey Smith,George Rogers Clark,George Rogers Clark
+276,George Rogers Clark,Edward Hand,Edward Hand
+277,George Rogers Clark,William Harrod,William Harrod
+278,George Rogers Clark,Edward Hand,Edward Hand
+279,Edward Hand,George Rogers Clark,George Rogers Clark
+280,John Campbell,George Rogers Clark,George Rogers Clark
+281,Edward Abbott,Guy Carleton,Guy Carleton
+282,"Gabriel Cerre """,George Rogers Clark,George Rogers Clark
+283,George Rogers Clark,Inhabitants of Vincennes,Inhabitants of Vincennes
+284,George Rogers Clark,Jean B. Laffont,Jean B. Laffont
+285,George Rogers Clark,Oliver Pollock,Oliver Pollock
+286,H. Perrault,George Rogers Clark,George Rogers Clark
+287,Joseph Cesirre,George Rogers Clark,George Rogers Clark
+288,George Rogers Clark,Certain Traders,Certain Traders
+289,Joseph Bowman,John Hite,John Hite
+290,Joseph Bowman,George Brinker,George Brinker
+291,George Rogers Clark,Chief of the Winnebago,Chief of the Winnebago
+292,James Willing,George Rogers Clark,George Rogers Clark
+293,George Rogers Clark,Fox Indians,Fox Indians
+294,James Willing,George Rogers Clark,George Rogers Clark
+295,George Rogers Clark,Patrick Henry,Patrick Henry
+296,John Bowman,George Rogers Clark,George Rogers Clark
+297,Joseph Bowman,George Rogers Clark,George Rogers Clark
+298,Patrick Henry,Virginia Delegates in Congress,Virginia Delegates in Congress
+299,Benjamin Harrison,George Rogers Clark,George Rogers Clark
+300,Patrick Henry,George Rogers Clark,George Rogers Clark
+301,Patrick Henry,George Rogers Clark,George Rogers Clark
+302,Executive Council of Virginia,George Rogers Clark,George Rogers Clark
+303,Executive Council of Virginia,John Montgomery,John Montgomery
+304,Patrick Henry,John Todd,John Todd
+305,Patrick Henry,George Rogers Clark,George Rogers Clark
+306,Patrick Henry,George Rogers Clark,George Rogers Clark
+307,Leonard Helm,George Rogers Clark,George Rogers Clark
+308,Henry Hamilton,People of Illinois,People of Illinois
+309,George Rogers Clark,Patrick Henry,Patrick Henry
+310,David Lyster,George Moorehead,George Moorehead
+311,Alexander Macomb,Jehu Hay,Jehu Hay
+312,Alexander Macomb,Henry Hamilton,Henry Hamilton
+313,R. B. Lernoult,Henry Hamilton,Henry Hamilton
+314,George Rogers Clark,John Rogers,John Rogers
+315,George Rogers Clark,George Mason,George Mason
+316,George Rogers Clark,Patrick Henry,Patrick Henry
+317,George Rogers Clark,Benjamin Harrison,Benjamin Harrison
+318,George Rogers Clark,William Myers,William Myers
+319,George Rogers Clark,R. B. Lernoult,R. B. Lernoult
+320,George Rogers Clark,Leonard Helm,Leonard Helm
+321,R. B. Lernoult,Mason Bolton,Mason Bolton
+322,James Patten,George Rogers Clark,George Rogers Clark
+323,Robert George,George Rogers Clark,George Rogers Clark
+324,Joseph Bowman,Chiefs of  Potawatomi,Chiefs of  Potawatomi
+325,George Rogers Clark,Nanaloibi,Nanaloibi
+326,John Rogers,Jonathan Clark,Jonathan Clark
+327,Leonard Helm,George Rogers Clark,George Rogers Clark
+328,Richard Brashers,George Rogers Clark,George Rogers Clark
+329,George Rogers Clark,People of Kaskaskia,People of Kaskaskia
+330,Patrick Henry,Benjamin Harrison,Benjamin Harrison
+331,Leonard Helm,George Rogers Clark,George Rogers Clark
+332,Joseph Bowman,George Rogers Clark,George Rogers Clark
+333,Clark,Treasurer of Virginia,Treasurer of Virginia
+334,George Rogers Clark,Oliver Pollock,Oliver Pollock
+335,John Bowman,George Rogers Clark,George Rogers Clark
+336,Joseph Bowman,Isaac Hite,Isaac Hite
+337,George Rogers Clark,John Clark,John Clark
+338,Geoffrey Linctot,George Rogers Clark,George Rogers Clark
+339,George Rogers Clark,Militia,Militia
+340,William Shannon,J. P. Le Gras,J. P. Le Gras
+341,John Rogers,Jonathan Clark,Jonathan Clark
+342,Thomas Jefferson,Guy Carleton,Guy Carleton
+343,Daniel Brodhead,George Rogers Clark,George Rogers Clark
+344,John Todd,Thomas Jefferson,Thomas Jefferson
+345,John Page,John Todd,John Todd
+346,Thomas Quirk,Geoffrey Linctot,Geoffrey Linctot
+347,Thomas Quirk,George Rogers Clark,George Rogers Clark
+348,John Beckley,George Rogers Clark,George Rogers Clark
+349,James Shelby,George Rogers Clark,George Rogers Clark
+350,George Rogers Clark,Thomas Jefferson,Thomas Jefferson
+351,George Rogers Clark,Daniel Brodhead,Daniel Brodhead
+352,Robert George,Daniel Brodhead,Daniel Brodhead
+353,George Rogers Clark,Silas Martin,Silas Martin
+354,John Todd,George Rogers Clark,George Rogers Clark
+355,James Shelby,George Rogers Clark,George Rogers Clark
+356,Robert Todd,George Rogers Clark,George Rogers Clark
+357,Benjamin Logan,George Rogers Clark,George Rogers Clark
+358,John Rogers,George Rogers Clark,George Rogers Clark
+359,Levi Todd,George Rogers Clark,George Rogers Clark
+360,George Rogers Clark,John Donne,John Donne
+361,George Rogers Clark,Jean Girault,Jean Girault
+362,George Rogers Clark,William 05o,William 05o
+363,George Rogers Clark,Jonathan Clark,Jonathan Clark
+364,George Meriwether,George Rogers Clark,George Rogers Clark
+365,Thomas Jefferson,Joseph Martin,Joseph Martin
+366,Thomas Jefferson,George Rogers Clark,George Rogers Clark
+367,Thomas Jefferson,Thomas Walker,Thomas Walker
+368,Grant of Land,George Rogers Clark,George Rogers Clark
+369,Registration of Land Grant,George Rogers Clark,George Rogers Clark
+370,Pierre Prevost,George Rogers Clark,George Rogers Clark
+371,Inhabitants of Boonesborough,George Rogers Clark,George Rogers Clark
+372,Petition of Inhabitants of Boonesborough,George Rogers Clark,George Rogers Clark
+373,Petition of Inhabitants of Bryan's Station,George Rogers Clark,George Rogers Clark
+374,Thomas Jefferson,William Preston,William Preston
+375,George Rogers Clark,John Todd,John Todd
+376,George Rogers Clark,William Fleming,William Fleming
+377,Daniel Brodhead,George Rogers Clark,George Rogers Clark
+378,Charles Mynn Thruston,George Rogers Clark,George Rogers Clark
+379,Petition of French Magistrates,George Rogers Clark,George Rogers Clark
+380,Land Grants,Soldiers,Soldiers
+381,William Shannon,Evan Baker,Evan Baker
+382,Thomas Jefferson,George Rogers Clark,George Rogers Clark
+383,Thomas Jefferson,George Rogers Clark,George Rogers Clark
+384,George Rogers Clark,John Dodge,John Dodge
+385,Battist,George Rogers Clark,George Rogers Clark
+386,George Rogers Clark,Oliver Pollock,Oliver Pollock
+387,Daniel Brodhead,George Rogers Clark,George Rogers Clark
+388,Pierre Dorion,George Rogers Clark,George Rogers Clark
+389,John Todd,Thomas Jefferson,Thomas Jefferson
+390,Trustees at Fort Jefferson,George Rogers Clark,George Rogers Clark
+391,Thomas Jefferson,Speaker of the House of Delegates,Speaker of the House of Delegates
+392,Proposed Land Grant,George Rogers Clark,George Rogers Clark
+393,Inhabitants of Vincennes,the Governor of Virginia,the Governor of Virginia
+394,Thomas Jefferson,William Preston,William Preston
+395,J. M. P. Le Gras,George Rogers Clark,George Rogers Clark
+396,John Dodge,Thomas Jefferson,Thomas Jefferson
+397,Inhabitants of Vincennes,Luzerne,Luzerne
+398,George Rogers Clark,John Clark,John Clark
+399,Thomas Jefferson,George Rogers Clark,George Rogers Clark
+400,John Montgomery,George Rogers Clark,George Rogers Clark
+401,Thomas Jefferson,George Rogers Clark,George Rogers Clark
+402,Thomas Jefferson,Joseph Crockett,Joseph Crockett
+403,Thomas Jefferson,George Rogers Clark,George Rogers Clark
+404,Richard McCarty,John Todd,John Todd
+405,Robert George,George Rogers Clark,George Rogers Clark
+406,Robert George,John Rogers,John Rogers
+407,John Williams,George Rogers Clark,George Rogers Clark
+408,Leonard Helm,George Slaughter,George Slaughter
+409,John Todd,Thomas Jefferson,Thomas Jefferson
+410,Richard Harrison,George Rogers Clark,George Rogers Clark
+411,J. M. P. Le Gras,George Rogers Clark,George Rogers Clark
+412,George Slaughter,Thomas Jefferson,Thomas Jefferson
+413,William Shannon,Thomas Jefferson,Thomas Jefferson
+414,John Gibson,George Rogers Clark,George Rogers Clark
+415,John Dodge,Oliver Pollock,Oliver Pollock
+416,Thomas Walker,George Rogers Clark,George Rogers Clark
+417,Geoffrey Linctot,George Slaughter,George Slaughter
+418,General Steuben,George Rogers Clark,George Rogers Clark
+419,Thomas Jefferson,George Rogers Clark,George Rogers Clark
+420,Geoffrey Linctot,George Slaughter,George Slaughter
+421,J. M. P. Le Gras,George Slaughter,George Slaughter
+422,George Slaughter,Thomas Jefferson,Thomas Jefferson
+423,Daniel Brodhead,Thomas Jefferson,Thomas Jefferson
+424,George Rogers Clark,Thomas Jefferson,Thomas Jefferson
+425,Robert George,Oliver Pollock,Oliver Pollock
+426,John Montgomery,Thomas Jefferson,Thomas Jefferson
+427,Thomas Jefferson,George Rogers Clark,George Rogers Clark
+428,George Rogers Clark,Thomas Jefferson,Thomas Jefferson
+429,George Rogers Clark,Thomas Jefferson,Thomas Jefferson
+430,Thomas Jefferson,George Rogers Clark,George Rogers Clark
+431,Officers of Berkley County,Thomas Jefferson,Thomas Jefferson
+432,Officers of Greenbrier County,Thomas Jefferson,Thomas Jefferson
+433,John Todd,Thomas Jefferson,Thomas Jefferson
+434,George Rogers Clark,Thomas Jefferson,Thomas Jefferson
+435,Thomas Jefferson,George Rogers Clark,George Rogers Clark
+436,Robert George,George Slaughter,George Slaughter
+437,Thomas Jefferson,George Rogers Clark,George Rogers Clark
+438,John Gibson,George Rogers Clark,George Rogers Clark
+439,Daniel Brodhead,George Rogers Clark,George Rogers Clark
+440,Daniel Brodhead,George Rogers Clark,George Rogers Clark
+441,Joseph Crockett,Thomas Jefferson,Thomas Jefferson
+442,Isaac Craig,George Rogers Clark,George Rogers Clark
+443,Isaac Craig,George Rogers Clark,George Rogers Clark
+444,Daniel Brodhead,George Rogers Clark,George Rogers Clark
+445,John Gibson,George Rogers Clark,George Rogers Clark
+446,George Rogers Clark,Isaac Craig,Isaac Craig
+447,George Rogers Clark,Thomas Jefferson,Thomas Jefferson
+448,Geoffrey Linctot,George Slaughter,George Slaughter
+449,Geoffrey Linctot,Thomas Jefferson,Thomas Jefferson
+450,John Todd,George Rogers Clark,George Rogers Clark
+451,George Slaughter,Thomas Jefferson,Thomas Jefferson
+452,George Slaughter,Thomas Jefferson,Thomas Jefferson
+453,Garret Van Meter,Thomas Jefferson,Thomas Jefferson
+454,John Todd,Thomas Jefferson,Thomas Jefferson
+455,James Sullivan,George Rogers Clark,George Rogers Clark
+456,John Floyd,Thomas Jefferson,Thomas Jefferson
+457,John Floyd,George Rogers Clark,George Rogers Clark
+458,George Rogers Clark,Jonathan Clark,Jonathan Clark
+459,George Washington,the Board of War,the Board of War
+460,Thomas Jefferson,George Rogers Clark,George Rogers Clark
+461,Joseph Hunter,George Rogers Clark,George Rogers Clark
+462,John Todd,George Rogers Clark,George Rogers Clark
+463,John Floyd,Thomas Jefferson,Thomas Jefferson
+464,John Floyd,George Rogers Clark,George Rogers Clark
+465,John Rogers,Thomas Jefferson,Thomas Jefferson
+466,Isaac Craig,George Rogers Clark,George Rogers Clark
+467,John Gibson,George Rogers Clark,George Rogers Clark
+468,Archibald Lochry,George Rogers Clark,George Rogers Clark
+469,Joseph Reed,George Rogers Clark,George Rogers Clark
+470,Richard Peters,George Rogers Clark,George Rogers Clark
+471,George Rogers Clark,George Washington,George Washington
+472,George Rogers Clark,George Washington,George Washington
+473,William Shannon,George Rogers Clark,George Rogers Clark
+474,James Sullivan,George Rogers Clark,George Rogers Clark
+475,John Floyd,George Rogers Clark,George Rogers Clark
+476,George Rogers Clark,Thomas Jefferson,Thomas Jefferson
+477,George Rogers Clark,Thomas Jefferson,Thomas Jefferson
+478,George Rogers Clark,William Fleming,William Fleming
+479,George Rogers Clark,Inhabitants of Monongalia County,Inhabitants of Monongalia County
+480,George Rogers Clark,Officers of Pennsylvania and Virginia,Officers of Pennsylvania and Virginia
+481,John Gibson,George Rogers Clark,George Rogers Clark
+482,John Gibson,George Rogers Clark,George Rogers Clark
+483,John Gibson,George Rogers Clark,George Rogers Clark
+484,John Gibson,George Rogers Clark,George Rogers Clark
+485,John Gibson,George Rogers Clark,George Rogers Clark
+486,Geoffrey Linctot,George Rogers Clark,George Rogers Clark
+487,George Rogers Clark,Thomas Jefferson,Thomas Jefferson
+488,George Rogers Clark,Joseph Reed,Joseph Reed
+489,John Bailey,George Slaughter,George Slaughter
+490,George Rogers Clark,Archibald Lochry,Archibald Lochry
+491,George Rogers Clark,Major Cracraft,Major Cracraft
+492,John Floyd,George Rogers Clark,George Rogers Clark
+493,John Montgomery,Thomas Nelson,Thomas Nelson
+494,John Montgomery,Thomas Nelson,Thomas Nelson
+495,George Slaughter,Thomas Nelson,Thomas Nelson
+496,William Croghan,Colonel Davics,Colonel Davics
+497,John Gibson,George Rogers Clark,George Rogers Clark
+498,John Gibson,George Washington,George Washington
+499,Arthur Campbell,George Rogers Clark,George Rogers Clark
+500,George Rogers Clark,Kentucky County Commissioners,Kentucky County Commissioners
+501,John Todd,George Rogers Clark,George Rogers Clark
+502,Thomas Nelson,Leighton Wood,Leighton Wood
+503,Kentucky County-lieutenants,George Rogers Clark,George Rogers Clark
+504,John Floyd,George Rogers Clark,George Rogers Clark
+505,John Montgomery,George Rogers Clark,George Rogers Clark
+506,George Rogers Clark,Thomas Nelson,Thomas Nelson

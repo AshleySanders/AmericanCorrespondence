@@ -1,0 +1,1240 @@
+Last login: Mon Jan  1 08:02:12 on ttys000
+hm-000556:~ ashleys$ mv /users/ashleys/Desktop/TPOUS2 /users/ashleys/mallet-2.0.8
+hm-000556:~ ashleys$ cd mallet-2.0.8
+hm-000556:mallet-2.0.8 ashleys$ ls
+Comp-texts			class
+Comp-texts.mallet		comp-topic-stat.gz
+ContCorr			comp-topic-stat100.gz
+ContCorr-topic-counts.txt	comp_composition.txt
+ContCorr-topic-state.gz		comp_composition100.txt
+ContCorr.mallet			comp_keys.txt
+ContCorr_composition.txt	comp_keys100.txt
+ContCorr_keys.txt		dist
+ContCorr_topic_counts.txt	lib
+GRC-topic-state.gz		pom.xml
+GRC-topic-state.txt		sample-data
+GRC-word-topic.txt		src
+GRC.csv				stoplists
+GRC.mallet			test
+GRCPapers			tocq
+GRCPapers-Clean2.txt		tocq-topics-state.gz
+GRC_composition.txt		tocq.mallet
+GRC_keys.txt			tocq_composition.txt
+LICENSE				tocq_keys.txt
+Makefile			topic-counts-tocq.txt
+README.md			topic-stat.gz
+TPOUS2				tutorial.mallet
+bin				tutorial_composition.txt
+build.xml			tutorial_keys.txt
+hm-000556:mallet-2.0.8 ashleys$ ./bin/mallet import-dir --input [DIRECTORY NAME] --output FILENAME.mallet --keep-sequence --remove-stopwords
+Labels = 
+   [DIRECTORY
+   NAME]
+Exception in thread "main" java.lang.IllegalArgumentException: /Users/ashleys/mallet-2.0.8/[DIRECTORY is not a directory.
+	at cc.mallet.pipe.iterator.FileIterator.<init>(FileIterator.java:108)
+	at cc.mallet.pipe.iterator.FileIterator.<init>(FileIterator.java:145)
+	at cc.mallet.classify.tui.Text2Vectors.main(Text2Vectors.java:322)
+hm-000556:mallet-2.0.8 ashleys$ ./bin/mallet import-dir --input [DIRECTORY NAME] --output FILENAME.mallet --keep-sequence --remove-stopwords
+Labels = 
+   [DIRECTORY
+   NAME]
+Exception in thread "main" java.lang.IllegalArgumentException: /Users/ashleys/mallet-2.0.8/[DIRECTORY is not a directory.
+	at cc.mallet.pipe.iterator.FileIterator.<init>(FileIterator.java:108)
+	at cc.mallet.pipe.iterator.FileIterator.<init>(FileIterator.java:145)
+	at cc.mallet.classify.tui.Text2Vectors.main(Text2Vectors.java:322)
+hm-000556:mallet-2.0.8 ashleys$ ./bin/mallet import-dir --input TPOUS2 --output tpous2.mallet --keep-sequence --remove-stopwords
+Labels = 
+   TPOUS2
+hm-000556:mallet-2.0.8 ashleys$ ./bin/mallet train-topics --input tpous2.mallet --num-topics 50 --optimize-interval 20 --word-topic-counts-file tpous2-topic-counts.txt --output-state tpous2-topics-state.gz --output-topic-keys tpous2_keys.txt --output-doc-topics tpous2_composition.txt
+Mallet LDA: 50 topics, 6 topic bits, 111111 topic mask
+Data loaded.
+max tokens: 2980
+total tokens: 63493
+<10> LL/token: -9.05723
+<20> LL/token: -8.76733
+<30> LL/token: -8.65324
+<40> LL/token: -8.58558
+
+0	0.1	lands land inhabitants acres hundred tracts french territory mississippi report claims persons laid governor tract order reserved resolved vincennes rivers 
+1	0.1	breadth louis pont prairie joining widow francois rigoulet jean baptiste pierre feet half charles piere des trottier baptist marie front 
+2	0.1	virginia state war troops side act pitt lake scioto continental commanding south depredations application july general deficiency miami resolution regular 
+3	0.1	territory judges governor government laws made duty authority officers power original civil court laid case due order future cases attorney 
+4	0.1	state north york jurisdiction miles william cession twenty forty latitude james benefit court union west people presents boundaries meridian power 
+5	0.1	gen hope duer obtained expence country prospect foundation degree heard spaniards original support discovered reach journey suffer additional essential conolly 
+6	0.1	river united mouth country part claim village instructions danger carried represented point garrison millions king living citizens head reg communication 
+7	0.1	townships township range land fractional geographer manner lots purchasers towns society reserved dollars year tracts paid loan lot part agreed 
+8	0.1	government present west great acts country illinois boundaries view records time render white things prevented perfect received sep effected point 
+9	0.1	time fort information party reason days arrived detroit men meeting send killed make intelligence wyandots man returned appears horses left 
+10	0.1	thousand dollars sum indian year hundred affairs money general means expenses congress establish account appropriated salary provisions arrival soil applied 
+11	0.1	joseph antoine inhabitants excellency jean sale vente charle girardin means leurs leur families fils baptis d'une list jaque pretended fin 
+12	0.1	president secretary state states united territory north ohio executive western judge lear jefferson report transmit proceedings june consideration tobias resolution 
+13	0.1	secretary war clair governor congress treaty indians indian instructions superintendant opinion department gen commissioners sir proposed servant present gov enclosed 
+14	0.1	land piece arpent hills joining side joseph tract arpents bois mississippi street coupé hundred improved cul broad antoine long fountain 
+15	0.1	country part governor states case april circumstances proclamation clair hand held inhabitants considerable missisippi made desire appeared place settlements continue 
+16	0.1	congress country honorable american french cahokia poste grant pray order humbly petitioners confirmed sheweth public ancient americans bound duty america 
+17	0.1	place made time country pleased fort ago miles settlements return day muskingum considerable account john esq called liberty family measure 
+18	0.1	states line united ohio made western aforesaid provided part boundary ordinance thereof river east west make day parts heirs person 
+19	0.1	states indians united wabash indian western treaty tribes territory measures nations river persons lands mentioned ohio hostile hostilities prevent order 
+20	0.1	company les leur gallipolis des scioto france torn french compagnie rome qu'ils contract ont qu'on putnam mois petit comp nombre 
+21	0.1	pour des dans qui avec votre pas cahos quebec cette aux tres faire mission dit sont bien lui seminary seminaire 
+22	0.1	clair present give affairs governor arthur establishment end feel post superintendants reason authority court law presented issue orders northern rocher 
+23	0.1	peace war service protection men public nature conduct subject established opinion frontiers effect military purpose highly march force desirous hoped 
+24	0.1	nations people proper manner western expected consequence wyandots considered principal back speech orleans circumstance taking impossible wyandot offer man english 
+25	0.1	states united john senate president representatives house act enacted year eighty miami cleves patent country assembled america river day connecticut 
+26	0.1	illinois referred committee settlers petition june possessions williamson flint villages george titles read august kaskaskia heads improvements mississippi consisting opinion 
+27	0.1	post hope vincennes harmar long posts july expect meet large goods peace met nation opportunity force numbers loss directions doubt 
+28	0.1	kaskaskias town john wide plain half common lots baptiste indian close house widow front antonie perches ditto racine feet danis 
+29	0.1	river lot hundred village prairie acres fifty square made whereon common settled sac house henry pense culotte fence length james 
+30	0.1	vous qui une est l'honneur été sur child perez justice j'ai mains dear manuel enfant chez d'etre quel ses cette 
+31	0.1	tract board treasury part parties contract land associates assigns mentioned cutler purposes terms beginning laid place parker afs signed contents 
+32	0.1	report congress memorial made act purchase million treasury great july morgan board memorialist dane resolves proposed company indian carrington land 
+33	0.1	vincennes justice good inhabitants humble honor happy address behalf moment leave long confidence years lives life arrival body began difficulties 
+34	0.1	les par quil gibault marque nous property humble translation district possession fait qu'il ils etats lajoye comme son mais biens 
+35	0.1	congress time act authority hundred delegates assembled thousand general lord massachusetts assembly commission number force america line law virtue witness 
+36	0.1	monsieur person obliged found boat spanish greatest return copy hands answer prairie mayet receive write company pittsburgh consequences slaves attend 
+37	0.1	sir honor general letter major respect march pleased public knox judge letters philadelphia papers proper office acting conduct obedient great 
+38	0.1	gentlemen citizens great deprived satisfaction gamelin common administration happiness county instances principles esquire derive expressed care properly abilities worthy sen 
+39	0.1	symmes sargent dear public honour proper leave col military philadelphia western copies pay duties conceive man private subject matter pleasure 
+40	0.1	officer washington place militia expedition committee army difficult enquiry commanding manner campaign companies day july thing intended smith consideration attack 
+41	0.1	great people made number ohio present make small law british tho situation received business granted expectation side remove fall half 
+42	0.1	payment lands survey sale time north quantity interest army tract late states certificates case deeds price payments united paid surveys 
+43	0.1	war indians general fort harmar knox peace secretary chiefs great frontier treaty miami major tribes delawares letter mark treaties shawanese 
+44	0.1	clair country found governor time put judge letter general county give people courts provision business doubt necessity part circumstances informed 
+45	0.1	states government united property free support established declared article find september office liberty full territorial boundaries consent formed seat services 
+46	0.1	treasury board office miami blank sold secretary commissioners ordained passed oath erie offices agreeably sell thereon honorable northern pennsylvania proceed 
+47	0.1	sir letter excellency president respect honor obedient humble servant secretary sargent governour july enclosed esq excellency's office addressed serv winthrop 
+48	0.1	congress lands acres due surveyed officers grant entitled lines persons warrants running bounties sufficient bounds bounty ordinance october excellency sioto 
+49	0.1	district laws territory appointed subject part magistrates legislature years powers equal duties state council governor regulations receive appoint confined crimes 
+
+<50> LL/token: -8.54412
+<60> LL/token: -8.51763
+<70> LL/token: -8.48618
+<80> LL/token: -8.47283
+<90> LL/token: -8.4696
+
+0	0.1	inhabitants lands land acres french illinois laid tracts mississippi persons settlers hundred claims report granted vincennes tract kaskaskia governor grant 
+1	0.1	breadth louis prairie pont jean rigoulet widow francois antoine baptiste feet half charles joseph piere trottier des baptist front marie 
+2	0.1	virginia state ohio troops war side pennsylvania inhabitants scioto prevent frontier continental south miami fort kentucky depredations good make pay 
+3	0.1	territory government governor judges laws duty authority make state civil officers western court order cases records copies absence laid case 
+4	0.1	state york north west states year william eighty jurisdiction benefit virtue behalf forty meridian james twenty aforesaid latitude westerly degree 
+5	0.1	country hope gen degree obtained interest support honorable advantage offer heard considerable order prospect knowledge british obtain expence reach debt 
+6	0.1	river country part united mouth considerable miles received instructions claim power village difficult illinois garrison citizens founded raise settlement obtained 
+7	0.1	townships township range fractional lots reserved geographer part society ordinance towns manner tracts land lot dollars loan paid thereof future 
+8	0.1	government present country part time point river west render things claim taking limits business boundaries view prevented effected propriety belonging 
+9	0.1	time days information men send arrived party reason detroit ohio give meeting good intelligence sir left man expect returned killed 
+10	0.1	thousand dollars sum hundred affairs money year ordered means purchase establish hold congress appropriated twenty general expenses required held formed 
+11	0.1	joseph pierre inhabitants excellency rocher francois vente sale charle girardin made fils baptis ducharme veuve rivière jaque nicolaus holy thomas 
+12	0.1	president secretary states state united territory western north report proceedings executive lear jefferson judge west june consideration ohio tobias legislature 
+13	0.1	war indians secretary indian clair governor treaty instructions commissioners provisions opinion gen consequence information present proposed department enclosed western view 
+14	0.1	land piece arpent joining hills side joseph tract arpents bois coupé mississippi street improved cul sac lands common long fountain 
+15	0.1	part missisippi inhabitants spanish appeared proclamation case subjects settlements orleans majesty brought chief representation circumstances hold published free discovered interested 
+16	0.1	congress honorable american french country vincennes petitioners poste order pray grant humbly indians tardiveau sheweth americans america ancient duty property 
+17	0.1	place return fort ago country account miles day muskingum pleased copy set tho bring washington cahokia liberty family satisfaction safe 
+18	0.1	land line states united made ohio river western boundary provided part aforesaid west north thereof congress day east ordinance heirs 
+19	0.1	indians states united indian treaty wabash tribes territory western nations northern measures treaties lands peace hostile mentioned frontiers hostilities nation 
+20	0.1	gallipolis company leur scioto des france duer torn compagnie rome qu'ils agent contract putnam inhabitants mois petit ont month nombre 
+21	0.1	des qui pas avec cette votre dans cahos quebec pour aux faire mission dit order sont sur seminary seminaire sous 
+22	0.1	clair governor give affairs present proper arthur parsons reasons post end authority period services establishment request support require doubt hopes 
+23	0.1	war peace public april opinion established department military highly men referred posts march subject congress measure purpose nature conduct desirous 
+24	0.1	nations general people expected proper long manner officer considered principal thro ill river back dated continue resolution expectation influence union 
+25	0.1	united states john president senate representatives house enacted act thousand cleves hundred miami april year washington america day patent eighty 
+26	0.1	committee referred june petition george read williamson mississippi illinois opinion august consisting donations heads indian clarke form irvine title possessions 
+27	0.1	post vincennes harmar answer fort major opportunity day goods large meet long august event delay force corn desired subject numbers 
+28	0.1	kaskaskias town wide john baptiste plain half widow indian lots common antonie house front perches ditto jacque amable racine close 
+29	0.1	river lot hundred village prairie acres square fifty whereon john james house fence bottom settled antoin depth mississipi called bounds 
+30	0.1	vous monsieur qui quil honor est humble l'honneur été child lui possession tres perez entre une sur dear j'ai mains 
+31	0.1	associates parties tract treasury part board cutler grant terms mentioned flint congress due place contract purposes afs assigns signed agree 
+32	0.1	report board land treasury memorial congress contract act made july morgan proposed memorialist million purchase symmes dane company wabash submitted 
+33	0.1	justice good address humble happy consideration beg body confidence friends happiness behalf moment petition arrival years administration rights settle life 
+34	0.1	les par pour gibault marque nous district property une dans lands translation ils etats lajoye treack comme leurs mais biens 
+35	0.1	congress states act authority line delegates lord commonwealth cession territory hundred assembled general massachusetts assembly america connecticut thousand time due 
+36	0.1	found person obliged forward communication boat time arrival company savages hands respect slaves copy moment water permitted high claims information 
+37	0.1	sir general letter honor judge letters major great servant philadelphia respect public knox march turner conduct papers matter received pleased 
+38	0.1	gentlemen citizens gamelin situation instances add appointment principles duer col derive establishment command long europe preemption turned voluntarily subjected inform 
+39	0.1	sargent symmes dear public acting proper leave duties private territory col military good philadelphia man hamilton cincinnati past mentioned ludlow 
+40	0.1	officer militia washington enquiry expedition commanding army service committee thing campaign presents inform head place signed resolved make interests smith 
+41	0.1	great people made number present law small distance british thought tho situation judge protection ground remove consequence spirit property distant 
+42	0.1	states tract lands payment sale quantity time army mouth case united deeds survey certificates purchasers paid interest expence sold price 
+43	0.1	war fort harmar wyandots knox indians general miami chiefs delawares major peace mark shawanese treaty council immediately copy col frontier 
+44	0.1	clair made country time governor county circumstances business informed doubt put part request power found courts necessity orders application find 
+45	0.1	states united original property free article formed established find declared number territorial adopted offered liberty circumstances principles understood full people 
+46	0.1	treasury secretary miami board office blank ordained superintendant sold commissioners offices lake passed oath orders erie public agreeably discharge places 
+47	0.1	sir congress letter excellency respect office obedient president honour humble great servant honor winthrop july secretary governour governor subject esq 
+48	0.1	lands congress acres surveyed officers surveys entitled survey warrants lines set surveyor drawn soldiers bounties trust bounds military due bounty 
+49	0.1	district time laws office person appointed equal persons duties magistrates subject force governor legislature removed common council act good confined 
+
+<100> LL/token: -8.46545
+<110> LL/token: -8.45185
+<120> LL/token: -8.44818
+<130> LL/token: -8.44827
+<140> LL/token: -8.43634
+
+0	0.1	lands inhabitants country illinois land acres french settlers mississippi tracts laid granted vincennes hundred post claims report virginia grant ancient 
+1	0.1	breadth prairie louis joseph pont jean widow rigoulet charles feet francois half baptiste piere trottier des marie front antoine baptist 
+2	0.1	virginia state ohio troops war side pennsylvania inhabitants good establishment prevent july frontier savages miami resolution south depredations pay scioto 
+3	0.1	territory governor judges laws government duty authority officers civil public law western court absence order laid case ordinance copies cases 
+4	0.1	state william north york west year james eighty aforesaid jurisdiction forty virtue benefit lands september presents samuel meridian degree behalf 
+5	0.1	country heard obtain british end advantage security interest expence support obtained feel honorable opinion prospect united reach journey spaniards depend 
+6	0.1	river country considerable mouth united part miles received union north sell degree spanish farther difficult authority settlement founded danger distance 
+7	0.1	townships township range fractional geographer society lot lots towns manner thereof reserved tracts loan year paid south ranges ordinance granted 
+8	0.1	present government part lands country view boundaries claims subject point debt principle hawkins canada foreign departure effected things branch change 
+9	0.1	time sir information send days detroit meeting arrived reason thought intelligence killed message returned july party horses man determined give 
+10	0.1	thousand dollars year sum hundred purchase money ordered expenses establish obtained appropriated general considerable affairs making provisions respects twenty twelve 
+11	0.1	pierre joseph francois gibault marque antoine excellency louis inhabitants charle girardin barbau amable jacque jacques baptis rocher gamelin michel ducharme 
+12	0.1	secretary president state states united territory western north ohio executive report west proceedings lear jefferson relative attorney consideration tobias june 
+13	0.1	war indians treaty secretary governor indian instructions clair opinion present case gen peace congress proposed commissioners information provisions consequence knox 
+14	0.1	land piece arpent joining hills side tract lot acres bois coupé arpents mississippi street cul sac long pense culotte liard 
+15	0.1	part proclamation missisippi subjects case appeared chief orleans majesty property proper spanish representation commander orders matters arrival trade intention province 
+16	0.1	congress honorable petition french american order petitioners vincennes poste made humbly grant pray agent americans settlements tardiveau sheweth charter america 
+17	0.1	place fort country ago account settlement river pleased business miles day bring return muskingum persons tho consequence measure point esq 
+18	0.1	land line river ohio congress united made western part boundary provided west states ordinance aforesaid day make parts heirs thereof 
+19	0.1	indians united states indian tribes wabash treaty nations treaties western territory measures congress hostile frontiers hostilities northern secretary effect trade 
+20	0.1	company les gallipolis scioto leur des france torn compagnie rome contract duer qu'ils ont qu'on inhabitants mois french ils dans 
+21	0.1	des qui pas cette votre vous cahos quebec aux faire dans mission sont order leur avec seminary seminaire sous unis 
+22	0.1	clair governor give present parsons arthur request affairs reason period reasons establishment services support court feb end matter proper appears 
+23	0.1	war peace public march established department commanding highly issue posts men protection desirous nature opinion disposition propriety april direct hoped 
+24	0.1	general nations people expected proper manner principal honor settlements ill considered expectation thro speech long back dated desired circumstance refused 
+25	0.1	united states john symmes president senate representatives house enacted miami cleves thousand act hundred april eighty secretary october america august 
+26	0.1	committee june george mississippi williamson papers mouth general referred donations august consisting form hon submit making heads sept clarke title 
+27	0.1	post fort major vincennes harmar officer purpose force answer day pitt delivered appears met numbers require long acts corn measures 
+28	0.1	kaskaskias town lot john wide baptiste plain half common widow arpents lots indian house ditto tract fence antonie front perches 
+29	0.1	river hundred village prairie fifty acres whereon made improved james square john leagues wood george length bottom improvements henry antoin 
+30	0.1	monsieur vous les quil qui tres humble avec l'honneur est child lui une possession ohio honor lajoye entre dans dear 
+31	0.1	part associates parties tract board treasury cutler purposes assigns grant due afs resolutions place mentioned agree agreed company signed royal 
+32	0.1	report treasury board memorial land contract congress july referred act read morgan flint memorialist million purchase company parker committee proposed 
+33	0.1	justice hope state government humble inhabitants confidence years good moment address happiness behalf leave happy consideration arrival life friends liberty 
+34	0.1	pour les par nous district property dit sur treack comme sale leurs mais vente qu'il biens est une cour fait 
+35	0.1	states congress act line hundred general assembled thousand delegates authority cession commonwealth territory lord america massachusetts assembly connecticut interest soil 
+36	0.1	found obliged person cahokia communication copy forward savages boat american thing public slaves hands accompany allowed king fill partly obtained 
+37	0.1	sir general honor letter president letters papers servant major respect philadelphia public knox putnam expect great march turner received esteem 
+38	0.1	gentlemen citizens situation july duer col thereof instances statement subjected duty trust appointment add command magistrate administered attempt individual wishes 
+39	0.1	sargent dear judge symmes proper acting great private good winthrop public duties col leave matter man hamilton military mentioned marietta 
+40	0.1	washington enquiry expedition place army service conduct campaign militia thing presents gen officer smith military interests wilkinson found present head 
+41	0.1	people great number law power present small british remove sufficient make distance large situation ground spirit disposed sale brought run 
+42	0.1	payment tract lands quantity made sale states expence land deeds survey united certificates time payments purchasers price indian beginning equal 
+43	0.1	fort harmar wyandots war miami treaty indians chiefs peace delawares great mark shawanese council general frontier held knox claim village 
+44	0.1	made clair time letter governor make informed men put circumstances county business hold courts desire country orders appointed found necessity 
+45	0.1	states united territory government property great number circumstances north free original established principles article formed find lake territorial post demand 
+46	0.1	treasury states office board secretary time blank sold ordained miami surveyor commissioners superintendant surveyors aforesaid offices oath copy erie lake 
+47	0.1	sir congress excellency letter respect president obedient honour office secretary honor humble subject enclosed servant governour esq july york ohio 
+48	0.1	lands congress acres officers surveyed army entitled lines surveys military warrants order survey late delivered bounds due bounties drawn set 
+49	0.1	district time person persons laws powers magistrates appointed citizens office duties common force house legislature signed inhabitants equal punished crimes 
+
+<150> LL/token: -8.42679
+<160> LL/token: -8.42165
+<170> LL/token: -8.43088
+<180> LL/token: -8.40935
+<190> LL/token: -8.4118
+
+0	0.1	inhabitants lands illinois land acres french country mississippi tracts settlers hundred grant persons post granted laid report claims made ancient 
+1	0.1	louis prairie joseph widow jean rigoulet pont baptiste half francois charles feet des piere marie antoine cahokia clement gerardin settled 
+2	0.1	virginia state troops ohio pay side south savages cession scioto frontier pennsylvania prevent laws july miami judge continental militia establishment 
+3	0.1	governor territory judges laws government law made court proper duty officers authority order power public cases absence civil ordinance duties 
+4	0.1	state york north delegates william west eighty jurisdiction forty latitude western meridian degree aforesaid presents twenty virtue behalf benefit lands 
+5	0.1	country lands heard support expence british advantage foundation mississippi provisions posts respects security kentucky reach establishing pretty purchased prospect journey 
+6	0.1	river united considerable mouth considered country instructions prevent settlement received trade give difficult receive union sell wabash paid part garrison 
+7	0.1	townships township range fractional geographer lots lot towns society tracts loan reserved south future granted mentioned ordinance brethren year plats 
+8	0.1	government present lands country claims view part boundaries point established debt principle president branch hawkins fact western departure similar canada 
+9	0.1	time days nations good party detroit day harmar reason appears give sir arrived intelligence meeting information man meet men killed 
+10	0.1	thousand dollars sum year hundred considerable means ordered purchase expenses department appropriated money expense statement amount service objects salary soil 
+11	0.1	pierre joseph marque francois louis gibault antoine excellency inhabitants charle barbau jacques janis baptis rocher list michel chartran veuve jaque 
+12	0.1	secretary president state united states ohio territory north west report department lear jefferson western executive attorney proceedings secy tobias relative 
+13	0.1	war indians secretary treaty governor indian knox instructions gen opinion peace commissioners consequence proposed subject clair goods major provisions receive 
+14	0.1	land piece arpent joining hills breadth side lot acres tract bois coupé baptist trottier mississippi pont arpents street square whereon 
+15	0.1	spanish subjects missisippi day case property proclamation west appeared orleans majesty spaniards commander province english free true privileges allowed royal 
+16	0.1	congress french honorable petition american vincennes petitioners poste order humbly americans tardiveau pray duty charter sheweth agent hitherto settlements bound 
+17	0.1	place account business river ago return muskingum settlement settlements loss signed pleased left putnam ware safe care miles give corn 
+18	0.1	line congress river states ohio part western provided aforesaid land north ordinance west thereof territory parts make united due day 
+19	0.1	indians united states indian treaty tribes wabash treaties territory northern nations superintendant affairs congress frontiers hostile measures western effect secretary 
+20	0.1	des company gallipolis leur scioto france torn qu'ils ont compagnie rome ohio contract petit duer qu'on mois comp sess peu 
+21	0.1	des qui pas cette quebec cahos vous aux faire mission dit sont avec seminary seminaire leur declaration unis attorney missionaries 
+22	0.1	clair governor parsons arthur give present reasons end presented june period render support reason stated request examine senate subject feb 
+23	0.1	war peace public post commanding protection troops april men established officer manner circumstances desirous highly nature establishment posts opinion conduct 
+24	0.1	general proper expected people western principal honor ill settlements thro desired made long back years place received peace towns manner 
+25	0.1	united states symmes john senate representatives house enacted president act miami cleves secretary patent april thousand august letters hundred eighty 
+26	0.1	june committee morgan general george papers report mouth making return clarke petition mississippi mentioned blank boundary opinion sept hon baldwin 
+27	0.1	fort major vincennes officer post purpose harmar measures immediately pitt force hamtramck approbation ohio river set effect lake truth numbers 
+28	0.1	kaskaskias town lot john wide plain half common arpents tract baptiste lots indian widow fence village house piece perches ditto 
+29	0.1	river hundred village prairie fifty long james improved made land john year george fountain length bottom creek improvement sugar priests 
+30	0.1	monsieur vous qui quil tres est avec honor humble l'honneur child lui lajoye perez entre possession j'ai mains dear manuel 
+31	0.1	part tract parties associates assigns treasury heirs grant land board agreed company boundary purposes afs signed place contents thereof cutler 
+32	0.1	report treasury board memorial contract congress land referred act july committee flint million wabash read proposed company purchase dane williamson 
+33	0.1	justice hope government leave behalf confidence arrival happy moment good state inhabitants long life body address lives friends happiness august 
+34	0.1	les pour par dans une votre sur district nous property qu'il sous ils treack sale leurs mais vente biens comme 
+35	0.1	states congress united act thousand year hundred line assembled authority general america commonwealth lord day massachusetts drawn cession manner assembly 
+36	0.1	obliged found authority person place cahokia kaskaskia account consequence communication forward american accompany water copy slaves courts suffered savages understand 
+37	0.1	sir letter honor general clair president respect servant philadelphia public papers conduct pleased matter turner judge march great obedient received 
+38	0.1	gentlemen citizens col situation duer instances agent appointment thereof add operation longer neglected duty derive gamelin extended europe preemption sacred 
+39	0.1	sargent dear judge acting symmes great winthrop private general proper pleasure good col conceive duties humble hamilton public man discharge 
+40	0.1	enquiry expedition army letters commission campaign smith washington military gen interests thing draft command major head appears due proceed committee 
+41	0.1	people country great part number present small power distance tho british found situation sufficient large ground brought make published distant 
+42	0.1	made tract payment lands quantity sale united board land paid states interest purchase deeds due certificates reserved expence mouth payments 
+43	0.1	fort miami wyandots nations chiefs delawares harmar treaty mark shawanese peace frontier council village great view prisoners concluded messages january 
+44	0.1	time made clair governor make letter business informed country doubt found necessity put hope long appointed county hold men circumstances 
+45	0.1	states united territory government inhabitants property number free original ohio principles north civil formed state article consent liberty people acts 
+46	0.1	treasury sold time board blank secretary states miami commissioners office ordained surveyors oath state erie proceed lake make shew geographer 
+47	0.1	sir letter congress excellency respect secretary honor obedient honour office humble president servant great july governour esq copy enclosed sargent 
+48	0.1	lands acres congress officers surveyed army land surveys war entitled survey military lines public rights surveyor warrants office set late 
+49	0.1	district time persons office subject person appointed magistrates council laws force citizens legislature house continue duties crimes equal regulations reside 
+
+<200> LL/token: -8.4069
+<210> LL/token: -8.39137
+[beta: 0.01251] 
+<220> LL/token: -8.38364
+<230> LL/token: -8.38734
+[beta: 0.0132] 
+<240> LL/token: -8.39624
+
+0	0.12654	inhabitants lands land illinois french country acres settlers tracts post grant persons mississippi vincennes made virginia laid hundred claim possessions 
+1	0.01836	louis joseph widow francois jean rigoulet baptiste antoine charles feet piere des marie michel prairie clement gerardin saucier paul gabriel 
+2	0.10156	virginia troops state militia side july savages good pay ohio frontier service scioto pennsylvania deficiency miami cession south case resolved 
+3	0.17381	governor territory laws judges government law proper officers authority court power public ordinance duty laid order powers records absence case 
+4	0.0564	state west york north delegates connecticut massachusetts degree meridian eighty presents jurisdiction william samuel pennsylvania lands twenty virtue latitude forty 
+5	0.06004	heard western expectation advantage kentucky reach prospect foundation pretty interest writing view establishing journey spaniards posts conolly leaving john end 
+6	0.1009	river mouth united prevent considerable distance settlement part small miles instructions union trade found received millions loss paper king founded 
+7	0.04769	townships township geographer fractional lots range society tracts lot towns loan south ordinance mentioned granted reserved brethren consideration future plats 
+8	0.08627	present government lands country claims view boundaries president principle point established senate canada held british occasion house hawkins debt question 
+9	0.12488	general days harmar time place party information intelligence give meeting consequence meet arrived message good killed returned forward man men 
+10	0.10315	thousand hundred dollars year sum department money twenty congress ordered appropriated expences account expenses western twelve amount provisions presents statement 
+11	0.01297	pierre marque gibault excellency joseph district des vente charle qui excellence barbau cabasier jacques baptis pour rocher june fils jaque 
+12	0.21953	secretary president state united states ohio territory north western report consideration lear attorney march executive secy proceedings jefferson opinion relative 
+13	0.18553	war indians secretary treaty governor knox indian instructions gen clair opinion commissioners instant honor make proposed enclosed respecting case information 
+14	0.01263	land piece arpent joining hills breadth prairie side pont acres lot tract bois front coupé mississippi baptist half trottier street 
+15	0.05298	proclamation missisippi subjects case spanish orleans majesty appeared day true province allowed matters possession commander west privileges arms royal permitted 
+16	0.06801	congress honorable petition american vincennes petitioners french poste order americans made pray humbly charter america pleased bound confidence august indian 
+17	0.06288	muskingum account ago care left business ware soldier persons indians hutchins putnam settlement settlements give ben harmer marietta thomas belonging 
+18	0.21672	united line states congress river ohio western made aforesaid boundary north west provided due part territory east manner parts ordinance 
+19	0.16039	indians states united indian treaty wabash tribes treaties affairs peace nations superintendant measures territory frontiers northern secretary hostilities nation district 
+20	0.01217	des company gallipolis leur scioto france compagnie ont rome duer qu'ils torn qu'on avec contract mois petit cette comp avoit 
+21	0.01723	des cette cahos quebec aux vous mission faire seminary seminaire pas leur attorney sont declaration vos dit missionaries quil dits 
+22	0.10085	clair governor parsons arthur reasons memorialist period present services varnum end service enclosure respectfully senate taking disbursements accounts contracted reason 
+23	0.12658	war present post commanding conduct require officer peace highly force posts april established protection disposition desirous establishment direct render public 
+24	0.10879	general people time western principal expected called ill place settlements back thro desired manner circumstances pass circumstance influence proper fell 
+25	0.08321	john states symmes united representatives miami house senate president enacted cleves act patent hundred april letters washington contract ohio dayton 
+26	0.09076	june report committee morgan august george consisting papers opinion general clarke sept hon motion baldwin petition sundry clark antient jany 
+27	0.13435	fort major officer post return harmar purpose ohio detroit washington river day orders probable measures send pitt immediately colonel numbers 
+28	0.02459	kaskaskias town lot wide john plain arpents piece common tract baptiste indian half lots house perches ditto amable feet racine 
+29	0.04468	river hundred village fifty prairie james half north long house john george henry fountain run year improved bottom depth bounds 
+30	0.00835	monsieur vous pas qui avec quil honor tres humble l'honneur child lajoye perez entre mains lui une dear manuel enfant 
+31	0.05331	part parties tract assigns associates land heirs treasury thereof board afs grant company purposes laid contracted contents resolutions townships presents 
+32	0.11385	treasury report congress board memorial contract referred land purchase act july flint committee read company cutler million williamson dane parker 
+33	0.10384	justice hope support happy behalf humble moment good long magistrates address body life extensive friends happiness consideration confidence satisfaction administration 
+34	0.01031	les pour par dans qui votre sur nous une property est translation bien fait order qu'il sous inhabitants ils etats 
+35	0.10022	states congress act hundred united year assembled thousand general america commonwealth lord authority line cession day drawn members declared commission 
+36	0.06822	obliged place kaskaskia communication respect cahokia found boat savages put impossible town consequence county accompany altho slaves partly arrival account 
+37	0.18848	sir clair general pleased public philadelphia papers respect honor servant matter putnam judge president expect give place letter private received 
+38	0.06218	gentlemen col vincennes add situation citizens duer gamelin militia longer instances agent individual europe preemption sacred derived neglected endeavours thereof 
+39	0.11301	sargent dear great acting symmes judge public good duties military conceive pleasure private man past proper winthrop persuaded cincinnati mentioned 
+40	0.06457	army letters enquiry gen washington campaign expedition major smith command wilkinson inquiry appointment copies library issue committee lay foregoing action 
+41	0.14838	country great people part number present small situation british power obtained february tho brought thought large soil found greatest considerable 
+42	0.13216	tract payment land sale made mouth lands interest paid board payments quantity certificates purchasers case survey expence states price associates 
+43	0.06381	nations fort wyandots miami delawares chiefs mark council harmar shawanese frontier answer peace treaty claim messages village reg messenger wilson 
+44	0.21417	made time clair letter country doubt business person make governor long informed hope letters copy necessity part men desire found 
+45	0.11563	states united territory property government state original inhabitants equal formed free principles number established territorial article civil seat find circumstances 
+46	0.09294	treasury office board state states blank sold ordained time miami secretary surveyors part oath commissioners geographer hand seal run deputy 
+47	0.27123	sir congress letter excellency respect president humble obedient servant office honour secretary honor july leave esq great governour excellency's enclosed 
+48	0.10991	lands congress acres surveyed army officers surveys late land quantity entitled war lines warrants survey public military surveyor bounties ranges 
+49	0.07638	district person time years legislature persons citizens continue subject confined crimes council representatives legislative signed duties appointed punished orders good 
+
+<250> LL/token: -8.38664
+[beta: 0.01349] 
+<260> LL/token: -8.38558
+<270> LL/token: -8.37255
+[beta: 0.01376] 
+<280> LL/token: -8.37267
+<290> LL/token: -8.36153
+
+0	0.14123	lands inhabitants land acres illinois country french made settlers tracts hundred wabash territory grant post laid mouth granted tract vincennes 
+1	0.0125	louis joseph widow francois baptiste jean antoine feet pierre charles des marie prairie michel paul settled saucier gabriel dit henry 
+2	0.08569	virginia state troops ohio side militia savages miami pay service executive scioto pennsylvania parties case deficiency good lying actual south 
+3	0.18564	governor territory laws judges government proper law court authority duty officers district laid case powers cases civil absence records ordinance 
+4	0.03301	state delegates york massachusetts north west meridian connecticut jurisdiction degree william presents samuel benefit latitude forty twenty behalf soil people 
+5	0.04942	heard prospect establishing posts foundation equal support pretty committed issued conolly open kentucky debt expectation journey early turned connection succeeded 
+6	0.10079	found distance prevent received instructions trade receive settlement citizens garrison united union authority considerable mouth difficult miles river power settled 
+7	0.04443	townships township range fractional geographer lots acres towns ordinance society lot reserved tracts south loan future lines thereon ranges granted 
+8	0.06478	government view present point boundaries claims lands senate hawkins principle house treated mentioned change benjamin departure convince natives conquest debt 
+9	0.14075	place time general day days party men arrived consequence expect good send sir intelligence harmar meet notwithstanding meeting return returned 
+10	0.11532	thousand dollars hundred sum year congress twenty time resolve appropriated account amount twelve expenses statement service propriety sufficient applied money 
+11	0.01084	marque gibault excellency joseph district pour sale chartran charle excellence barbau girardin baptis rocher nos pierre veuve jaque belle badiste 
+12	0.28831	secretary president state united states territory ohio report western march north attorney executive proceedings consideration secy department lear west opinion 
+13	0.20708	war indians secretary governor treaty knox indian instructions gen proper peace commissioners clair honor proposed give case congress make opinion 
+14	0.00897	land joining piece hills arpent breadth prairie side pont rigoulet lot half tract bois acres coupé baptist trottier piere street 
+15	0.03698	subjects proclamation missisippi orleans majesty appeared allowed commandant chief give america commander privileges province king royal market true render louisiana 
+16	0.05336	congress inhabitants honorable petition french vincennes american petitioners poste state humbly americans indians charter behalf august duty march pleased respectful 
+17	0.04581	settlement muskingum putnam ware killed rufus indians ben harmer soldier thomas business account belle-prie sioto kind ago station hockhocking houses 
+18	0.29084	states congress united ohio river line part western west due provided north territory made aforesaid thereof make time east manner 
+19	0.17109	indians united states indian treaty tribes wabash nations treaties affairs northern hostile superintendant held hostilities measures effect frontier department directed 
+20	0.00743	gallipolis company leur scioto france compagnie qu'ils ont torn rome contract avec duer mois petit qu'on comp lands emigrants month 
+21	0.00962	cahos quebec aux nous mission property vous seminary seminaire biens leur vente missionaries quil cahokias attorney dite declaration forget bishop 
+22	0.07637	clair parsons governor memorialist services period varnum sess accounts support disbursements arthur found salaries attached coasts cong taking prove enclosure 
+23	0.12415	war peace present troops public commanding conduct force posts post frontiers april established inhabitants opinion officer desirous protection adopted effectual 
+24	0.10338	general people principal expected men thro ill circumstance long back pennsylvania interest governor ago refused called purposes western pass quarter 
+25	0.08139	united symmes states john house representatives senate enacted miami act cleves president acres patent hundred april letters thousand petition grant 
+26	0.08422	june committee morgan george general report reserved hon papers sept motion irvine geo sundry bill antient otis alteration return january 
+27	0.15103	fort major harmar river officer post purpose washington vincennes ohio hands reason numbers probable pitt return measures colonel detroit truth 
+28	0.01284	kaskaskias town lot john piece arpent wide land plain arpents tract common half acres lots indian village house front perches 
+29	0.03073	river hundred village prairie fifty james improved land year gerardin john north depth creek william tamarois built moore isaac benjamin 
+30	0.0069	vous monsieur pas honor avec quil humble tres l'honneur est child votre lajoye perez lui j'ai mains qui sir manuel 
+31	0.03715	part parties tract assigns heirs associates townships afs company thereof boundary treasury board contents resolutions land laid grant purposes mentioned 
+32	0.12872	report board memorial treasury referred congress committee land july act flint purchase read cutler wabash williamson contract parker company october 
+33	0.09854	justice excellency confidence happy arrival good hope country moment happiness address friends circumstances magistrates body long half life years humanity 
+34	0.00969	les des qui pour par dans une cette sur dit inhabitants translation votre sont été bien fait possession faire qu'il 
+35	0.0968	states united congress act year assembled authority thousand line hundred commonwealth general lord cession day america assembly aforesaid drawn interest 
+36	0.03966	kaskaskia cahokia obliged person communication spanish place county courts american partly suffered claims paper sessions language town misfortunes open slaves 
+37	0.19581	sir clair general respect president public philadelphia received putnam turner judge honor answer pleased letter matter information papers servant situation 
+38	0.0443	gentlemen citizens col duer gamelin vincennes longer thereof situation europe preemption endeavours instances juge blessing cutler agent heavy fortunes reflection 
+39	0.10714	sargent dear public great symmes acting private good judge man pleasure winthrop duties county presume time discharge cincinnati persuaded conduct 
+40	0.04539	army enquiry letters papers gen campaign military expedition major washington smith commission command successor entertained hist documents action proceed issue 
+41	0.17753	country people great part present number considerable small western british settlements tho expence thought large situation obtained set soil remain 
+42	0.12941	tract land payment made board lands sale contract paid treasury purchase deeds quantity million payments purchasers interest case boundary mouth 
+43	0.0452	nations wyandots miami fort delawares mark chiefs council village shawanese claim peace march messages answer speech harmar detroit immediately reg 
+44	0.26339	clair made time letter country governor business make informed doubt put long hope found circumstances necessity power delay thing copy 
+45	0.10242	states government united property inhabitants original find free number civil formed territorial appoint principles article articles require state receive established 
+46	0.08425	treasury time office blank board secretary sold miami commissioners surveyors directed ordained oath proceed sell shew geographer erie deputy transmit 
+47	0.36604	sir letter congress respect president honor obedient excellency humble secretary servant office honour sargent enclosed july esq york present states 
+48	0.10054	lands congress surveyed officers army surveys entitled late land war quantity survey military warrants surveyor office public rights legal establishment 
+49	0.05583	district persons council property duties years equal person confined office signed representatives time force punished common produce appointed house consent 
+
+[beta: 0.01391] 
+<300> LL/token: -8.36131
+<310> LL/token: -8.34972
+[beta: 0.01398] 
+<320> LL/token: -8.35008
+<330> LL/token: -8.34466
+[beta: 0.01411] 
+<340> LL/token: -8.33557
+
+0	0.14193	land lands inhabitants illinois acres mississippi french country hundred tracts made laid post virginia settlers governor vincennes wabash village miles 
+1	0.01523	joseph widow louis francois jean baptiste pierre antoine des charles marie michel henry paul saucier gabriel poupart comte dit laveuve 
+2	0.08192	virginia troops state july scioto pay miami service side pennsylvania application prevent savages ohio executive company terms militia deficiency greater 
+3	0.21158	governor territory laws judges government law proper authority court public duty civil powers case officers absence duties regulations cases laid 
+4	0.02915	state york delegates massachusetts north west jurisdiction connecticut meridian presents forty western samuel behalf latitude benefit degree twenty virtue william 
+5	0.03416	advantage kentucky debt foreign spanish support affairs conolly pounds felt reach expectation journey heard spaniards posts prospect turned operation secure 
+6	0.08753	distance mouth found united power received prevent receive difficult miami orders trade proclamation sell settled garrison approbation authority respecting employed 
+7	0.03879	townships township geographer fractional lots range society lot lines towns tracts reserved acres loan board dollars granted south thereon expence 
+8	0.0457	government purchase claims senate boundaries lands view hawkins british point canada similar principle question characters secretary benjamin relinquished conquest interested 
+9	0.14451	place time days expect return day fort arrived general information harmar intelligence men meeting party send account left man moment 
+10	0.10794	thousand dollars sum year hundred congress money years twenty appropriated laid expence twelve expenses resolve statement propriety supposed account obtaining 
+11	0.0091	marque gibault excellency nous treack sale chartran excellence barbau district girardin baptis rocher prairie clair nos charle jaque belle arthur 
+12	0.32414	secretary president state united states report ohio territory executive attorney proceedings western department lear jefferson north secy opinion june consideration 
+13	0.23325	war indians treaty secretary instructions general knox governor indian peace gen clair provisions consequence proper give honor instant nations proposed 
+14	0.01115	land joining piece hills arpent prairie breadth side pont rigoulet louis acres lot feet bois half tract piere coupé front 
+15	0.02687	subjects majesty proclamation chief orleans commander privileges province allowed commandant louisiana royal matters market oath permitted hand decide upwards emigrants 
+16	0.04931	congress honorable french petition inhabitants american petitioners vincennes poste behalf humble humbly americans settlers state grant hope number august charter 
+17	0.02856	muskingum settlement ware putnam people ben rufus harmer teritory belle-prie sioto soldier hockhocking natives neer marietta reduce wyandot places divers 
+18	0.37045	states congress united river ohio made western west part line territory north time due make ordinance aforesaid day manner thereof 
+19	0.17083	indians united states indian treaty tribes wabash northern affairs nations hostile treaties superintendant frontier hostilities held department citizens result directed 
+20	0.00636	company leur gallipolis scioto france compagnie qu'ils torn avec rome mois petit duer qu'on comp contract avoit fortune emigrants month 
+21	0.00741	cahos quebec aux mission vous property seminary seminaire biens declaration nous vos quil missionaries order cahokias dite bishop procuration attorney 
+22	0.05158	parsons memorialist services period accounts varnum disbursements taking salaries added coasts domain reasons sess sam translation considerably warnum kind began 
+23	0.12333	war peace present troops officer protection measures public opinion post force commanding posts established inhabitants frontiers object men require conduct 
+24	0.08267	general western people principal men settlements ill manner long proper thro separate towns carry pass circumstance influence refused call obedience 
+25	0.06572	symmes john representatives miami enacted cleves house senate president united act grant states letters patent hundred dayton ludlow april petition 
+26	0.06933	june morgan papers george reserved letter hon committee required antient jany geo sept otis company considered january general hamilton feby 
+27	0.12416	fort major harmar officer washington vincennes purpose river post orders pitt boat dated lake inform truth season hamtramck written numbers 
+28	0.00739	kaskaskias town lot piece arpent john wide land plain arpents tract common half acres village lots indian house perches ditto 
+29	0.02634	river hundred village james fifty john improved william year george son bottom creek smith charles north joseph great lying moore 
+30	0.00635	vous monsieur avec honor quil tres l'honneur child humble pas lajoye perez entre lui present united j'ai est mains respect 
+31	0.01949	part parties assigns tract line associates townships land heirs afs thereof range company grant resolutions treasury purposes mentioned contracted laid 
+32	0.1321	report board treasury memorial referred congress committee land july lands act read flint purchase resolved dane williamson companies parker submitted 
+33	0.09947	justice order confidence good long happy friends consideration support body address country moment life arrival leave district extensive add proper 
+34	0.01135	les des pour qui par dans une cette sur votre pas faire inhabitants dit ont sont été bien est fait 
+35	0.08676	states act united congress hundred thousand general assembled line year commonwealth america cession authority aforesaid eighty lord assembly day drawn 
+36	0.03497	kaskaskia cahokia spanish person county courts communication place obliged consequence expense impossible law year appeared slaves partly paper king erected 
+37	0.18789	sir clair general honor judge letter public answer putnam conduct turner matter philadelphia private information pleased duty trust respect situation 
+38	0.03232	gentlemen citizens duer col gamelin vincennes situation thereof europe preemption agent longer individual endeavours sentiments juge blessing legal mankind town 
+39	0.10505	sargent dear acting symmes judge winthrop private good great military county duties public persuaded conceive pleasure cincinnati courts marietta man 
+40	0.04188	papers enquiry army campaign gen letters expedition smith health committee washington inquiry copies original command military library commission documents successor 
+41	0.18484	country people great part considerable present lands tho number small missisippi british obtained large thought expence settlements generally sufficient possession 
+42	0.11405	tract land payment contract board sale made treasury purchase paid lands quantity mouth interest acres price purchasers cutler payments boundary 
+43	0.04358	wyandots nations miami time delawares chiefs mark peace council fort shawanese harmar answer claim messages village reg messenger wilson detroit 
+44	0.34662	clair made time letter make governor country business circumstances found informed doubt reason power hope request put desire appears opportunity 
+45	0.0949	government states united property state inhabitants original find declared number formed established free people principles territorial article canada founded seat 
+46	0.08141	treasury office sold blank time board commissioners secretary miles ordained surveyors erie oath previous offices lake deputy shew proceed transmit 
+47	0.41647	sir respect president excellency letter congress servant obedient humble office honor honour secretary present territory july received governor great western 
+48	0.11617	lands land army survey surveyed officers war surveys secretary entitled late quantity case persons public establishment military proportion bounties legal 
+49	0.04506	district appointed legislature years property force council person free commission duties confined ordained persons representatives office estate equal freehold sooner 
+
+<350> LL/token: -8.32639
+[beta: 0.01414] 
+<360> LL/token: -8.32571
+<370> LL/token: -8.32294
+[beta: 0.01409] 
+<380> LL/token: -8.2986
+<390> LL/token: -8.30388
+
+0	0.12922	land inhabitants lands country acres illinois french post made laid mississippi hundred tracts grant virginia settlers granted persons tract territory 
+1	0.01518	joseph louis francois baptiste widow antoine pierre charles jean john marie michel paul saucier gabriel laveuve jacob jacque des amable 
+2	0.07931	virginia troops state miami militia pay pennsylvania good prevent scioto deficiency application savages terms south side resolution service frontier july 
+3	0.20743	territory governor laws judges government law office court duty officers authority civil proper powers public absence part records regulations cases 
+4	0.03168	state delegates york massachusetts north western meridian west connecticut jurisdiction latitude presents benefit samuel degree william behalf soil lands pre-emption 
+5	0.03392	people advantage kentucky pennsylvania spaniards debt equal foreign spanish conolly connecticut spain support turned throw view dorchester sterling fund governors 
+6	0.08593	distance found proclamation miles miami prevent orders sell published mouth answer receive approbation excellency received garrison millions settled ground find 
+7	0.0365	townships township fractional geographer lots range reserved society lines lot towns tracts loan ordinance south acres brethren consideration account mentioned 
+8	0.04649	view purchase government point claims deeds senate hawkins boundaries mentioned question principle south acknowledged benjamin relinquished lying similar conquest expressed 
+9	0.14195	general return days information arrived party day fort expect intelligence good men harmar provisions man message arrival bring account determined 
+10	0.10527	thousand dollars sum hundred year money years appropriated twelve statement twenty expenses ordered amount expence provisions fourteen account making estimate 
+11	0.00899	marque gibault excellency district treack nous sale chartran charle excellence barbau prairie property baptis rocher nos girardin june jaque belle 
+12	0.32704	secretary president state states united territory report executive western ohio secy attorney june march department lear jefferson proceedings reports legislature 
+13	0.24598	war indians secretary treaty knox instructions opinion indian gen governor peace commissioners consequence instant proposed hold information offer goods clair 
+14	0.00961	land joining piece hills arpent prairie breadth side pont hundred rigoulet louis lot acres feet bois half tract piere jean 
+15	0.02087	subjects majesty commander proclamation privileges slaves west orleans louisiana commandant property decide province catholic matters september chief hundred excellency majesty's 
+16	0.04006	congress inhabitants honorable french vincennes petition petitioners poste american state behalf illinois hope settlers americans charter pray humbly humble february 
+17	0.01357	muskingum ware settlement ben harmer putnam teritory belle-prie sioto soldier rufus hockhocking natives consisted marietta wyandot free protection peaceful vanden 
+18	0.41019	states united congress ohio river north part western made due line west thereof time manner territory make case state provided 
+19	0.16957	indians united states indian treaty tribes wabash nations treaties affairs hostile northern superintendant general directed held department frontier hostilities measures 
+20	0.00796	company gallipolis leur scioto france compagnie rome duer torn contract avec qu'ils agent mois petit comp putnam avoit fortune emigrants 
+21	0.00634	quebec cahos vous aux mission votre seminary seminaire nous biens leur declaration property missionaries monsieur order cahokias dite quil bishop 
+22	0.03825	parsons memorialist services period judges taking accounts varnum commence disbursements salary oaths salaries coasts reasons sess april enclosure warnum funds 
+23	0.10986	war troops present public officer peace commanding conduct posts men require inhabitants disposition desirous lands force established april protection measures 
+24	0.07586	general people ill expected settlements peace principal protection western men thro called pass journey towns carry consequences refused foundation appeared 
+25	0.0662	symmes john representatives house president enacted miami cleves senate act lands united thousand hundred patent dayton letters april heirs territories 
+26	0.06261	june morgan letter george papers general list hon settlers ridge january sept making antient returned vase hamilton clarke alteration geo 
+27	0.11675	fort major harmar place post river vincennes officer washington purpose received boat pitt detroit colonel orders ago dated manner doughty 
+28	0.00528	kaskaskias town lot piece wide arpent land plain arpents tract half village common acres lots indian john front house river 
+29	0.018	river village james joseph improved william great john george north henry heirs son year champs poupart creek thomas built moore 
+30	0.00529	vous monsieur honor humble avec quil tres l'honneur sir votre child est lajoye perez lui pas mains present dear manuel 
+31	0.02199	part parties line assigns heirs tract associates land afs thereof resolutions company grant laid townships treasury range mentioned officer boundary 
+32	0.13059	report treasury committee memorial congress referred board land july wabash act company read flint williamson dane humbly measures petition resolves 
+33	0.09102	justice good confidence happy long support moment opinion friends arrival laws beg life happiness instances extensive private body lives deprived 
+34	0.01238	les des qui pour par dans cette une sur pas dit faire ont inhabitants translation sont lands été bien fait 
+35	0.09129	states united hundred line act congress thousand year general lord america commonwealth day aforesaid authority eighty cession assembly territory representatives 
+36	0.03929	kaskaskia cahokia spanish courts person communication county obliged town put sessions torn partly impossible stream paper appeared place public todd 
+37	0.20749	sir letter judge honor clair philadelphia general pleased turner matter public putnam papers march conduct yesterday discharge respect day give 
+38	0.02938	gentlemen vincennes citizens gamelin duer individual pierre europe preemption esquire town acting command juge blessing bosseron longer endeavours appointment thereof 
+39	0.08951	sargent dear private public great acting col symmes duties general judge man commission cincinnati winthrop pleasure presume marietta business persuaded 
+40	0.04517	papers enquiry letters campaign army military clair expedition smith washington command committee gen library original major documents successor health commission 
+41	0.18658	country people great part present considerable british lands small number settlements obtained settlement considered degree persons large thought greatest respecting 
+42	0.11264	tract board payment contract lands land treasury made purchase sale acres paid cutler million boundary interest price mouth associates payments 
+43	0.03542	nations wyandots miami time delawares fort chiefs mark council returned messages shawanese harmar peace reg messenger wilson detroit village answer 
+44	0.37344	clair made time governor country subject make proper power give found business letter order long circumstances reason hope doubt request 
+45	0.10286	government states property united free number original find established circumstances formed missisippi people canada declared principles article seat state territorial 
+46	0.07235	treasury blank board office secretary sold commissioners surveyors geographer time erie lake oath shew directed offices proceed miami certificate therefrom 
+47	0.4352	sir congress respect president honor secretary servant excellency obedient letter humble great honour july office western enclosed present governor sargent 
+48	0.10486	lands land surveyed army officers survey entitled quantity war late surveys military bounties continental warrants persons book soldiers legal public 
+49	0.03921	district time person legislature persons trade force crimes ordained years citizens duties reside council equal confined serve freehold sooner deputies 
+
+[beta: 0.01429] 
+<400> LL/token: -8.31162
+<410> LL/token: -8.30641
+[beta: 0.01449] 
+<420> LL/token: -8.30233
+<430> LL/token: -8.29354
+[beta: 0.01448] 
+<440> LL/token: -8.29392
+
+0	0.14506	lands inhabitants land country acres illinois french hundred made mississippi virginia post tracts settlers territory granted persons laid claims claim 
+1	0.01824	joseph francois baptiste louis widow john charles jean pierre antoine marie michel poupart laveuve jacob charle jacque des amable racine 
+2	0.06902	virginia troops state pennsylvania july miami resolution service militia scioto deficiency application federal side laws pay lying cession resolved executive 
+3	0.19799	territory governor laws judges government law duties office authority public officers powers duty civil laid absence cases court regulations proper 
+4	0.03087	state west delegates north congress york connecticut jurisdiction samuel degree people western william behalf latitude benefit lands presents forty westerly 
+5	0.02828	people missisippi equal kentucky pennsylvania advantage debt spanish sold extensive foreign conolly thro union spain spirit interest laws attention case 
+6	0.0793	miami found proclamation lake distance miles founded excellency orders sell mouth memorial authority considerable garrison millions permission ground paid principles 
+7	0.03941	townships township fractional geographer ordinance lot lots reserved towns range society tracts loan expence south granted acres survey brethren future 
+8	0.03686	boundaries government claims purchase hawkins deeds senate principle view benjamin relinquished british doctrine lying question french treated acknowledged urged stanwix 
+9	0.12598	place good fort information expect arrived day harmar brought return men consequence party arrival general intelligence thought days meeting send 
+10	0.10655	thousand dollars hundred sum year ordered years money amount provisions expenses appropriated statement pay upwards making account enemy hutchins executed 
+11	0.01213	marque gibault excellency district treack nous vente sale pierre chartran excellence barbau girardin baptis joseph arthur rocher clair nos june 
+12	0.32968	secretary president state states united report western ohio executive proceedings secy march opinion attorney territory north lear department honor jefferson 
+13	0.21042	war indians general secretary treaty instructions knox indian governor gen opinion peace clair commissioners enclosed proposed consequence information instant point 
+14	0.00797	land joining piece hills arpent prairie breadth side pont hundred louis rigoulet lot tract half acres joseph bois feet piere 
+15	0.02373	majesty subjects commander september privileges louisiana signed chief orleans province royal catholic matters proclamation property mutual majesty's commanding produce free 
+16	0.03702	congress french inhabitants honorable vincennes petition petitioners american poste state behalf illinois hope number grant charter americans pray humble address 
+17	0.01172	muskingum ware putnam indians ben rufus belle-prie harmer soldier wyandot settlement hockhocking natives neer sioto corn belonging protection governer murdered 
+18	0.45041	states united congress ohio river part west made territory western line due north time state thereof case provided day manner 
+19	0.17136	indians united indian states treaty tribes wabash affairs treaties nations department northern hostile superintendant frontier directed held hostilities depredations measures 
+20	0.00788	company gallipolis leur france scioto torn compagnie qu'ils rome contract avec qu'on duer hundred mois petit comp fortune emigrants month 
+21	0.00691	cahos vous quebec mission aux votre seminary seminaire nous biens declaration property missionaries cahokias dite quil bishop quelque sans vos 
+22	0.0396	parsons memorialist services period accounts reasons enclosure varnum prove oaths salaries coasts sess debts law warnum cong twelve feb arthur 
+23	0.12445	war present public peace troops frontiers commanding inhabitants established posts officer force post conduct disposition object establishment lands judge measures 
+24	0.07227	general people men peace protection ill principal carry laid south towns thro refused observed signed wayne brigadier pass appeared influence 
+25	0.05493	symmes john representatives enacted cleves president miami house senate act united patent hundred letters heirs acres thousand associates dayton petition 
+26	0.04938	june morgan george letter papers act contract hon list ridge case sept antient january vase sundry jany otis alteration hamilton 
+27	0.12828	fort major harmar vincennes post purpose washington officer river militia pitt numbers place truth hamtramck colonel inform doughty col boat 
+28	0.00366	kaskaskias lot town piece wide arpent land plain arpents tract half acres village common lots indian john house river perches 
+29	0.02234	river village james improved william length north year heirs moore parallel benjamin depth bounds smith isaac george whitesides piggot sugar 
+30	0.00579	monsieur vous quil honor avec l'honneur votre child tres humble lajoye perez sir mains lui manuel enfant j'ai chez mayet 
+31	0.02028	part parties assigns line tract heirs range associates townships company western afs resolutions boundary thereof land laid treasury purposes grant 
+32	0.12968	report committee referred memorial treasury congress land july board wabash read act company measures flint resolved purchase dane williamson application 
+33	0.0868	justice support public happy life friends opinion happiness property magistrates rights arrival consideration administration lives confidence motives deprived full age 
+34	0.01186	les des qui pour par dans pas une cette sur est faire dit ont translation sont inhabitants été bien possession 
+35	0.08235	states act thousand line hundred year united aforesaid territory america commonwealth lord eighty authority representatives massachusetts general house cession commission 
+36	0.03519	kaskaskia cahokia courts spanish person county communication distance obliged paper missisippi appeared english partly expense todd language king slaves impossible 
+37	0.18508	sir letter judge public turner general matter philadelphia putnam answer respect private service clair duty conduct symmes washington dear occasion 
+38	0.03806	gentlemen citizens duer col vincennes gamelin inform town command europe preemption agent individual endeavours juge bosseron authorize warmest acting thereof 
+39	0.08266	sargent dear acting great judge private man governour winthrop conduct good county cincinnati symmes past conceive persuaded influence marietta pleasure 
+40	0.03879	papers campaign letters clair army military original appointed gen court expedition smith library draft appointment committee failure hist documents successor 
+41	0.19625	country great people part present considerable settlements situation british lands persons number obtained settlement small generally sale obtain soil respecting 
+42	0.11031	board tract land treasury payment lands contract made purchase paid sale mouth acres terms million quantity cutler purchasers payments associates 
+43	0.03835	nations wyandots miami delawares mark chiefs council returned speech messages answer claim shawanese village reg messenger article wilson western peace 
+44	0.43453	clair time made governor give country proper make letter business long power subject order found expected sir informed tho doubt 
+45	0.07979	government states property free united established inhabitants original declared people territorial article formed number canada equal circumstances liberty express principles 
+46	0.05404	board treasury blank office sold time commissioners erie surveyors oath secretary geographer deeds hand shew directed execute previous recorded proceed 
+47	0.44847	sir honor congress respect servant letter excellency governor obedient president humble great pleased honour office secretary esq present july sargent 
+48	0.09032	lands officers surveyed army war entitled late survey surveys quantity land soldiers return bounties congress continental military legal surveyor warrants 
+49	0.03307	district ordained years council superintendants legislature force appointed trade citizens crimes reside deputies legislative license serve qualified assembly freehold term 
+
+<450> LL/token: -8.29101
+[beta: 0.01437] 
+<460> LL/token: -8.29078
+<470> LL/token: -8.29019
+[beta: 0.01455] 
+<480> LL/token: -8.27856
+<490> LL/token: -8.285
+
+0	0.13646	lands inhabitants land illinois french acres made hundred country settlers mississippi post grant wabash granted laid virginia tracts mouth claims 
+1	0.01462	joseph louis baptiste francois widow pierre john jean antoine marie charles michel laveuve charle amable etienne racine cabasier jacque jacques 
+2	0.06769	virginia troops state side militia miami service scioto pennsylvania application orders executive deficiency resolution resolved secretary frontier lying south july 
+3	0.18551	territory governor laws judges government secretary law office authority court duties officers duty ordinance powers public civil records cases regulations 
+4	0.03197	state delegates jurisdiction york connecticut virtue samuel behalf north presents meridian degree latitude william soil benefit west pre-emption transfer westerly 
+5	0.02571	interest debt missisippi spanish spirit virginia kentucky pennsylvania hostilities spaniards foreign spain support advantage side case western conolly connecticut sold 
+6	0.07068	miami distance excellency prevent lake sell fort washington garrison miles memorial millions shew practicable previous ground published authority raise settled 
+7	0.04388	townships ordinance fractional township geographer tracts lots towns society loan lot south mentioned ranges lines aforesaid survey brethren ordained granted 
+8	0.03618	purchase claims government deeds principle senate boundaries hawkins benjamin relinquished lying question treated cornplanter questioned stanwix doctrine occasion presented establish 
+9	0.13842	place time fort harmar days return general information river indians good send arrived consequence party arrival detroit ago man met 
+10	0.11004	thousand dollars sum year hundred ordered money pay appropriated years provisions half twelve applied establish making propriety amount expenses upwards 
+11	0.00956	marque gibault excellency district treack nous sale chartran excellence barbau june baptis rocher vente nos girardin property jaque belle arthur 
+12	0.32078	secretary president state united states report ohio march attorney executive consideration june western opinion territory lear legislature letter proceedings jefferson 
+13	0.19771	war secretary indians knox general treaty instructions gen commissioners opinion indian governor peace proposed instant consequence relative hon highly sandusky 
+14	0.00998	land joining piece hills arpent prairie breadth side pont hundred louis rigoulet joseph lot acres widow bois feet half tract 
+15	0.02356	subjects majesty person punished commander privileges september louisiana royal produce orleans florida province catholic preventing matters signed chief property mutual 
+16	0.03952	congress honorable french vincennes inhabitants american petitioners poste petition illinois behalf hope humbly state charter humble number americans support male 
+17	0.01206	putnam muskingum ware ben rufus belle-prie sioto harmer soldier wyandot hockhocking natives neer trees probable free account troops give murdered 
+18	0.48524	states united congress ohio territory river west state part time north western due made line persons thereof make case great 
+19	0.17978	indians indian states united treaty tribes wabash treaties affairs nations northern department superintendant hostile directed lands western frontier march citizens 
+20	0.00788	gallipolis company scioto france compagnie rome qu'ils torn duer leur french contract avec petition mois petit comp hundred avoit emigrants 
+21	0.00834	cahos vous quebec mission aux votre seminary seminaire nous declaration property biens missionaries quil cahokias dite bishop sans vos missionaires 
+22	0.0357	parsons services period accounts varnum memorialist debts support salaries dead coasts sess taking clair enclosure oaths warnum represent attached belonging 
+23	0.11789	war officer public present troops peace posts inhabitants commanding post frontiers measures effect protection conduct force savages april established desirous 
+24	0.06289	general men peace people thro appeared nature pass south protection settlements war towns carry expectation ill event laid promised refused 
+25	0.06191	john symmes representatives president cleves enacted miami house senate act lands hundred letters petition patent acres associates thousand dayton bounds 
+26	0.045	morgan letter george papers june hon antient contract hamilton aug subject list otis alteration geo thing appears sept col returned 
+27	0.11307	fort major harmar officer post vincennes washington pitt purpose command doughty hamtramck colonel dated militia boat extremely written write day 
+28	0.00571	kaskaskias town lot piece arpent land wide plain arpents tract half acres common village john lots indian house front river 
+29	0.02044	river village james john improved william year length thomas bottom george henry north sugar benjamin depth live isaac request heirs 
+30	0.00418	monsieur vous honor avec quil l'honneur tres votre child humble lajoye perez lui mains dear manuel enfant chez mayet d'etre 
+31	0.01835	part parties townships range line assigns heirs tract western company associates resolutions boundary afs township thereof grant land treasury purposes 
+32	0.1302	report committee memorial referred treasury board act july congress read company land flint claim wabash dane williamson june april parker 
+33	0.09204	justice good moment confidence excellency friends happy magistrates life happiness arrival laws administration information order consideration full opinion add motives 
+34	0.00981	les des pour qui par dans pas cette sur est leur une faire inhabitants dit ont translation été bien sont 
+35	0.07047	states act thousand line hundred america year commonwealth aforesaid assembled cession lord eighty massachusetts drawn assembly general representatives united authority 
+36	0.03482	kaskaskia cahokia spanish county courts communication missisippi person distance rocher impossible proclamation place paper slaves put english partly prairie american 
+37	0.16101	public judge sir philadelphia turner general answer conduct commission proper letter duty nature result officers occasion told personal committed expressed 
+38	0.03279	gentlemen vincennes acting duer gamelin citizens agent col europe preemption vested individual juge bosseron citizen previous action warmest town important 
+39	0.07265	sargent dear judge symmes private acting col man cincinnati settlement duties county marietta acquainted courts persuaded influence conduct past gentleman 
+40	0.03237	clair papers campaign enquiry army letters washington committee military smith expedition command failure library clerk original gen successor resign draft 
+41	0.19887	country people great present considerable part number settlements british thought lands situation small tho obtained obtain respect large hold trade 
+42	0.11702	land tract board payment contract treasury made lands purchase acres river sale paid million mouth quantity cutler terms reserved interest 
+43	0.03896	nations wyandots delawares mark council peace chiefs shawanese miami answer messages article prisoners principal village reg messenger wilson speech chief 
+44	0.46313	clair governor made time country proper found letter give business sir circumstances long received power make part informed copy day 
+45	0.07573	government established formed property inhabitants free principles find declared original people territorial acts canada civil return real article understood orleans 
+46	0.05359	treasury board blank office sold surveyors commissioners geographer drawn certificates surveyor oath erie proceed directed deeds certificate range deputy therefor 
+47	0.43495	sir congress respect president honor servant letter humble sargent obedient excellency secretary great pleased honour office present western enclosed july 
+48	0.08669	lands land surveyed officers army late entitled quantity war surveys survey continental bounties establishment bounty warrants soldiers public military legal 
+49	0.02724	district ordained time superintendants council years force legislature trade appointed person reside license forever serve qualified crimes freehold sooner term 
+
+[beta: 0.01469] 
+<500> LL/token: -8.28128
+<510> LL/token: -8.27215
+[beta: 0.01462] 
+<520> LL/token: -8.26063
+<530> LL/token: -8.26543
+[beta: 0.01474] 
+<540> LL/token: -8.2602
+
+0	0.13687	lands inhabitants land country acres french made illinois hundred tracts persons settlers mississippi post wabash virginia territory laid grant village 
+1	0.01484	joseph baptiste louis francois widow pierre john jean antoine marie charles michel laveuve chartran charle jacque amable cabasier jacques bte 
+2	0.06929	virginia state troops side act militia pennsylvania july application miami scioto resolution deficiency cession resolved judge lying terms cover executive 
+3	0.18868	governor territory laws judges law government office authority duties person officers civil public powers cases regulations laid court district duty 
+4	0.02874	state delegates north jurisdiction york connecticut forty presents latitude samuel degree virtue william behalf soil lands pre-emption twenty claim benefit 
+5	0.02321	interest missisippi spanish kentucky debt pennsylvania foreign spain conolly connecticut price support dorchester sterling spread fund felt secure union jay 
+6	0.05911	miami miles distance sell excellency found millions commissioners memorial previous shew published hutchins action orders raise sold sept contracted ground 
+7	0.04501	geographer township fractional townships society tracts towns loan lot lots reserved ordained acres ordinance expence brethren adjoining plats christian execute 
+8	0.0262	government purchase boundaries view hawkins principle claims senate departure benjamin relinquished deeds lying question similar col cornplanter banditti stanwix feby 
+9	0.12954	place days general men return information good fort indians arrived war consequence river ago intelligence party harmar arrival returned met 
+10	0.10901	thousand hundred dollars year sum money ordered pay applied appropriated expenses making purchase service establish years plan fifty stated twenty 
+11	0.00687	marque gibault excellency district treack nous sale excellence barbau clair vente baptis pour rocher nos girardin june belle badiste translation 
+12	0.28864	secretary president state states united opinion report march western executive attorney ohio june letter territory jefferson department lear proceedings north 
+13	0.19162	war general indians knox secretary gen treaty peace commissioners instructions information proposed relative governor highly enclosed expect sandusky butler communication 
+14	0.00945	land joining piece hills arpent prairie breadth side pont river louis hundred joseph rigoulet widow acres village lot bois feet 
+15	0.01993	subjects majesty commander september privileges orleans punished louisiana royal province catholic slaves person esclave branch mutual upwards chief east ten 
+16	0.04138	congress french inhabitants honorable petition petitioners american vincennes poste behalf illinois state americans charter humbly pleased america pray hope address 
+17	0.01424	putnam muskingum ware rufus ben number belle-prie sioto harmer soldier hockhocking neer negotiation thomas wyandot free account settlements murdered houses 
+18	0.52353	states united congress ohio west western territory part river north state due time line made make ordinance great purpose aforesaid 
+19	0.18285	indians indian treaty united states tribes wabash nations affairs treaties northern river department hostile western frontier superintendant directed lands measures 
+20	0.00841	gallipolis company scioto france compagnie rome torn leur contract duer comp lands mois petit avec fortune emigrants month nombre seduction 
+21	0.00784	cahos quebec vous mission aux votre seminary seminaire property nous biens declaration missionaries pas cahokias dite sans vos procuration missionaires 
+22	0.03139	parsons memorialist period varnum accounts taking coasts services enclosure warnum dead commence reasons sam support satisfaction feb arthur performance exhibited 
+23	0.12505	war troops present officer peace frontiers force posts inhabitants commanding public object savages establishment prevent disposition protection effect established conduct 
+24	0.06183	people harmar peace thro protection expectation settlements towns men general ill orders south wilkinson wayne prevented brigadier pass effect nature 
+25	0.05925	john symmes representatives president enacted cleves act miami house lands senate patent thousand letters hundred dayton warrants bounds heirs thereof 
+26	0.03853	letter morgan hon contract george papers hamilton sept col otis aug belonging geo returned military ludlow bill antient alteration required 
+27	0.09882	fort major harmar washington officer post vincennes boat hamtramck purpose knox deliver numbers garrison accounts written colonel extremely women counties 
+28	0.00776	kaskaskias lot town piece land arpent wide plain arpents half tract common acres lots village fence indian house front john 
+29	0.02227	james improved william river village john year henry north length george bottom thomas moore isaac marie end west benjamin lives 
+30	0.00364	monsieur vous avec quil pas l'honneur votre humble tres child honor est lajoye perez lui mains dear manuel enfant j'ai 
+31	0.02299	part parties townships tract range line land assigns associates heirs thereof company township afs resolutions boundary mentioned lines manner lots 
+32	0.12661	report committee referred treasury memorial act board land june congress read july company flint williamson leave dane humbly companies parker 
+33	0.0983	justice number excellency happiness good years opinion moment life confidence consideration arrival support full happy body friends deprived administration difficulties 
+34	0.01224	les des qui pour par dans une cette sur leur faire ont dit sont inhabitants translation été qu'ils bien fait 
+35	0.05973	states line act year thousand hundred commonwealth congress america aforesaid cession massachusetts day lord eighty assembled drawn authority representatives lake 
+36	0.03009	kaskaskia cahokia spanish county communication courts prairie distance rocher proclamation claims appeared survey partly report copy paper todd king consequence 
+37	0.14365	judge turner general public answer duty conduct philadelphia committed place nature yesterday constitution circumstance symmes personal legislative occasion told guard 
+38	0.02889	gentlemen vincennes duer gamelin citizens give command europe preemption powers juge agent bosseron regret individual town acting endeavours pierre change 
+39	0.0695	sargent dear acting private public proper col good symmes general duties county cincinnati pleasure past indian men conduct judge persuaded 
+40	0.0396	clair army papers public letters campaign court enquiry washington military smith committee expedition gen library printed original commission failure inquiry 
+41	0.19767	country people great part considerable british settlements small obtain obtained large possession present settlement thought trade expence remain number soil 
+42	0.11601	board treasury land tract payment made contract lands river purchase sale mouth million cutler acres paid east reserved payments purchasers 
+43	0.03676	nations wyandots delawares mark miami council chiefs shawanese time peace messages prisoners speech reg messenger wilson answer formed messengers chief 
+44	0.47802	clair time governor made country proper give sir found letter business order present make circumstances power hope long day expected 
+45	0.06308	government property free established original liberty canada formed number territorial civil principles article paid acts real alteration situation preservation division 
+46	0.04274	blank office treasury sold secretary board deeds surveyors surveyor make directed oath certificates hand deputy drawn certificate recorded noted transmit 
+47	0.44376	sir respect president letter honor congress servant obedient humble great secretary sargent excellency honour office pleased philadelphia winthrop leave july 
+48	0.07884	lands land officers surveyed late army entitled congress war quantity survey surveys soldiers south continental bounties public warrants military book 
+49	0.02298	district time magistrates superintendants council ordained force appointed trade equal assembled serve estate reside legislative years license qualified freehold sooner 
+
+<550> LL/token: -8.259
+[beta: 0.01486] 
+<560> LL/token: -8.25875
+<570> LL/token: -8.26874
+[beta: 0.01505] 
+<580> LL/token: -8.26262
+<590> LL/token: -8.26003
+
+0	0.13549	lands inhabitants land country acres french made illinois hundred tracts laid mississippi settlers village post persons granted river virginia grant 
+1	0.01269	joseph baptiste louis francois pierre widow john jean antoine marie charles michel laveuve jacque amable racine cabasier jacques bte sen 
+2	0.06342	virginia troops act state resolution application side scioto cession pennsylvania orders river deficiency lying miami cover terms federal resolved judge 
+3	0.18787	laws territory governor judges law officers office authority person government duties court duty civil absence military powers cases records regulations 
+4	0.02363	state delegates york north jurisdiction connecticut samuel degree latitude presents twenty behalf soil forty virtue william benefit miles lands transfer 
+5	0.01848	western pennsylvania missisippi interest debt kentucky foreign spanish conolly connecticut spain sold price dorchester sterling change fund pounds accrue felt 
+6	0.06024	miami fort distance sell excellency acres commissioners miles millions memorial ground orders sold shew washington symmes garrison honored raise honorable 
+7	0.03498	ordinance fractional society towns tracts adjoining township loan geographer reserved sale brethren expence thereon indians plats acres certificates future christian 
+8	0.02405	government purchase claims senate boundaries principle hawkins relinquished question present view benjamin limits military cornplanter m'intosh stanwix feby conquest citizen 
+9	0.12566	fort general days harmar good river return information place indians day arrived war send people men detroit intelligence consequence left 
+10	0.11953	thousand dollars sum hundred year ordered expence appropriated amount expenses service twelve money expences provisions forty propriety twenty called paid 
+11	0.00883	marque gibault district excellency treack joseph nous sale vente chartran excellence barbau girardin baptis pour rocher clair nos jaque belle 
+12	0.27875	president secretary state states united opinion march report attorney executive proceedings jefferson lear territory june secy january ohio february consideration 
+13	0.18665	war general knox secretary gen commissioners governor information result proposed consequence instant sandusky butler relative hold highly success called peace 
+14	0.00631	land joining piece hills arpent prairie breadth side pont river louis hundred joseph rigoulet village widow feet acres lot bois 
+15	0.02336	subjects majesty punished orleans privileges individuals commander province louisiana royal september person mutual controversies upwards catholic matters produce chief submit 
+16	0.04219	congress inhabitants honorable vincennes french petition petitioners american poste behalf hope state humbly illinois americans charter march settlers tardiveau humble 
+17	0.01311	putnam ware rufus ben muskingum wyandot belle-prie harmer soldier account settlements neer consisted sioto probable settlement hockhocking murdered houses perticuler 
+18	0.54026	states united congress ohio territory western west state north part made due river thereof line aforesaid day manner passed place 
+19	0.18136	indians indian treaty united states tribes wabash nations treaties affairs department northern measures hostile superintendant frontier directed held lands river 
+20	0.00832	gallipolis company scioto france compagnie rome leur torn contract qu'on qu'ils ont mois avec duer comp petit avoit fortune emigrants 
+21	0.00574	cahos vous quebec aux mission votre property seminary seminaire nous biens declaration missionaries cahokias dite quil mais bishop sans missionaires 
+22	0.03258	parsons services memorialist varnum period accounts taking enclosure coasts oaths warnum commence sam encrease undoubtedly rarely began represent attached dated 
+23	0.12629	war peace post public troops officer secretary frontiers militia commanding present protection force inhabitants prevent establishment service lake men established 
+24	0.04859	peace harmar settlement thro ill col settlements men wilkinson characters wayne orders june choctaws powerful muskingum redress order satisfaction jealousy 
+25	0.05149	john symmes representatives enacted house cleves senate act president miami hundred patent thousand letters acres dayton april eighty territories heirs 
+26	0.03003	letter papers hon contract ludlow hamilton case sept belonging antient surveyor returned prospect alteration account morgan quantrill gallatin list granted 
+27	0.09125	fort major harmar vincennes washington boat concluded post purpose accounts extremely written dated favorable garrison cherokees corn colonel designs extract 
+28	0.00987	kaskaskias lot town piece arpent wide land plain arpents tract half acres common village john lots fence front indian house 
+29	0.01728	james improved william henry john george west length moore gervais year benjamin smith isaac whitesides piggot cross david chartran nicholas 
+30	0.00411	monsieur vous avec quil qui l'honneur votre honor tres child humble lajoye perez est lui mains manuel enfant j'ai chez 
+31	0.02808	part townships parties range line tract township assigns land boundary associates heirs company afs lots thereof purposes mentioned resolutions lines 
+32	0.14358	report committee referred memorial act treasury board june land july congress wabash company read flint petition behalf measures parker submit 
+33	0.10069	justice good confidence excellency support happiness moment opinion life years property friends consideration happy render ready situation full conceive body 
+34	0.01061	les des pour par qui dans pas une cette sur leur faire dit sont justice translation été bien fait est 
+35	0.05942	line act general commonwealth hundred thousand year lord america massachusetts cession commission day lake common assembled articles aforesaid eighty states 
+36	0.02941	kaskaskia cahokia spanish county prairie communication distance rocher part courts illinois found impossible consequence missisippi appeared slaves partly survey report 
+37	0.15029	judge public general turner symmes philadelphia laid nature conduct duty proper notice committed circumstance sentiments absence give evidence guard jackson 
+38	0.03475	gentlemen vincennes duer acting gamelin longer hamtramck citizens individual europe preemption pleas agent esquire town command case juge bosseron pleasure 
+39	0.05877	sargent dear col public man acting private cincinnati county men duties marietta judge courts persuaded past good acquainted winthrop friend 
+40	0.04028	papers clair enquiry army campaign letters washington commission general court conduct expedition public military smith committee command library draft gen 
+41	0.19891	country people great part considerable number british thought obtained small settlements instructions tho large trade lands present degree obtain advantage 
+42	0.11895	treasury board land tract river payment contract made purchase lands paid sale mouth million reserved cutler interest indian terms associates 
+43	0.03199	nations wyandots miami delawares peace mark shawanese council chiefs claim messages prisoners principal reg messenger article wilson speech answer messengers 
+44	0.4787	clair time governor made country letter sir business make give found long circumstances proper power present expected reason informed order 
+45	0.05908	government free property established canada declared people territorial civil acts original principles citizens seat customs temporary territory division system formed 
+46	0.04152	treasury blank board office sold time secretary deeds surveyors make oath surveyor proceed ranges ordained deputy hand certificate noted erie 
+47	0.43818	sir honor respect letter congress secretary servant obedient humble president great sargent excellency major honour government western enclosed office pleased 
+48	0.08016	lands land surveyed late army officers survey quantity war geographer entitled congress surveys continental book soldiers bounties return south directed 
+49	0.01653	district time ordained council superintendants years provided force equal trade magistrates serve assembly reside districts legislative license crimes freehold term 
+
+[beta: 0.01496] 
+<600> LL/token: -8.25656
+<610> LL/token: -8.24685
+[beta: 0.01493] 
+<620> LL/token: -8.257
+<630> LL/token: -8.25568
+[beta: 0.01508] 
+<640> LL/token: -8.25252
+
+0	0.12413	lands land inhabitants country made illinois acres laid river french tracts hundred settlers village virginia mississippi granted miles tract order 
+1	0.01105	joseph louis baptiste francois widow john pierre jean antoine charles marie michel laveuve des amable cabasier jacque jacques bte sen 
+2	0.07275	virginia state troops pennsylvania officers scioto resolution executive application deficiency side establishment miami resolved ohio river act unable lying company 
+3	0.19005	territory governor laws judges office law government authority duties ordinance officers civil public person proclamation court powers duty discharge cases 
+4	0.02788	state delegates york general soil connecticut jurisdiction presents samuel north degree twenty behalf latitude benefit lands forty virtue william transfer 
+5	0.01803	interest kentucky spanish debt equal foreign spain conolly connecticut reach missisippi posts union spaniards sold money dorchester sterling turned fund 
+6	0.05335	miami treasury lands acres excellency miles distance symmes great commissioners millions shew sell settled honorable fort memorial garrison permission raise 
+7	0.03363	society township towns ordinance geographer loan reserved fractional mentioned tracts acres lot expence adjoining brethren purchaser plats townships christian report 
+8	0.02082	purchase government principle claims senate hawkins view formed friendly benjamin relinquished lying expected stanwix feby question appeared basis signing chamber 
+9	0.12646	fort indians place war return good general harmar day information days arrived river consequence arrival detroit men returned party provisions 
+10	0.12383	thousand hundred dollars sum year ordered twenty expence money appropriated twelve provisions supposed account amount ten pay objects furnish fifty 
+11	0.0068	marque gibault joseph district treack excellency pour excellence barbau prairie vente chartran property baptis nous nos jaque belle rocher votre 
+12	0.27571	secretary president state states united march report opinion ohio papers attorney executive lear jefferson department proceedings consideration june january senate 
+13	0.18179	war general knox information gen commissioners governor secretary result highly butler propriety secy putnam relative called consequence issue sandusky success 
+14	0.00729	land joining piece hills arpent prairie breadth side pont river louis hundred joseph rigoulet village acres lot feet widow jean 
+15	0.02774	subjects majesty person punished commander privileges signed persons orleans province louisiana matters king royal catholic proclamation september horses upwards render 
+16	0.04956	congress inhabitants honorable french vincennes american petition petitioners poste state post grant hope illinois humble indians americans charter district address 
+17	0.01485	putnam ohio ware rufus ben muskingum harmer belle-prie sioto soldier wyandot hockhocking neer white account give murdered houses perticuler consisted 
+18	0.54624	states united congress ohio territory western west north part river made time line due state day thereof passed persons make 
+19	0.1866	indians indian treaty united states wabash tribes nations affairs treaties peace northern lands hostile superintendant instructions department held measures effect 
+20	0.00728	gallipolis company scioto leur france compagnie rome torn contract duer avec qu'ils mois petit comp february ont fortune emigrants month 
+21	0.00575	cahos quebec vous mission aux nous seminary seminaire declaration votre missionaries property cahokias dite illinois mais forget bishop biens missionaires 
+22	0.03463	parsons judge services varnum memorialist period accounts taking coasts enclosure oaths salaries warnum contracted attached sam suits feb limitation exposed 
+23	0.12429	war troops post officer public protection force peace militia commanding prevent savages service opinion inhabitants frontiers conduct head disposition lake 
+24	0.04539	people peace col men settlement wayne settlements order wilkinson establishing choctaws towns muskingum colonel brigadier beleive merchants liquor anthony kentuckey 
+25	0.04449	john symmes representatives enacted cleves president house senate miami patent act lands letters heirs hundred warrants secretary assigns dayton april 
+26	0.02171	letter hon contract hamilton ludlow military sept bill papers list obt col quantrill gallatin rights surveyor alteration acre told enemy 
+27	0.0712	fort harmar major purpose washington post boat vincennes approbation concluded dated letter accounts extremely written doughty counties prior mission assemble 
+28	0.00934	kaskaskias lot town piece arpent wide land plain arpents tract half village common acres lots front fence indian john house 
+29	0.01456	james improved john william george henry west year moore isaac benjamin smith chartran girardin whitesides piggot built david nicholas north 
+30	0.00516	monsieur vous avec quil l'honneur votre honor humble tres est child lajoye perez j'ai mains sur manuel enfant chez mayet 
+31	0.02816	part townships parties range line tract land township assigns lots company heirs thereof purposes afs resolutions fractional place contracted grant 
+32	0.1335	report committee referred memorial board congress treasury june july company read act flint wabash land williamson dane petition opinion parker 
+33	0.09344	justice excellency confidence moment support happiness good years happy body consideration property friends behalf arrival satisfaction life principles lives ready 
+34	0.01063	les des qui pour par dans pas une cette faire dit inhabitants sont justice translation été bien leur possession sur 
+35	0.05128	act thousand hundred commonwealth year line america aforesaid massachusetts lord eighty lake assembled interest meridian commission number names september delegates 
+36	0.03455	cahokia kaskaskia found part spanish prairie courts obliged county distance rocher communication small appeared consequence missisippi slaves partly impossible claims 
+37	0.14002	judge general turner symmes duty laid notice thought public conduct nature sentiments communication trust circumstance morning yesterday evidence legislative commission 
+38	0.03589	gentlemen vincennes citizens duer gamelin col hamtramck individual agent town situation europe preemption witness command juge bosseron esquire officer warmest 
+39	0.05864	sargent dear private governour county winthrop cincinnati man favour men acting col business good persuaded government public friend presume past 
+40	0.04608	clair papers letters court army campaign conduct enquiry washington gen major public smith library capable committee failure expedition military successor 
+41	0.18542	country people great part number considerable british settlements small obtained degree present trade instructions settlement pay generally remove large soil 
+42	0.11734	land board treasury tract contract payment river purchase paid made associates lands mouth sale million east morgan reserved cutler payments 
+43	0.03484	wyandots nations miami delawares mark shawanese council chiefs messages answer messengers claim reg messenger ill wilson chief peace represented young 
+44	0.47287	clair time made governor country proper make give letter found power sir present subject informed place doubt circumstances request appears 
+45	0.05966	government general free property established declared inhabitants territorial formed missisippi acts common complained temporary liberty preservation governed servitude exercise canada 
+46	0.04224	blank treasury board office sold deeds ranges surveyors oath ordained surveyor lines agreeably received erie deputy proceed transmit secretary certificate 
+47	0.45171	sir honor secretary president respect letter congress servant great obedient western humble sargent clair governor philadelphia excellency honour pleased july 
+48	0.07586	lands surveyed army quantity officers congress war survey entitled late surveys geographer land military rivers public soldiers continental directed secretary 
+49	0.01838	district council superintendants magistrates time force years ordained equal trade appointed estate reside legislative representatives secretary license forever serve freehold 
+
+<650> LL/token: -8.25432
+[beta: 0.01511] 
+<660> LL/token: -8.25492
+<670> LL/token: -8.24324
+[beta: 0.0152] 
+<680> LL/token: -8.2503
+<690> LL/token: -8.24271
+
+0	0.12653	lands inhabitants land acres country illinois mississippi french laid hundred made settlers village tract tracts miles granted grant post vincennes 
+1	0.012	louis joseph baptiste widow francois john pierre jean antoine marie charles des laveuve jacque amable racine cabasier michel jacques bte 
+2	0.06174	virginia state troops pennsylvania side miami executive application scioto deficiency cession resolution pay lying unable conditions union laying cover called 
+3	0.18448	territory governor laws judges government authority law general civil office officers ordinance person duties powers court district regulations public cases 
+4	0.02568	state york delegates jurisdiction general connecticut degree latitude west forty benefit presents behalf soil assembly william title claim transfer pre-emption 
+5	0.02194	missisippi union interest kentucky foreign conolly debt spanish sold support connecticut reach dependance change fund felt treason active jay atlantic 
+6	0.05122	miami excellency miles lands river commissioners fort millions distance acres symmes memorial great honorable garrison hutchins treasury eastern board settled 
+7	0.0296	society towns reserved acres tracts indians brethren geographer adjoining ordinance christian purchaser mentioned salem heathen gospel propagating muskingum committee bethlehem 
+8	0.02224	government purchase senate principle claims hawkins friendly respect benjamin lying deeds british december cornplanter question william indians chamber senator equitable 
+9	0.11877	indians time general fort river war return days good men place harmar send arrived provisions expect arrival people intelligence consequence 
+10	0.12281	thousand dollars hundred sum year money ordered expenses applied appropriated pay years twelve expences altho regular attempt business paid expense 
+11	0.00777	marque gibault joseph excellency district treack nous sale clair vente arthur excellence barbau baptis francois rocher prairie nos michel chartran 
+12	0.2582	secretary president state united states march report opinion western attorney consideration ohio jefferson executive lear secy relative papers legislature february 
+13	0.16408	war general knox gen secretary commissioners result highly proposed enclosed butler opinion sandusky called issue success points gentlemen ultimo generally 
+14	0.00825	land joining piece hills arpent prairie breadth side pont river hundred louis rigoulet joseph village acres lot jean bois feet 
+15	0.02969	subjects majesty commander privileges september louisiana persons person province seal royal catholic matters proclamation west majesty's controversies upwards orleans punished 
+16	0.04564	congress inhabitants honorable french petition petitioners american vincennes poste behalf humble humbly order hope americans charter settlers illinois land districts 
+17	0.01509	putnam ohio ware contract rufus ben comp harmer muskingum belle-prie sioto soldier kind account hockhocking neer consisted kenhawa probable wyandot 
+18	0.54692	states united congress ohio territory western north west river state part time due line made thereof make day case provided 
+19	0.17723	indians indian treaty united states tribes peace wabash treaties nations department affairs northern hostile secretary superintendant effect held lands instructions 
+20	0.00772	company gallipolis leur scioto france compagnie torn ont duer rome french mois petit nombre february qu'ils emigrants month personnes seduction 
+21	0.00721	cahos quebec vous aux mission votre seminary seminaire nous quil declaration property missionaries cahokias dite forget bishop quelque sans missionaires 
+22	0.03627	parsons judge services memorialist period taking varnum accounts attached waters hopes coasts enclosure warnum commence sess civil sam speech prove 
+23	0.13002	war troops officer militia commanding public inhabitants frontier peace protection present posts frontiers post force measures lake require service established 
+24	0.04727	settlement harmar brigadier col wilkinson sell peace liquors colonel difficult beleive men liquor harmony acquainted south choctaws licence muskingum precepts 
+25	0.04672	symmes john representatives enacted house president act cleves senate patent miami hundred letters heirs assigns dayton thousand lands acres warrants 
+26	0.0238	letter hon papers contract military hamilton ludlow sept january committee enclosure receipt quantrill gallatin mortified feby list rights col alteration 
+27	0.07813	fort major harmar washington post purpose vincennes written doughty boat appears concluded killed extremely appeared prior cherokees mission assemble colonel 
+28	0.0093	kaskaskias lot town piece arpent wide land plain tract arpents common half acres village lots house front indian fence john 
+29	0.01243	james william improved john page bottom moore george henry clair benjamin isaac whitesides piggot thomas david smith killed geo excellency's 
+30	0.00463	monsieur vous l'honneur quil tres child honor humble votre lajoye perez est entre j'ai mains lui dear manuel enfant chez 
+31	0.02908	part townships township line parties range land tract assigns associates thereof boundary heirs lots fractional afs lot company resolutions grant 
+32	0.13792	report referred committee memorial treasury land board congress july wabash act company june read flint petition order measures williamson leave 
+33	0.09115	justice excellency good moment happy confidence life long body friends administration happiness arrival years support full documents ready number consideration 
+34	0.01156	les des qui pour par dans pas une avec cette sur faire translation dit été bien sont order inhabitants est 
+35	0.05319	line hundred act thousand year commonwealth aforesaid america lord eighty cession massachusetts delegates number lake authority day people names land 
+36	0.03168	kaskaskia cahokia spanish county small distance communication courts rocher found consequence obliged missisippi partly paper todd king appeared town french 
+37	0.11719	judge turner public symmes duty laid notice sentiments guard orders trust answer appointment told legislative george morning communication jackson nature 
+38	0.02817	gentlemen vincennes citizens gamelin duer col hamtramck town europe preemption agent individual command juge bosseron esquire endeavours agreement informations change 
+39	0.0503	sargent dear public acting private duties cincinnati county man good persuaded past leave pleasure col putnam governour february expect symmes 
+40	0.05248	clair papers conduct public letters washington enquiry general army campaign court commission expedition gen smith committee library printed failure command 
+41	0.1811	country people great part number considerable settlements british obtained prevent degree trade thought principal settlement tho held soil small respecting 
+42	0.12886	board treasury land payment tract contract river made purchase lands sale mouth million morgan cutler associates interest price paid purchasers 
+43	0.03536	nations wyandots delawares mark miami chiefs council peace meet claim tribes shawanese ohio messages messengers ill prisoners reg messenger wilson 
+44	0.45969	clair made time proper present governor sir letter make give found information subject place power long circumstances informed received doubt 
+45	0.05506	government property free principles formed established declared territorial inhabitants canada acts article understood forever customs representation equal seat division servitude 
+46	0.0372	treasury blank board sold loan ordinance office deeds surveyors fractional ranges ordained lines oath parts deputy proceed certificates sale transmit 
+47	0.46197	sir honor respect president letter governor servant secretary congress sargent obedient humble great july pleased philadelphia territory honour office clair 
+48	0.07479	lands officers surveyed quantity army war land surveys survey geographer late secretary entitled congress return establishment bounties soldiers continental public 
+49	0.02357	district time council superintendants force magistrates years assembly ordained appointed trade reside house estate legislative good representatives office license members 
+
+[beta: 0.01524] 
+<700> LL/token: -8.24904
+<710> LL/token: -8.2393
+[beta: 0.01527] 
+<720> LL/token: -8.24076
+<730> LL/token: -8.2353
+[beta: 0.01519] 
+<740> LL/token: -8.22824
+
+0	0.12258	land lands inhabitants acres french illinois country hundred laid mississippi river settlers tracts village made governor miles post granted vincennes 
+1	0.01318	joseph louis baptiste francois pierre widow john jean antoine charles marie michel laveuve jacque amable cabasier jacques bte sen list 
+2	0.05404	virginia state pennsylvania act troops side scioto deficiency application cession continental miami counties union disposed laid lieutenants prepared conditions designs 
+3	0.17414	territory laws governor judges government law office authority public duties civil person court officers powers cases duty proclamation articles appointment 
+4	0.02373	state delegates jurisdiction york connecticut benefit behalf degree authority latitude north presents william soil forty twenty virtue lands johnson transfer 
+5	0.0152	interest kentucky missisippi debt spanish conolly connecticut foreign pennsylvania spain affairs sterling suit fund pounds felt treason remove expectation connection 
+6	0.05044	miami river fort lands treasury great acres commissioners mouth symmes board memorial millions miles agents shew judge excellency sales distance 
+7	0.01596	society towns acres tracts geographer indians brethren reserved christian salem heathen gospel propagating muskingum bethlehem granted trust return ordinance john 
+8	0.0245	government purchase boundaries principle senate hawkins claims benjamin question respectfully deeds senator cornplanter m'intosh validity declared garcon chamber obstacles feeble 
+9	0.14474	general indians war fort place harmar good day days river consequence return send arrived expect brought detroit man time party 
+10	0.13181	thousand dollars year hundred sum money twenty years attempt ordered expences service called applied paid appropriated fifty altho furnish expenses 
+11	0.00623	marque gibault district treack excellency nous property sale excellence barbau vente votre rocher prairie nos inhabitants june jaque baptis belle 
+12	0.26929	secretary president state united report proceedings executive states march attorney ohio june secy lear opinion jefferson department general transmit consideration 
+13	0.13873	war general gen knox secretary commissioners proposed letter instant butler putnam highly sandusky called success result communication heads enclosures gentlemen 
+14	0.00718	land joining piece hills arpent prairie breadth side pont river louis hundred joseph rigoulet village lot jean feet bois acres 
+15	0.02771	subjects majesty commander privileges punished september chief persons louisiana stop signed number orleans permission oath royal commanding catholic produce arrival 
+16	0.04548	congress inhabitants honorable french petition american petitioners vincennes poste illinois state behalf virginia hope humble humbly americans charter agent settle 
+17	0.01035	putnam ohio ware rufus contract ben rome loss muskingum comp belle-prie harmer soldier account neer consisted fut l'ohio sioto accounts 
+18	0.54127	states united congress ohio western territory made west north part river time line make state provided ordinance case general thereof 
+19	0.1842	indians indian treaty united states tribes wabash peace war affairs treaties northern nations department lands hostile superintendant secretary held instructions 
+20	0.00615	gallipolis leur company scioto france compagnie ont torn duer qu'ils qu'on mois petit hundred february fortune emigrants month nombre ces 
+21	0.00514	quebec cahos vous aux mission seminary seminaire nous declaration missionaries quil property mais cahokias bishop votre dite sans ont procuration 
+22	0.04091	parsons memorialist treasury accounts varnum services period taking disbursements memorial salaries attached coasts sess concessions feb translation enclosure oaths warnum 
+23	0.11921	troops war post officer frontiers men protection frontier inhabitants posts public force commanding secretary present disposition lake effect head established 
+24	0.02961	col sell excellency's brigadier wilkinson liquors muskingum settlement merchants liquor arrive beleive informed agree south eel colonel permission precepts ammunition 
+25	0.04447	john symmes representatives enacted house cleves president senate act patent heirs hundred letters thousand assigns dayton grant miami authorized lands 
+26	0.01299	letter military ludlow contract hon hamilton papers sept feby bill committee memorandum list rights quantrill gallatin freely petitions jany alteration 
+27	0.07495	fort harmar major vincennes washington purpose colonel dated deliver boat written appeared doughty concluded cherokees assemble accounts extract killed knox 
+28	0.01023	kaskaskias lot piece town land wide arpent plain tract arpents half common acres village front lots indian john fence house 
+29	0.01547	james william john george smith benjamin isaac whitesides piggot david killed nicholas waddell live beuf district chafan ogle daniel catherine 
+30	0.00511	monsieur vous quil avec honor l'honneur votre child lui tres lajoye perez humble j'ai mains entre dear manuel enfant chez 
+31	0.02881	townships part township parties range line tract land associates assigns thereof heirs resolutions treasury afs mentioned boundary aforesaid lot lines 
+32	0.13878	report committee referred board memorial land lands congress july june treasury read company wabash flint dane williamson petition resolves morgan 
+33	0.09135	excellency justice happy support happiness confidence good consideration property peace moment life friends documents deprived satisfaction principles administration add motives 
+34	0.01266	les des qui pour par dans pas une cette est sur faire dit translation fait lands avec bien sont possession 
+35	0.0561	act thousand hundred commonwealth year line america cession massachusetts lord eighty aforesaid lake day number interest people meridian whereof pennsylvania 
+36	0.02487	kaskaskia cahokia spanish county courts found communication distance rocher prairie grants american appeared slaves partly impossible todd obliged misfortunes survey 
+37	0.11487	judge turner conduct public duty laid symmes notice part nature form trust told due establishing evidence personal george instances guard 
+38	0.02582	mark gentlemen vincennes duer gamelin col hamtramck preemption vested esquire individual town acting citizens europe juge agent bosseron endeavours fortunes 
+39	0.04447	sargent dear governour private acting county cincinnati great men col past symmes persuaded expenses expect duties knox hamilton affectionate friend 
+40	0.04616	clair papers public general letters campaign enquiry washington army commission conduct expedition military gen smith instance court library committee original 
+41	0.18959	country people great part considerable number settlements british settlement government small obtained long generally large soil respecting thro sale prevent 
+42	0.11505	board tract payment contract land treasury river purchase mouth made sale paid cutler east price purchasers reserved quantity payments terms 
+43	0.03218	nations wyandots miami delawares peace chiefs council shawanese answer messages prisoners returned ill messengers immediately reg messenger wilson formed meet 
+44	0.48828	clair time present made governor proper letter country give subject make sir information found power order business circumstances appears receive 
+45	0.04133	free government legislature property canada inhabitants territorial citizens formed established equal declared continue representation article missisippi understood servitude citizen alteration 
+46	0.03655	blank sold treasury fractional board ranges surveyors deeds loan state ordained surveyor oath parts office deputy certificates ordinance hand continental 
+47	0.46883	sir honor respect president governor letter servant obedient western congress sargent secretary pleased excellency humble major philadelphia honour great july 
+48	0.09042	lands land late officers survey army quantity surveys surveyed expence geographer entitled congress war secretary public rivers establishment due soldiers 
+49	0.02574	district council force superintendants years house assembly estate magistrates trade time full equal legislative commission representatives license serve freehold sooner 
+
+<750> LL/token: -8.23891
+[beta: 0.01528] 
+<760> LL/token: -8.22358
+<770> LL/token: -8.23164
+[beta: 0.01547] 
+<780> LL/token: -8.22712
+<790> LL/token: -8.22896
+
+0	0.11664	inhabitants land lands made acres hundred country illinois laid mississippi french post persons tracts settlers village wabash river vincennes claims 
+1	0.01405	joseph louis baptiste francois widow pierre john jean antoine marie michel charles laveuve chartran amable cabasier charle jacque jacques jaque 
+2	0.04942	virginia state ohio troops side application scioto pennsylvania union deficiency miami laid continental cession reports reserved conditions act expected fact 
+3	0.17829	territory laws governor judges government person office authority law civil public duties powers officers duty court regulations articles discharge cases 
+4	0.01998	state north delegates york jurisdiction connecticut authority degree william latitude lands presents behalf soil forty virtue claim benefit transfer alexander 
+5	0.01605	missisippi spanish pennsylvania interest kentucky foreign spain conolly connecticut debt price paid fund patents experiment disposition expectation jay hostilities atlantic 
+6	0.04981	miami symmes lands great acres treasury river miles commissioners memorial excellency john million board judge millions fort sales shew boundary 
+7	0.01671	society towns brethren acres reserved tracts christian indians muskingum salem heathen gospel propagating adjoining bethlehem granted geographer thousand john mentioned 
+8	0.0248	government claims respectfully purchase present hawkins senate friendly heard principle benjamin senator efforts disposition question arising years chamber equitable feeble 
+9	0.14717	war time place fort general indians days harmar return day expect good river men arrived man hope send party detroit 
+10	0.12451	thousand dollars hundred year sum money twenty fifty years appropriated amount twelve provisions paid expenses furnish service establish pay fourteen 
+11	0.00818	marque gibault district nous treack sale excellency vente excellence barbau votre biens property baptis rocher nos procuration june belle tres 
+12	0.25437	secretary president state states united report proceedings executive attorney consideration opinion lear jefferson march june relative department secy senate command 
+13	0.12755	war general gen commissioners western highly proposed knox result butler sandusky success called ultimo governor message issue submit heads understood 
+14	0.00928	land joining piece hills arpent prairie breadth side pont river hundred louis rigoulet joseph lot village feet jean half acres 
+15	0.02234	subjects majesty commander punished privileges september louisiana royal upwards orleans province catholic produce parties mutual majesty's rights oath graise stop 
+16	0.04278	congress french honorable vincennes inhabitants petition petitioners american poste illinois behalf state grant humbly americans charter address settlers hope post 
+17	0.0135	putnam ohio ware ben rufus muskingum comp contract soldier loss belle-prie sioto harmer account hockhocking neer consisted kenhawa thomas wyandot 
+18	0.54726	states united congress territory ohio western west north river made time part state ordinance thereof general make day case line 
+19	0.18331	indians treaty indian united peace tribes states wabash nations affairs treaties northern department superintendant hostile held measures directed hostilities lands 
+20	0.00614	company gallipolis scioto france compagnie rome ont torn qu'ils qu'on duer lands mois petit february avoit fortune emigrants month nombre 
+21	0.00512	cahos quebec vous mission aux seminary seminaire declaration nous quil missionaries property cahokias votre dite bishop sans missionaires encore c'est 
+22	0.02924	parsons memorialist services memorial period varnum accounts taking treasury disbursements enclosure salaries coasts oaths warnum attached commence sess cong clause 
+23	0.11989	officer troops war commanding post frontiers frontier inhabitants public posts secretary men lake effect village virginia militia render savages force 
+24	0.02855	settlement wilkinson prevent col liquors enemy garrison merchants liquor contrary beleive sell station arrive presents eel precepts ammunition tells noticed 
+25	0.0388	john representatives symmes enacted act senate president cleves house hundred thousand patent miami dayton april heirs letters acres speaker eighty 
+26	0.01778	letter hon contract ludlow military hamilton subject papers sept january days bill petition quantrill dates houses list rights sort col 
+27	0.08103	fort harmar major washington boat colonel purpose vincennes doughty concluded accounts extract desired committed assemble observed cherokees designs kentuckey written 
+28	0.00927	kaskaskias lot town piece arpent wide land plain tract arpents village half acres common john house lots fence indian front 
+29	0.01033	james william john moore year benjamin smith isaac whitesides piggot tellier david killed waddell improved live nicholas excellency chafan ogle 
+30	0.00662	monsieur vous quil l'honneur votre tres child lui honor lajoye perez j'ai mains dear manuel chez mayet d'etre quel justice 
+31	0.03687	part townships line township parties range tract assigns land resolutions lots associates heirs manner company purposes afs running lot mentioned 
+32	0.12022	report committee referred congress board july memorial treasury land read june company act flint wabash lands dane williamson resolves indian 
+33	0.08948	justice excellency government confidence moment happiness happy friends good property life consideration principles reply satisfaction documents body arrival support deprived 
+34	0.01101	les des qui pour par dans pas leur une avec cette sur est faire dit humble inhabitants translation sont été 
+35	0.05511	line act thousand america year hundred commonwealth cession lord massachusetts eighty people samuel delegates day whereof twenty interest assembled names 
+36	0.0259	kaskaskia cahokia county courts found spanish prairie distance rocher communication partly obliged directed proclamation copy todd grants appeared english report 
+37	0.10096	judge turner public conduct duty trust general notice laid nature symmes due induced told courts circumstance legislative george measures personal 
+38	0.02048	gentlemen mark vincennes duer gamelin citizens col reg hamtramck command europe preemption individual town john juge bosseron warmest endeavours chief 
+39	0.05006	dear sargent private county great acting cincinnati symmes duties man persuaded col governour conduct men past good hamilton affectionate counties 
+40	0.05261	papers clair letters public court general washington army gen campaign enquiry military smith commission expedition committee command library capable conduct 
+41	0.1911	country people great part considerable settlements number small government obtained long british degree brought trade settlement thought soil sale generally 
+42	0.1117	treasury tract land board payment contract purchase river made sale mouth quantity reserved associates morgan paid cutler due interest payments 
+43	0.03017	nations wyandots miami delawares chiefs council shawanese claim peace messages prisoners represented messenger article wilson answer messengers wyandot meet chief 
+44	0.49493	clair present governor made time proper give sir country business circumstances make found order information instructions power subject receive informed 
+45	0.04304	free property legislature formed territorial established article alteration understood representation liberty establish exercise constitution citizens governed servitude canada principles preservation 
+46	0.04027	blank board treasury townships sold fractional loan ranges deeds surveyors office parts ordained lines surveyor oath deputy mile certificate towns 
+47	0.47139	sir letter honor respect secretary president sargent congress obedient servant governor humble clair philadelphia great honour pleased enclosed western july 
+48	0.11327	lands officers land congress surveyed surveys army war geographer survey late expence entitled quantity public secretary rivers south military office 
+49	0.0231	district congress ordained council assembled time superintendants magistrates years trade crimes equal force serve estate reside commission legislative resident representatives 
+
+[beta: 0.01545] 
+<800> LL/token: -8.22997
+<810> LL/token: -8.2341
+[beta: 0.01544] 
+<820> LL/token: -8.23936
+<830> LL/token: -8.23672
+[beta: 0.01537] 
+<840> LL/token: -8.23304
+
+0	0.113	inhabitants lands land acres country hundred river mississippi french post laid made settlers village governor tracts persons illinois wabash vincennes 
+1	0.01365	joseph louis francois baptiste pierre widow john jean antoine marie michel charles laveuve chartran charle des amable cabasier jacque jacques 
+2	0.0598	virginia state side troops ohio pennsylvania scioto cession good continental deficiency resolution laid power sep prepared conditions ill expected miami 
+3	0.19297	territory governor laws judges government law public officers civil person office authority duties duty powers established cases military general offices 
+4	0.02304	state york delegates jurisdiction behalf benefit north connecticut presents degree william soil latitude virtue claim john johnson transfer westerly miles 
+5	0.01623	missisippi spanish kentucky debt thought spaniards foreign interest price support conolly connecticut remove spain felt equal pennsylvania respects long advantage 
+6	0.05058	miami lands acres symmes treasury river fort excellency commissioners miles mouth john memorial great millions shew northern premises contracted million 
+7	0.02254	society towns acres indians brethren tracts christian adjoining salem heathen gospel propagating muskingum granted geographer john bethlehem promoting reserved expences 
+8	0.03316	government purchase principle claims deeds senate boundaries hawkins respectfully question benjamin lying equitable incessant efforts doctrine debt cong savages send 
+9	0.15999	fort place general indians war harmar return men officer river days good day arrived time send detroit arrival judge man 
+10	0.10957	thousand dollars hundred sum year provisions ordered attempt service years appropriated twenty fifty twelve expenses establish accompany making amount applied 
+11	0.00822	gibault marque excellency district treack property vente sale biens excellence barbau nous june baptis arthur rocher prairie nos votre belle 
+12	0.25704	secretary president state report united states executive attorney proceedings june lear jefferson consideration government march opinion legislature ohio tobias relative 
+13	0.12686	war general gen knox commissioners proposed success butler sandusky communication result highly called putnam information submitted issue conceive form gentlemen 
+14	0.00929	land joining piece hills arpent prairie breadth side pont river louis hundred joseph rigoulet village half lot feet bois tract 
+15	0.02092	subjects majesty commander privileges september punished louisiana royal province catholic proclamation chief mutual controversies orleans matters produce ten individuals arrested 
+16	0.04694	congress honorable french inhabitants petition american petitioners vincennes state illinois poste hope grant pray behalf agent humbly humble order americans 
+17	0.01499	putnam ware rufus ben muskingum comp harmer belle-prie sioto soldier thomas wyandot account sir hockhocking neer consisted kenhawa fairly question 
+18	0.54361	states united congress ohio western territory part west north river time state made day make line general provided thereof authority 
+19	0.17513	indians indian treaty united tribes states peace wabash war nations treaties department affairs hostile measures northern held superintendant instructions year 
+20	0.00977	gallipolis company scioto leur france compagnie rome qu'ils torn contract duer qu'on mois petit february avoit fortune emigrants month furent 
+21	0.00611	cahos vous quebec mission aux nous seminary seminaire declaration cahokias votre missionaries dite alienation bishop quelque sans leur missionaires illinois 
+22	0.03777	parsons memorialist period memorial accounts varnum samuel taking disbursements salaries coasts services enclosure oaths warnum debts support february treasury performance 
+23	0.11494	troops war present secretary officer post frontiers force protection men inhabitants posts commanding fort frontier highly prevent established disposition militia 
+24	0.02277	settlement col wilkinson writing sell prevent liquors muskingum beleive garrison july teritory merchants liquor result exist live eel ammunition tells 
+25	0.03906	representatives john enacted symmes house president senate act cleves patent letters miami heirs hundred dayton acres thousand secretary speaker eighty 
+26	0.01981	letter hon contract sept ludlow april committee papers military hamilton bill petition powers receipt quantrill gallatin shewing lieutenants mortified list 
+27	0.07534	fort harmar major vincennes washington boat purpose concluded accounts desired colonel extremely appeared assemble americans action lake doughty favorable exertions 
+28	0.0108	kaskaskias lot town piece wide arpent land plain arpents tract half acres common village lots fence indian john house front 
+29	0.01197	james william john moore isaac benjamin whitesides improved piggot david smith geo excellency waddell live alexander killed nicholas chafan ogle 
+30	0.00411	vous monsieur quil l'honneur votre child honor lajoye perez j'ai mains lui tres dear manuel enfant chez mayet d'etre quel 
+31	0.03061	part townships parties line range tract assigns boundary associates lots land heirs township lot treasury thereof afs company purposes resolutions 
+32	0.12524	report referred committee memorial land congress treasury act july june company wabash board read flint lands williamson resolves opinion parker 
+33	0.08884	justice good excellency moment happiness government nature life happy public friends consideration confidence full deprived satisfaction years add principles arrival 
+34	0.01056	les des pour qui par dans pas une avec cette est sur faire dit inhabitants ont humble translation sont été 
+35	0.05541	act line hundred thousand year commonwealth america cession lord aforesaid massachusetts eighty assembled delegates interest states number meridian whereof land 
+36	0.0234	kaskaskia cahokia spanish county courts communication illinois rocher prairie appeared distance found partly grants king obliged todd measure english impossible 
+37	0.0958	judge turner public symmes laid duty trust notice conduct george due bill legislative circumstance nature guard convinced communication permit induced 
+38	0.02231	gentlemen mark vincennes duer citizens gamelin reg hamtramck major europe preemption inform individual juge represented bosseron esquire town endeavours command 
+39	0.04469	dear sargent private col duties county governour cincinnati expect persuaded records courts past symmes write man acting counties hamilton agreeably 
+40	0.05786	papers court letters clair conduct general public army campaign washington enquiry gen commission instance expedition military committee inquiry capable observe 
+41	0.18623	country people great part considerable settlements number government small british consequence territory obtained brought trade side settlement possession soil large 
+42	0.11079	board land tract payment contract made purchase treasury paid sale morgan mouth cutler river indian payments purchasers terms associates million 
+43	0.04133	nations wyandots miami delawares peace chiefs council shawanese frontier messages returned village answer prisoners meet claim messenger wilson messengers chief 
+44	0.49263	clair time made proper present business found country give subject governor power make letter opinion circumstances long request order informed 
+45	0.04648	property free legislature canada declared formed territorial article slaves government understood common wit representation passing alteration establish hour relieve permitted 
+46	0.03924	townships treasury township blank board sold fractional office loan ranges surveyors parts ordained deeds surveyor certificates ordinance thereon deputy continental 
+47	0.4742	sir honor respect letter secretary governor president sargent congress servant obedient humble great office honour enclosed excellency clair philadelphia major 
+48	0.1042	lands land surveyed late army officers quantity expence survey surveys entitled geographer war secretary office south public establishment military rivers 
+49	0.02578	district council force superintendants ordained time citizens crimes trade assembly estate years reside equal legislative commission resident license serve freehold 
+
+<850> LL/token: -8.23716
+[beta: 0.01558] 
+<860> LL/token: -8.24336
+<870> LL/token: -8.23349
+[beta: 0.01548] 
+<880> LL/token: -8.23114
+<890> LL/token: -8.22975
+
+0	0.11089	inhabitants lands land acres french illinois hundred country mississippi river settlers post tracts laid wabash village made territory tract vincennes 
+1	0.01305	joseph louis francois baptiste pierre widow jean john antoine marie michel charles chartran girardin laveuve jacque janis amable cabasier jacques 
+2	0.05537	virginia state troops pennsylvania side scioto cession ohio act continental miami regular deficiency appears parties laid extent aug it's sep 
+3	0.18799	territory governor laws judges government law authority office officers civil person duties powers general duty district public cases magistrates regulations 
+4	0.02544	state delegates york connecticut jurisdiction latitude benefit presents degree virtue behalf soil north forty william transfer pre-emption james claim miles 
+5	0.02072	spanish spaniards missisippi interest support kentucky debt foreign spain principal price conolly connecticut reach foundation expectation gen dorchester sterling fund 
+6	0.04115	miami lands symmes treasury great acres river fort miles mouth commissioners honorable shew memorial excellency millions sales distance northern million 
+7	0.02208	society towns brethren indians acres christian tracts granted reserved heathen gospel propagating muskingum adjoining geographer john salem bethlehem ordinance thousand 
+8	0.02598	government claims principle hawkins boundaries senate deeds purchase disposition benjamin relinquished claim lying question col acknowledged circumstanced efforts apparently doctrine 
+9	0.14442	place fort time indians general war officer day men return river days harmar expect arrived intelligence good provisions detroit goods 
+10	0.10412	thousand dollars hundred year sum years attempt money applied ordered appropriated provisions twelve plan indians statement objects called attend amount 
+11	0.00773	marque gibault excellency district treack property nous vente sale pour excellence barbau clair june baptis joseph rocher prairie nos procuration 
+12	0.24845	secretary president state united states executive report proceedings opinion attorney consideration territory lear march government department jefferson june relative january 
+13	0.12773	war general knox gen secretary highly commissioners result butler proposed advice sandusky success called message information great gentlemen submitted submit 
+14	0.00969	land joining piece hills arpent prairie breadth side pont river louis hundred rigoulet joseph lot village acres bois feet half 
+15	0.02039	subjects majesty commander privileges punished rights province louisiana chief catholic proclamation september mutual majesty's upwards royal anthony punishing offenders horses 
+16	0.05052	congress honorable inhabitants petition french petitioners american vincennes poste behalf pray confidence illinois hope grant long americans humbly state humble 
+17	0.01135	putnam ware ben rufus muskingum ohio belle-prie sioto harmer soldier information neer consisted corn proportion wyandot give hockhocking hills murdered 
+18	0.56567	states united congress ohio western territory north river west state made time line general part thereof purpose aforesaid persons day 
+19	0.17673	indians treaty indian tribes peace states united wabash nations treaties affairs war hostile northern department measures superintendant governor instructions held 
+20	0.00866	gallipolis company scioto leur france compagnie rome qu'ils torn ont qu'on contract duer mois petit comp february ils emigrants month 
+21	0.00612	vous cahos quebec mission aux seminary seminaire nous declaration cahokias votre missionaries dite mais bishop fact c'est forget alienation cantons 
+22	0.03483	parsons memorialist services memorial period taking treasury accounts varnum disbursements salaries memorialists contracted render coasts debts obtained clause arthur oaths 
+23	0.09816	war troops post frontiers posts present secretary frontier commanding protection public officer conduct inhabitants force militia april small effect depredations 
+24	0.01835	sell wilkinson prevent liquors teritory merchants liquor muskingum ammunition beleive settlement purposes garrison july easy presents friendship tells motive honor 
+25	0.0362	john representatives president act enacted house senate hundred symmes cleves patent letters heirs dayton assigns thousand secretary warrants bounds associates 
+26	0.01453	military committee ludlow contract letter hon papers hamilton subject april petition army sept surveyor conceived quantrill gallatin dates list clarke 
+27	0.06733	fort harmar major washington post colonel concluded boat vincennes received accounts represented knox dated doughty extremely extract women quarter chiefs 
+28	0.00762	kaskaskias town lot piece land wide arpent plain arpents tract acres village common half indian lots john house fence front 
+29	0.01078	james william george john west year smith isaac whitesides david waddell benden cultivate moore newbold circumstances excellency's chafan ogle tilled 
+30	0.00608	monsieur vous quil l'honneur votre humble child honor lajoye perez lui mains tres dear manuel enfant j'ai chez mayet d'etre 
+31	0.0339	part parties line townships range tract land associates ohio assigns thereof township company boundary heirs congress afs resolutions laid purposes 
+32	0.1227	report referred board committee memorial land congress july june company read act wabash flint resolved dane williamson consisting humbly treasury 
+33	0.08914	government justice excellency public good happy property happiness consideration life friends established nature peace administration arrival excellency's add satisfaction humanity 
+34	0.00941	les des qui pour par dans pas une avec cette sur est faire dit sont translation été bien fait leur 
+35	0.05562	act thousand hundred lord line commonwealth america year massachusetts eighty day cession aforesaid interest lake meridian authority country twenty march 
+36	0.01408	kaskaskia cahokia spanish county place rocher communication courts distance claims partly impossible town todd king proclamation prairie stream lieutenant shore 
+37	0.09113	turner judge public sir symmes duty philadelphia notice territory conduct laid trust torn nature yesterday legislative prepare bill capacity communicated 
+38	0.02136	mark gentlemen vincennes citizens duer gamelin reg major hamtramck witness individual europe preemption agent esquire juge bosseron pierre command acknowledgments 
+39	0.04199	sargent dear private col county man symmes cincinnati persuaded duties men acting knox great acquainted putnam expect hamilton counties courts 
+40	0.05868	papers clair commission enquiry washington public campaign conduct letters court major army gen observe expedition smith library capable instance printed 
+41	0.18057	country people great part number considerable settlements settlement consequence trade indian obtained brought large soil remove thro small loss government 
+42	0.10561	board tract treasury payment contract land made purchase mouth terms sale river quantity cutler provided paid payments reserved interest purchasers 
+43	0.03929	nations wyandots miami delawares peace council chiefs shawanese returned meet messages answer prisoners messengers frontier messenger wilson speech desired killed 
+44	0.48863	clair made time proper governor country found give make letter sir business power present circumstances request long expected informed information 
+45	0.03877	property legislature free government canada established territorial orleans declared missisippi understood acts equal representation formed agent slaves provided louis middle 
+46	0.04027	townships sold township blank treasury fractional ordinance board geographer loan parts secretary oath lot lots sale office surveyor ranges ordained 
+47	0.47751	sir respect letter honor secretary congress president clair obedient servant sargent governor humble western honour excellency office pleased enclosed great 
+48	0.10637	lands land officers surveyed congress surveys late survey army entitled quantity expence war soldiers public south office rivers due bounties 
+49	0.02706	district force council superintendants ordained years time trade citizens serve crimes estate representatives assembly reside legislative assembled license forever freehold 
+
+[beta: 0.01537] 
+<900> LL/token: -8.24628
+<910> LL/token: -8.23576
+[beta: 0.01545] 
+<920> LL/token: -8.23535
+<930> LL/token: -8.23211
+[beta: 0.01538] 
+<940> LL/token: -8.22942
+
+0	0.09943	inhabitants lands land acres french illinois river country laid hundred made post village settlers wabash mississippi virginia governor territory persons 
+1	0.01254	joseph louis baptiste francois pierre widow john jean antoine charles marie michel laveuve charle amable cabasier jacque jacques bte sen 
+2	0.04826	virginia state ohio troops act side miami cession scioto continental pennsylvania deficiency application resolution laws executive laid sep senecas conditions 
+3	0.19135	territory governor laws judges government office law authority duties officers civil public powers duty absence person general district cases regulations 
+4	0.01707	state york jurisdiction connecticut delegates degree behalf latitude twenty william virtue benefit johnson transfer north west bent pre-emption inclination forty 
+5	0.02371	spanish spaniards support kentucky pennsylvania missisippi foreign spain conolly connecticut reach debt florida union designs foundation hostilities awe interest price 
+6	0.04578	miami lands treasury acres river symmes mouth miles board commissioners fort john memorial contract millions million excellency shew boundary great 
+7	0.02089	towns society brethren acres indians christian salem heathen gospel propagating muskingum tracts order bethlehem geographer john thereof ordered surveying president 
+8	0.02518	government purchase subject hawkins disposition principle deeds col claims senate benjamin question boundaries lying british efforts canada appeared acknowledge view 
+9	0.13757	fort indians general time harmar return river place arrived men days send good day provisions party brought war man detroit 
+10	0.10485	thousand dollars hundred sum year money ordered fifty appropriated attempt years supposed amount expenses establish applied service accompany consideration twelve 
+11	0.00816	gibault marque district excellency joseph treack sale nous vente votre chartran girardin property excellence barbau pierre june baptis rocher prairie 
+12	0.25318	president secretary state united states report executive territory attorney proceedings western lear jefferson march opinion government department legislature secy consideration 
+13	0.1509	war general secretary knox gen commissioners proposed result butler success june message sandusky highly called consideration essential enclosed advice heads 
+14	0.00725	land joining piece hills arpent prairie breadth side pont river hundred louis rigoulet joseph widow lot village bois feet half 
+15	0.02705	subjects majesty september punished commander privileges louisiana royal person rights province catholic mutual progress arrested upwards orleans arms graise preventing 
+16	0.05256	congress honorable inhabitants petition french vincennes petitioners poste american behalf august illinois humble grant state body pray sheweth humbly indians 
+17	0.00979	putnam ware rufus ohio ben muskingum belle-prie harmer soldier information houses neer sioto probable wyandot account hockhocking murdered perticuler consisted 
+18	0.55315	states united congress ohio western territory north west part made state lands time line river make general great day passed 
+19	0.18921	indians indian treaty states united peace tribes wabash affairs nations treaties department northern superintendant instructions measures hostile held hostilities war 
+20	0.00822	company gallipolis leur scioto france compagnie rome ont torn qu'on contract duer hundred mois petit comp ces february avoit fortune 
+21	0.00715	cahos quebec vous mission aux seminary seminaire nous missionaries declaration property leur cahokias biens dite order bishop sans votre missionaires 
+22	0.03906	parsons board memorial memorialist treasury memorialists services taking accounts period arthur disbursements varnum sess salaries attached coasts reasons cong payment 
+23	0.1024	war troops officer frontiers post commanding public posts conduct secretary frontier effect inhabitants force men object protection prevent present head 
+24	0.01443	wilkinson liquors col teritory liquor friendship instance person merchants eel muskingum difficult ammunition tells beleive chiefs reported purposes garrison mild 
+25	0.03288	representatives john enacted act house president symmes senate hundred patent cleves letters thousand dayton heirs assigns april grant thereof warrants 
+26	0.01487	military ludlow letter bill committee hon subject contract company hamilton col petition symmes conceived papers aid surveyor warrants complained january 
+27	0.07828	fort major harmar washington post vincennes knox colonel boat concluded january written accounts extremely represented women doughty cherokees assemble approbation 
+28	0.00563	kaskaskias town piece lot arpent wide land plain arpents village tract acres common half lots john house indian fence front 
+29	0.00869	william john james smith isaac whitesides improved piggot benjamin david killed george waddell confiance thomas live considerable parallel girardin gervais 
+30	0.00454	monsieur vous honor quil l'honneur votre child lajoye perez lui mains humble dear manuel enfant j'ai chez mayet d'etre present 
+31	0.03324	part townships parties range line tract assigns company heirs thereof resolutions boundary land afs associates purposes laid township place grant 
+32	0.11044	report referred committee congress memorial july june land act flint wabash read tracts williamson company dane opinion resolved companies parker 
+33	0.09179	excellency good justice government property happy happiness life friends lives nature consideration confidence find peace men times add unfortunate administration 
+34	0.00945	les des qui pour par dans pas avec cette une est sur faire dit translation tres été qu'ils fait sont 
+35	0.0565	act year hundred commonwealth line thousand america lord cession massachusetts day aforesaid delegates eighty assembled assembly meridian interest number whereof 
+36	0.0165	kaskaskia cahokia spanish county part courts distance rocher impossible claims communication appeared partly held person secretary todd obliged proclamation king 
+37	0.10446	judge turner symmes public territory laid trust notice personal circumstance appointment due duty presence legislative past instance common torn instances 
+38	0.01886	mark gentlemen vincennes duer citizens gamelin reg hamtramck esquire individual col command europe preemption town major give juge jun agent 
+39	0.04783	dear sargent county great private conduct man acting governour cincinnati counties col persuaded records duties vigo influence hamilton affectionate acquainted 
+40	0.05179	clair papers public enquiry washington court commission army campaign general expedition letters health conduct gen smith inquiry library original failure 
+41	0.16753	country people great number part considerable settlements settlement government obtained consequence british small side trade sold soil generally loss remove 
+42	0.10911	board land tract treasury payment contract made purchase river paid terms associates sale mouth reserved cutler interest payments purchasers east 
+43	0.03642	nations wyandots delawares miami council chiefs treaty returned claim answer meet messages prisoners peace principal western messenger shawanese ill wilson 
+44	0.49353	time clair made proper governor found business present give place make information power long circumstances letter order receive country judge 
+45	0.03892	property free ordinance legislature territorial canada formed seat declared missisippi permitted government allowed alteration considered principles people establish acts division 
+46	0.03702	township treasury blank sold board geographer ordinance fractional aforesaid townships secretary loan lot lots office surveyor certificates parts ranges ordained 
+47	0.46833	sir letter honor respect governor secretary president servant obedient clair sargent congress humble philadelphia honour july great leave excellency office 
+48	0.11408	lands congress survey officers land army expence war entitled surveys late surveyed quantity public due reserved amount south soldiers bounties 
+49	0.02033	district time superintendants ordained council force years trade estate resident forever reside appoint legislative license serve freehold sooner equal representatives 
+
+<950> LL/token: -8.23267
+[beta: 0.0154] 
+<960> LL/token: -8.22146
+<970> LL/token: -8.22462
+[beta: 0.01541] 
+<980> LL/token: -8.2173
+<990> LL/token: -8.22241
+
+0	0.09995	inhabitants land acres illinois lands country hundred laid french river mississippi post settlers village vincennes tracts territory persons ancient families 
+1	0.01386	joseph louis baptiste francois pierre widow john jean antoine charles marie michel laveuve amable cabasier jacque jacques des bte sen 
+2	0.04813	virginia state side troops application cession act union miami scioto continental deficiency expected terms laid conditions aug pennsylvania governments laws 
+3	0.18415	governor territory laws judges government office law officers authority duty civil duties person secretary public powers proper absence cases proclamation 
+4	0.01578	state york jurisdiction connecticut presents twenty william benefit forty soil latitude people pre-emption degree james virtue miles respect johnson bent 
+5	0.01995	spanish debt support kentucky spaniards foreign conolly connecticut hostilities spain district jay extensive lord awe posts dorchester sterling fund pounds 
+6	0.05667	miami lands treasury symmes acres board miles fort excellency commissioners memorial great shew wabash mouth place principles millions boundary john 
+7	0.01827	towns society brethren tracts indians christian acres reserved salem heathen gospel propagating geographer survey bethlehem granted ordinance plats muskingum john 
+8	0.0293	government deeds claims principle senate hawkins disposition boundaries question benjamin purchase relinquished friendly stanwix lying arising hostility acknowledgments chamber senator 
+9	0.12984	place fort indians harmar good return time days day arrived send men brought river nation man party detroit intelligence provisions 
+10	0.10677	thousand dollars sum year hundred money attempt statement fifty twelve expences provisions appropriated making years ordered applied twenty expenses service 
+11	0.00915	gibault marque excellency district clair nous treack girardin sale vente pour arthur excellence barbau chartran baptis rocher nos biens charle 
+12	0.24867	president secretary state states report united proceedings executive attorney lear march consideration territory jefferson opinion secy subject relative tobias legislature 
+13	0.15311	war general knox gen secretary commissioners proposed result message ohio butler highly june sandusky request determined advice conduct success prospect 
+14	0.00714	land joining piece hills arpent prairie breadth side pont river louis hundred joseph rigoulet village lot widow bois feet half 
+15	0.02174	subjects majesty september commander punished privileges province louisiana proclamation person orleans graciously royal catholic mutual arrested upwards graise produce signed 
+16	0.05094	congress honorable petition french inhabitants petitioners vincennes poste american state pray behalf grant august humbly hope humble duty body settlers 
+17	0.01112	putnam ware rufus ohio ben muskingum belle-prie harmer soldier president neer trees sioto kenhawa probable hockhocking murdered houses perticuler consisted 
+18	0.52575	states united congress ohio territory north western made west river lands part line state general make time day july order 
+19	0.1818	indians indian treaty united states peace tribes wabash war affairs nations department treaties northern hostile superintendant measures governor instructions river 
+20	0.00766	gallipolis company scioto leur france compagnie rome torn duer contract qu'on february mois petit comp fortune emigrants month nombre ces 
+21	0.00713	quebec cahos vous aux mission seminary seminaire votre declaration nous missionaries cahokias dite forget bishop procuration missionaires illinois c'est mais 
+22	0.04114	parsons memorialist memorial services board treasury period accounts enclosure disbursements memorialists taking support salaries adequate coasts sess oaths warnum endorsed 
+23	0.10442	war troops officer post public force require inhabitants frontier commanding established protection men april service posts secretary frontiers effect militia 
+24	0.01071	wilkinson prevent muskingum garrison liquors sell teritory liquor ammunition beleive commanding knox worst seeds spiritous enforce knowles spirituous easy operation 
+25	0.04216	representatives john enacted house president senate act symmes cleves hundred patent heirs warrants thousand letters dayton territories acres secretary assigns 
+26	0.01638	letter military petition papers hon miami company symmes ludlow april committee bill jany january hamilton surveyor col contract rights alteration 
+27	0.07815	fort harmar major post washington president vincennes knox general colonel concluded killed january accounts numbers chief extremely counties approbation october 
+28	0.00759	kaskaskias lot piece town wide land arpent plain tract arpents acres half common village lots john front indian house fence 
+29	0.00758	james john william benjamin isaac whitesides piggot david smith waddell professions live cultivate beuf joel request nicholas chafan ogle vanden 
+30	0.00355	monsieur vous l'honneur votre honor child lajoye perez est mains lui dear manuel enfant j'ai chez mayet d'etre quil justice 
+31	0.03694	part townships tract parties line range land thereof assigns associates heirs ohio company afs township purposes mentioned resolutions contracted boundary 
+32	0.10834	report committee referred memorial land july congress purchase june wabash read flint company williamson opinion parker dane companies tracts claim 
+33	0.09642	excellency justice government good consideration public happiness administration property peace happy difficulties life friends magistrates number years add possessed humanity 
+34	0.01148	les des qui pour par dans pas une avec cette sur tres faire dit inhabitants ont translation sont quil été 
+35	0.04842	year thousand act delegates commonwealth hundred america massachusetts cession line aforesaid eighty assembled lord assembly interest meridian names hereunto court 
+36	0.01757	kaskaskia cahokia spanish courts distance rocher communication claims county partly todd appeared impossible survey june obliged town copy louis stream 
+37	0.0863	judge turner symmes territory public trust laid notice judges yesterday circumstance duty legislative john absence day fair military personal nature 
+38	0.02229	mark gentlemen vincennes duer reg gamelin col citizens major represented hamtramck acting individual europe preemption esquire town chief juge bosseron 
+39	0.04561	sargent dear great governour conduct county acting private cincinnati duties man persuaded men col putnam commission expect affectionate influence past 
+40	0.04699	papers public clair court army letters campaign enquiry washington gen major military smith commission expedition committee library command successor body 
+41	0.17328	people country great considerable part number settlements small settlement british government obtained missisippi present french consequence trade large soil persons 
+42	0.10976	board treasury tract contract payment land made river sale mouth act reserved morgan cutler payments purchasers purchase terms east associates 
+43	0.03318	nations wyandots miami delawares council shawanese chiefs returned answer prisoners meet claim messages messengers ill speech desired messenger wilson meeting 
+44	0.49712	time clair made country proper found give make business governor present information long power circumstances judge appears receive informed order 
+45	0.03307	property government free ordinance legislature canada territorial formed declared true understood paying representation principles division servitude forever temporary magistrates sale 
+46	0.03283	township townships treasury board fractional blank ordinance sold loan aforesaid office ranges geographer lots parts dollars ordained surveyor surveyors purchaser 
+47	0.46694	sir letter honor respect secretary clair congress president governor servant obedient great sargent humble philadelphia office pleased enclosed honour leave 
+48	0.11495	lands congress officers surveyed army quantity land entitled late surveys expence war public due bounties book amount south soldiers establishment 
+49	0.01646	district time superintendants force council ordained years trade equal legislative resident license serve freehold estate commission assembled rights qualified sooner 
+
+[beta: 0.01547] 
+<1000> LL/token: -8.21979
+
+Total time: 8 seconds
+hm-000556:mallet-2.0.8 ashleys$ cp /users/ashleys/mallet-2.0.8 /users/ashleys/Desktop
+cp: /users/ashleys/mallet-2.0.8 is a directory (not copied).
+hm-000556:mallet-2.0.8 ashleys$ cpdir /users/ashleys/mallet-2.0.8 /users/ashleys/Desktop
+-bash: cpdir: command not found
+hm-000556:mallet-2.0.8 ashleys$ cp -r /users/ashleys/mallet-2.0.8 /users/ashleys/Desktop
+hm-000556:mallet-2.0.8 ashleys$ 
