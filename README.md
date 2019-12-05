@@ -14,17 +14,23 @@ After the selection of volumes, this project presents an opportune moment to app
 Through the completion of these important pre-processing steps, this project will address known discovery, access, and quality issues.  Given that United States history is taught on every college and university campus across the country, the resulting archive of individuated, machine-readable primary documents will be invaluable for both research and instruction. In addition, the collection will provide a much-needed reference corpus for linguists, as well as early American literary scholars, and historians.
 
 ### Undergraduate Collaborators:
-Kai Colorado
-Mary Cooper Wahlen
-Estelle Jung
-Nashra Mahmood
-Elizabeth Nakamura
-Anthony Nesci
-Nadia Pandey
+<ul>
+  <li>Kai Colorado</li>
+  <li>Mary Cooper Wahlen</li>
+  <li>Estelle Jung</li>
+  <li>Nashra Mahmood</li>
+  <li>Elizabeth Nakamura</li>
+  <li>Anthony Nesci</li>
+  <li>Nadia Pandey</li>
+</ul>
 
 ### Graduate Student Collaborators:
-Dandi Meng
-Benjamin Niedzielski
+<ul>
+  <li>Dandi Meng</li>
+  <li>Benjamin Niedzielski</li>
+</ul>
 
 ### Projects Developed with These Sources
-<li><ul><a href="https://asandersgarcia.humspace.ucla.edu/courses/earlyamhistory/">"Unheard Voices of Early American History,"</a> a collaborative research project completed in a 10-week quarter with the above mentioned undergraduate students in Fall 2019.</ul></li>
+<ol>
+  <li><a href="https://asandersgarcia.humspace.ucla.edu/courses/earlyamhistory/">"Unheard Voices of Early American History,"</a> a collaborative research project completed in a 10-week quarter with the above mentioned undergraduate students in Fall 2019.</li>
+</ol>
