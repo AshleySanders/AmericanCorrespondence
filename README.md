@@ -1,6 +1,8 @@
-# AmericanCorrespondence
+# Early American History Documents
 
-This is a repository of published, public domain primary sources related to early American history, along with some initial text and network analysis experiments. This project has recently received support through UCLA's Digital Humanities Research Accelerator program. By the end of the 2019-2020 academic year, a revised repository will be uploaded, and initial findings will be shared here.
+This is a repository of published, public domain primary sources related to early American history, along with some initial text and network analysis experiments. This project has recently received support through UCLA's Digital Humanities Research Accelerator Program. By the end of the 2019-2020 academic year, a revised repository will be uploaded, and initial findings will be shared here.
+
+New sources will be added at the end of the Fall 2019 term, thanks to the efforts of undergraduates in my course, "Power and Authority on the Early American Frontier: Explorations with Text Analysis," as well as my graduate student collaborators in the Digital Research Accelerator Program, Dandi Meng and Benjamin Niedzielski. 
 
 This project will use text analysis methods, including topic modeling, collocation and sentiment analysis, as well as experimental methods to examine the complex relations between Indigenous peoples, settlers, military leaders, and metropolitan officials to understand how American settler colonialism developed between 1776 and 1832. Specifically, this project will first look at the evolution of Native American leaders' views and sentiments expressed in treaty council meetings between 1776 and 1795 to make sense of the many factions that developed within tribes in response to American colonization. Second, we will develop a topic model of American political correspondence between 1776 and 1795 to analyze American perspectives on the western territories within the context of broader political discussions that unfolded in correspondence, as well as debates within state and federal Congressional assemblies.
 
@@ -10,3 +12,19 @@ In the future the research team plans to submit grant applications to fund a muc
 After the selection of volumes, this project presents an opportune moment to apply advancements in OCR technology to re-OCR the sources. Additionally, separating the collection’s volumes into their individual component documents will be essential to make the materials not only discoverable, but also accessible and useable. 
 
 Through the completion of these important pre-processing steps, this project will address known discovery, access, and quality issues.  Given that United States history is taught on every college and university campus across the country, the resulting archive of individuated, machine-readable primary documents will be invaluable for both research and instruction. In addition, the collection will provide a much-needed reference corpus for linguists, as well as early American literary scholars, and historians.
+
+### Undergraduate Collaborators:
+Kai Colorado
+Mary Cooper Wahlen
+Estelle Jung
+Nashra Mahmood
+Elizabeth Nakamura
+Anthony Nesci
+Nadia Pandey
+
+### Graduate Student Collaborators:
+Dandi Meng
+Benjamin Niedzielski
+
+### Projects Developed with These Sources
+<li><ul><a href="https://asandersgarcia.humspace.ucla.edu/courses/earlyamhistory/">"Unheard Voices of Early American History,"</a> a collaborative research project completed in a 10-week quarter with the above mentioned undergraduate students in Fall 2019.</ul></li>
