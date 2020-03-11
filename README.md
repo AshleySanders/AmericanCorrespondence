@@ -25,7 +25,7 @@ Through the completion of these important pre-processing steps, this project wil
   <li>Kedaar Sridhar (Winter 2019)</li>
   <li>Michelle Lee (Winter 2019)</li>
   <li>Eustina Kim (Winter 2019)</li>
-  <li>Priyana Patel (Winter 2019)<li>
+  <li>Priyana Patel (Winter 2019)</li>
   <li>Vicky Truong (Winter 2019)</li>
 </ul>
 
