@@ -22,11 +22,11 @@ Through the completion of these important pre-processing steps, this project wil
   <li>Anthony Nesci (Fall 2019)</li>
   <li>Nadia Pandey (Fall 2019)</li>
   <li>Lizhou Fan (2019-2020)</li>
-  <li>Kedaar Sridhar (Winter 2019)</li>
-  <li>Michelle Lee (Winter 2019)</li>
-  <li>Eustina Kim (Winter 2019)</li>
-  <li>Priyana Patel (Winter 2019)</li>
-  <li>Vicky Truong (Winter 2019)</li>
+  <li>Kedaar Sridhar (Winter 2020)</li>
+  <li>Michelle Lee (Winter 2020)</li>
+  <li>Eustina Kim (Winter 2020)</li>
+  <li>Priyana Patel (Winter 2020)</li>
+  <li>Vicky Truong (Winter 2020)</li>
 </ul>
 
 ### Graduate Student Collaborators:
@@ -38,5 +38,5 @@ Through the completion of these important pre-processing steps, this project wil
 
 ### Projects Developed with These Sources
 <ol>
-  <li><a href="https://asandersgarcia.humspace.ucla.edu/courses/earlyamhistory/">"Unheard Voices of Early American History,"</a> a collaborative research project completed in a 10-week quarter with the above mentioned undergraduate students in Fall 2019.</li>
+  <li><a href="https://asandersgarcia.humspace.ucla.edu/courses/earlyamhistory/">"Unheard Voices of Early American History,"</a> a site that hosts collaborative research projects completed in 10-week quarters with the above mentioned undergraduate students in Fall 2019 and Winter 2020.</li>
 </ol>
