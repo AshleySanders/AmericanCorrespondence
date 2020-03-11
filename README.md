@@ -15,19 +15,25 @@ Through the completion of these important pre-processing steps, this project wil
 
 ### Undergraduate Collaborators:
 <ul>
-  <li>Kai Colorado</li>
-  <li>Mary Cooper Wahlen</li>
-  <li>Estelle Jung</li>
-  <li>Nashra Mahmood</li>
-  <li>Elizabeth Nakamura</li>
-  <li>Anthony Nesci</li>
-  <li>Nadia Pandey</li>
+  <li>Kai Colorado (Fall 2019)</li>
+  <li>Mary Cooper Wahlen (Fall 2019)</li>
+  <li>Estelle Jung (Fall 2019)</li>
+  <li>Elizabeth Nakamura (Fall 2019)</li>
+  <li>Anthony Nesci (Fall 2019)</li>
+  <li>Nadia Pandey (Fall 2019)</li>
+  <li>Lizhou Fan (2019-2020)</li>
+  <li>Kedaar Sridhar (Winter 2019)</li>
+  <li>Michelle Lee (Winter 2019)</li>
+  <li>Eustina Kim (Winter 2019)</li>
+  <li>Priyana Patel (Winter 2019)<li>
+  <li>Vicky Truong (Winter 2019)</li>
 </ul>
 
 ### Graduate Student Collaborators:
 <ul>
   <li>Dandi Meng</li>
   <li>Benjamin Niedzielski</li>
+  <li>Nashra Mahmood (Fall 2019)</li>
 </ul>
 
 ### Projects Developed with These Sources
