@@ -26,7 +26,7 @@ Through the completion of these important pre-processing steps, this project wil
   <li>Michelle Lee (Winter 2020)</li>
   <li>Eustina Kim (Winter 2020)</li>
   <li>Priyana Patel (Winter 2020)</li>
-  <li>Vicky Truong (Winter 2020)</li>
+  <li>Vicki Truong (Winter 2020)</li>
 </ul>
 
 ### Graduate Student Collaborators:
