@@ -25,7 +25,7 @@ Through the completion of these important pre-processing steps, this project wil
   <li>Kedaar Sridhar (Winter 2020)</li>
   <li>Michelle Lee (Winter 2020)</li>
   <li>Eustina Kim (Winter 2020)</li>
-  <li>Priyana Patel (Winter 2020)</li>
+  <li><a href="https://www.priyanapatel.com/">Priyana Patel (Winter 2020)</a></li>
   <li>Vicki Truong (Winter 2020)</li>
 </ul>
 
