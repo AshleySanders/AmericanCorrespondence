@@ -22,7 +22,7 @@ Through the completion of these important pre-processing steps, this project wil
   <li>Anthony Nesci (Fall 2019)</li>
   <li>Nadia Pandey (Fall 2019)</li>
   <li>Lizhou Fan (2019-2020)</li>
-  <li>Kedaar Sridhar (Winter 2020)</li>
+  <li><a href="https://www.linkedin.com/in/kedaarsridhar20/">Kedaar Sridhar (Winter 2020)</a></li>
   <li>Michelle Lee (Winter 2020)</li>
   <li>Eustina Kim (Winter 2020)</li>
   <li><a href="https://www.priyanapatel.com/">Priyana Patel (Winter 2020)</a></li>
